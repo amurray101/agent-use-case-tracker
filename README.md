@@ -142,11 +142,14 @@ python3 scripts/serve_fixture.py
 
 Top 15: product control, date slider, and play control. The bars move with transform and opacity only. Bar color is the value proposition: saves time, saves money, looks out for me, or helps me make things. Tap a bar to open a board of social posts for that category. The board links to the full posts table.
 
-Posts: date, platform, product, use case, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. Filters and the quote search are stored in the URL hash.
+Posts: date, platform, product, use case, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. Filters and the quote search are stored in the URL hash. Save keeps a post in this browser, with an optional highlight and a note.
+
+Saved: posts kept in this browser, with the highlight and note. The list is not uploaded.
 
 - `#top`
 - `#top?product=product-id&date=YYYY-MM-DD`
 - `#topic?use=category-code&product=product-id`
 - `#posts?platform=&product=&use=&q=&sort=&dir=&page=`
+- `#saved`
 
 The posts table shows 100 rows per page.

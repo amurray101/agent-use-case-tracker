@@ -4,6 +4,7 @@ const PAGE_SIZE = 100;
 const BOARD_SIZE = 9;
 const SORTS = ["date", "platform", "product", "use"];
 const SOCIAL_RANK = { X: 4, Reddit: 4, YouTube: 3, "Hacker News": 3, "App Store": 1, "Google Play": 1 };
+const SAVE_KEY = "agent-use-case-tracker-saves";
 const PROPOSITIONS = [
   {
     id: "time",
@@ -46,6 +47,21 @@ const topicBoard = document.getElementById("topic-board");
 const topicEmpty = document.getElementById("topic-empty");
 const topicMore = document.getElementById("topic-more");
 const topicAll = document.getElementById("topic-all");
+const tabSaved = document.getElementById("tab-saved");
+const panelSaved = document.getElementById("panel-saved");
+const savedMeta = document.getElementById("saved-meta");
+const savedTools = document.getElementById("saved-tools");
+const savedList = document.getElementById("saved-list");
+const savedEmpty = document.getElementById("saved-empty");
+const savedQuery = document.getElementById("saved-q");
+const saveDialog = document.getElementById("save-dialog");
+const saveForm = document.getElementById("save-form");
+const saveHeading = document.getElementById("save-heading");
+const saveQuote = document.getElementById("save-quote");
+const saveHighlight = document.getElementById("save-highlight");
+const saveNote = document.getElementById("save-note");
+const saveRemove = document.getElementById("save-remove");
+const saveCancel = document.getElementById("save-cancel");
 const tabList = document.querySelector(".tabs");
 const productFilter = document.getElementById("product-filter");
 const caption = document.getElementById("caption");
@@ -84,6 +100,7 @@ const state = {
   page: 1,
   selectedCode: "",
   topicCode: "",
+  savedQ: "",
 };
 
 const rowEls = new Map();
@@ -91,6 +108,9 @@ const retireTimers = new WeakMap();
 const snapshotCache = new Map();
 const productById = new Map();
 const taxonomyByCode = new Map();
+const postById = new Map();
+const saves = new Map();
+let savePost = null;
 
 let index = null;
 let taxonomy = null;
@@ -242,20 +262,24 @@ function showEmpty() {
   panelTop.hidden = true;
   panelPosts.hidden = true;
   panelTopic.hidden = true;
+  panelSaved.hidden = true;
   legend.hidden = true;
   document.querySelector(".tabs-bar").hidden = true;
 }
 
 function showTab(tab) {
-  state.tab = tab === "posts" ? "posts" : tab === "topic" ? "topic" : "top";
-  panelTop.hidden = state.tab !== "top";
-  panelPosts.hidden = state.tab !== "posts";
-  panelTopic.hidden = state.tab !== "topic";
+  const name = tab === "posts" || tab === "topic" || tab === "saved" ? tab : "top";
+  state.tab = name;
+  panelTop.hidden = name !== "top";
+  panelPosts.hidden = name !== "posts";
+  panelTopic.hidden = name !== "topic";
+  panelSaved.hidden = name !== "saved";
   emptyEl.hidden = true;
   [
-    [tabTop, state.tab === "top"],
-    [tabPosts, state.tab === "posts"],
-    [tabTopic, state.tab === "topic"],
+    [tabTop, name === "top"],
+    [tabPosts, name === "posts"],
+    [tabTopic, name === "topic"],
+    [tabSaved, name === "saved"],
   ].forEach((pair) => {
     pair[0].setAttribute("aria-selected", pair[1] ? "true" : "false");
     pair[0].tabIndex = pair[1] ? 0 : -1;
@@ -596,16 +620,147 @@ function pickTopicPosts(code, product) {
   return { picked: picked, total: pool.length };
 }
 
+function loadSaves() {
+  saves.clear();
+  let raw = [];
+  try {
+    const parsed = JSON.parse(localStorage.getItem(SAVE_KEY) || "[]");
+    if (Array.isArray(parsed)) raw = parsed;
+  } catch (error) {
+    raw = [];
+  }
+  raw.forEach((row) => {
+    if (!row || typeof row.id !== "string" || !row.id) return;
+    saves.set(row.id, row);
+  });
+}
+
+function persistSaves() {
+  try {
+    localStorage.setItem(SAVE_KEY, JSON.stringify(Array.from(saves.values())));
+  } catch (error) {
+    /* Keep the in-memory list if storage is unavailable. */
+  }
+}
+
+function selectedTextWithin(root) {
+  const selection = window.getSelection();
+  if (!selection || selection.isCollapsed || !selection.rangeCount || !root) return "";
+  const node = selection.anchorNode;
+  if (!node || !root.contains(node)) return "";
+  return selection.toString().replace(/\s+/g, " ").trim().slice(0, 500);
+}
+
+function quoteWithHighlight(quote, highlight) {
+  const fragment = document.createDocumentFragment();
+  const text = quote || "";
+  const needle = String(highlight || "").trim();
+  if (!needle) {
+    fragment.append(document.createTextNode(text));
+    return fragment;
+  }
+  let at = text.indexOf(needle);
+  if (at < 0) at = text.toLowerCase().indexOf(needle.toLowerCase());
+  if (at < 0) {
+    fragment.append(document.createTextNode(text));
+    return fragment;
+  }
+  const matched = at === text.indexOf(needle) ? needle : text.slice(at, at + needle.length);
+  fragment.append(document.createTextNode(text.slice(0, at)));
+  const mark = document.createElement("mark");
+  mark.className = "hl";
+  mark.textContent = matched;
+  fragment.append(mark, document.createTextNode(text.slice(at + matched.length)));
+  return fragment;
+}
+
+function postLink(post) {
+  const href = safeUrl(post && post.url);
+  if (!href) return null;
+  const link = document.createElement("a");
+  link.href = href;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Post";
+  return link;
+}
+
+function refreshSaveChrome() {
+  if (state.tab === "topic") renderTopic();
+  else if (state.tab === "posts") renderPosts();
+  else if (state.tab === "saved") renderSaved();
+}
+
+function snapshotPost(post, highlight, note, previous) {
+  const now = new Date().toISOString();
+  return {
+    id: post.id,
+    highlight: highlight,
+    note: note,
+    savedAt: previous && previous.savedAt ? previous.savedAt : now,
+    updatedAt: now,
+    quote: post.quote || "",
+    url: post.url || "",
+    post_platform: post.post_platform || "",
+    agent_product: post.agent_product || "",
+    author: post.author || "",
+    date: post.date || "",
+    use_cases: Array.isArray(post.use_cases) ? post.use_cases.filter((code) => typeof code === "string") : [],
+  };
+}
+
+function rememberSave(post, highlight, note) {
+  if (!post || !post.id) return;
+  const previous = saves.get(post.id) || null;
+  saves.set(post.id, snapshotPost(post, highlight, note, previous));
+  persistSaves();
+  refreshSaveChrome();
+}
+
+function forgetSave(id) {
+  if (!saves.has(id)) return;
+  saves.delete(id);
+  persistSaves();
+  refreshSaveChrome();
+}
+
+function openSaveDialog(post, picked) {
+  if (!post || !post.id) return;
+  const live = postById.get(post.id) || post;
+  savePost = live;
+  const existing = saves.get(live.id);
+  saveHeading.textContent = existing ? "Edit saved post" : "Save post";
+  saveQuote.textContent = live.quote || "";
+  saveHighlight.value = (picked || (existing && existing.highlight) || "").slice(0, 500);
+  saveNote.value = existing && existing.note ? existing.note : "";
+  saveRemove.hidden = !existing;
+  saveDialog.showModal();
+  saveHighlight.focus();
+}
+
+function saveButton(post) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "text-btn";
+  const saved = Boolean(post && post.id && saves.has(post.id));
+  button.textContent = saved ? "Saved" : "Save";
+  button.setAttribute("aria-pressed", saved ? "true" : "false");
+  let picked = "";
+  button.addEventListener("pointerdown", () => {
+    picked = selectedTextWithin(button.closest("article, tr"));
+  });
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    openSaveDialog(post, picked);
+  });
+  return button;
+}
+
 function renderCard(post, proposition) {
-  const href = safeUrl(post.url);
-  const card = document.createElement(href ? "a" : "article");
+  const card = document.createElement("article");
   card.className = "card";
   card.dataset.prop = proposition ? proposition.id : "none";
-  if (href) {
-    card.href = href;
-    card.target = "_blank";
-    card.rel = "noopener noreferrer";
-  }
   const meta = document.createElement("p");
   meta.className = "card-meta";
   meta.textContent = [post.post_platform || "Post", productName(post.agent_product)].filter(Boolean).join(" · ");
@@ -623,7 +778,12 @@ function renderCard(post, proposition) {
   when.className = "card-date";
   when.textContent = post.date || "";
   foot.append(when);
-  card.append(meta, quote, foot);
+  const actions = document.createElement("p");
+  actions.className = "card-actions";
+  actions.append(saveButton(post));
+  const link = postLink(post);
+  if (link) actions.append(link);
+  card.append(meta, quote, foot, actions);
   return card;
 }
 
@@ -761,10 +921,12 @@ function buildFilters() {
 }
 
 function preparePosts() {
+  postById.clear();
   posts.forEach((post) => {
     post._q = String(post.quote || "").toLowerCase();
     post._name = productName(post.agent_product);
     post._use = (Array.isArray(post.use_cases) ? post.use_cases : []).map(useLabel).join(", ");
+    if (post.id) postById.set(post.id, post);
   });
 }
 
@@ -842,17 +1004,127 @@ function renderPostRow(post) {
   }
   tr.append(quoteCell);
   const linkCell = document.createElement("td");
-  const href = safeUrl(post.url);
-  if (href) {
-    const link = document.createElement("a");
-    link.href = href;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = "Post";
-    linkCell.append(link);
-  }
+  const link = postLink(post);
+  if (link) linkCell.append(link);
   tr.append(linkCell);
+  const saveCell = document.createElement("td");
+  saveCell.className = "nowrap";
+  saveCell.append(saveButton(post));
+  tr.append(saveCell);
   return tr;
+}
+
+function savedRecords() {
+  return Array.from(saves.values()).sort((a, b) => {
+    const left = b.updatedAt || b.savedAt || "";
+    const right = a.updatedAt || a.savedAt || "";
+    if (left === right) return 0;
+    return left < right ? -1 : 1;
+  });
+}
+
+function savedHaystack(record) {
+  const uses = (Array.isArray(record.use_cases) ? record.use_cases : []).map(useLabel).join(" ");
+  return [
+    record.highlight,
+    record.note,
+    record.quote,
+    record.author,
+    record.post_platform,
+    productName(record.agent_product),
+    uses,
+    record.date,
+  ].join("\n").toLowerCase();
+}
+
+function renderSavedCard(record) {
+  const card = document.createElement("article");
+  card.className = "saved-card";
+  const primary = Array.isArray(record.use_cases) ? record.use_cases[0] : "";
+  const proposition = propositionFor(primary);
+  card.dataset.prop = proposition ? proposition.id : "none";
+  const meta = document.createElement("p");
+  meta.className = "card-meta";
+  const uses = (Array.isArray(record.use_cases) ? record.use_cases : []).map(useLabel).filter(Boolean).join(", ");
+  meta.textContent = [record.post_platform || "Post", productName(record.agent_product), uses].filter(Boolean).join(" · ");
+  card.append(meta);
+  if (record.highlight) {
+    const highlight = document.createElement("p");
+    highlight.className = "saved-highlight";
+    const mark = document.createElement("mark");
+    mark.className = "hl";
+    mark.textContent = record.highlight;
+    highlight.append(mark);
+    card.append(highlight);
+  }
+  if (record.note) {
+    const note = document.createElement("p");
+    note.className = "saved-note";
+    note.textContent = record.note;
+    card.append(note);
+  }
+  const quote = document.createElement("p");
+  quote.className = "card-quote";
+  quote.append(quoteWithHighlight(record.quote || "", record.highlight));
+  card.append(quote);
+  const foot = document.createElement("p");
+  foot.className = "card-foot";
+  if (record.author) {
+    const who = document.createElement("span");
+    who.textContent = record.author;
+    foot.append(who);
+  }
+  const when = document.createElement("span");
+  when.className = "card-date";
+  const savedDay = String(record.updatedAt || record.savedAt || "").slice(0, 10);
+  when.textContent = [record.date, savedDay ? "Saved " + savedDay : ""].filter(Boolean).join(" · ");
+  foot.append(when);
+  card.append(foot);
+  const actions = document.createElement("p");
+  actions.className = "saved-actions";
+  const edit = document.createElement("button");
+  edit.type = "button";
+  edit.className = "text-btn";
+  edit.textContent = "Edit";
+  edit.addEventListener("click", () => openSaveDialog(postById.get(record.id) || record, ""));
+  const remove = document.createElement("button");
+  remove.type = "button";
+  remove.className = "text-btn";
+  remove.textContent = "Remove";
+  remove.addEventListener("click", () => forgetSave(record.id));
+  actions.append(edit, remove);
+  const link = postLink(record);
+  if (link) actions.append(link);
+  card.append(actions);
+  return card;
+}
+
+function renderSaved() {
+  const all = savedRecords();
+  const query = state.savedQ.trim().toLowerCase();
+  const shown = query ? all.filter((record) => savedHaystack(record).includes(query)) : all;
+  if (savedQuery.value !== state.savedQ) savedQuery.value = state.savedQ;
+  savedTools.hidden = all.length === 0;
+  savedList.replaceChildren();
+  if (!all.length) {
+    savedMeta.textContent = "Saved in this browser";
+    savedEmpty.hidden = false;
+    savedEmpty.textContent = "No saved posts. Save one from a topic or the posts table. Saves stay in this browser.";
+    savedList.hidden = true;
+    return;
+  }
+  savedMeta.textContent = (shown.length === all.length
+    ? countPhrase(all.length, "saved post", "saved posts")
+    : formatInt(shown.length) + " of " + countPhrase(all.length, "saved post", "saved posts")) + " · Saved in this browser";
+  if (!shown.length) {
+    savedEmpty.hidden = false;
+    savedEmpty.textContent = "No posts";
+    savedList.hidden = true;
+    return;
+  }
+  savedEmpty.hidden = true;
+  savedList.hidden = false;
+  shown.forEach((record) => savedList.append(renderSavedCard(record)));
 }
 
 function syncSortHeaders() {
@@ -888,7 +1160,7 @@ function renderPosts() {
   if (!slice.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 6;
+    td.colSpan = 7;
     td.textContent = "No posts";
     tr.append(td);
     fragment.append(tr);
@@ -904,6 +1176,12 @@ function renderPosts() {
 }
 
 function buildHash() {
+  if (state.tab === "saved") {
+    const params = new URLSearchParams();
+    if (state.savedQ) params.set("q", state.savedQ);
+    const query = params.toString();
+    return "#saved" + (query ? "?" + query : "");
+  }
   if (state.tab === "topic") {
     const params = new URLSearchParams();
     if (state.topicCode) params.set("use", state.topicCode);
@@ -959,6 +1237,10 @@ function applyHash() {
       syncPostControls();
       showTab("posts");
       renderPosts();
+    } else if (tab === "saved") {
+      state.savedQ = params.get("q") || "";
+      showTab("saved");
+      renderSaved();
     } else if (tab === "topic") {
       const product = params.get("product") || "all";
       state.product = productIds.indexOf(product) === -1 ? "all" : product;
@@ -989,7 +1271,7 @@ function applyHash() {
 
 function activateTab(tab) {
   if (!ready) return;
-  const next = tab === "posts" ? "posts" : tab === "topic" ? "topic" : "top";
+  const next = tab === "posts" || tab === "topic" || tab === "saved" ? tab : "top";
   if (next === "topic" && !state.topicCode) return;
   if (state.tab === next) {
     writeHash();
@@ -998,6 +1280,7 @@ function activateTab(tab) {
   showTab(next);
   if (next === "posts") renderPosts();
   else if (next === "topic") renderTopic();
+  else if (next === "saved") renderSaved();
   else showCurrent(false);
   writeHash();
 }
@@ -1038,6 +1321,7 @@ async function init() {
   posts = Array.isArray(postsRaw) ? postsRaw.filter((post) => post && typeof post === "object") : [];
   postsMissing = !Array.isArray(postsRaw);
   state.dateIndex = dates.length - 1;
+  loadSaves();
   renderAboutLists();
   syncSlider();
   ready = true;
@@ -1067,8 +1351,9 @@ productFilter.addEventListener("keydown", (event) => {
 tabTop.addEventListener("click", () => activateTab("top"));
 tabPosts.addEventListener("click", () => activateTab("posts"));
 tabTopic.addEventListener("click", () => activateTab("topic"));
+tabSaved.addEventListener("click", () => activateTab("saved"));
 tabList.addEventListener("keydown", (event) => {
-  const order = [tabTop, tabPosts, tabTopic].filter((tab) => !tab.hidden);
+  const order = [tabTop, tabPosts, tabTopic, tabSaved].filter((tab) => !tab.hidden);
   const index = order.indexOf(document.activeElement);
   if (index < 0) return;
   let next = null;
@@ -1079,7 +1364,37 @@ tabList.addEventListener("keydown", (event) => {
   if (!next) return;
   event.preventDefault();
   next.focus();
-  activateTab(next === tabPosts ? "posts" : next === tabTopic ? "topic" : "top");
+  activateTab(next.dataset.tab);
+});
+
+function captureQuoteSelection() {
+  const picked = selectedTextWithin(saveQuote);
+  if (picked) saveHighlight.value = picked;
+}
+
+saveQuote.addEventListener("mouseup", captureQuoteSelection);
+saveQuote.addEventListener("keyup", captureQuoteSelection);
+saveForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  if (!savePost) return;
+  rememberSave(savePost, saveHighlight.value.trim().slice(0, 500), saveNote.value.trim().slice(0, 2000));
+  saveDialog.close();
+});
+saveCancel.addEventListener("click", () => saveDialog.close());
+saveRemove.addEventListener("click", () => {
+  if (savePost) forgetSave(savePost.id);
+  saveDialog.close();
+});
+saveDialog.addEventListener("click", (event) => {
+  if (event.target === saveDialog) saveDialog.close();
+});
+saveDialog.addEventListener("close", () => {
+  savePost = null;
+});
+savedQuery.addEventListener("input", () => {
+  state.savedQ = savedQuery.value;
+  renderSaved();
+  writeHash();
 });
 
 playButton.addEventListener("click", startPlay);

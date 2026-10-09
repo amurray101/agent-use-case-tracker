@@ -388,6 +388,177 @@ a.card:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.card-actions,
+.saved-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.text-btn {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.text-btn[aria-pressed="true"] {
+  color: var(--text);
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7b2;
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+#panel-saved h2 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.saved-find {
+  margin: 0 0 16px;
+}
+
+.saved-find input {
+  display: block;
+  width: min(100%, 280px);
+  margin-top: 4px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.saved-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.saved-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  border-top-width: 3px;
+  border-top-color: var(--prop-none);
+}
+
+.saved-card[data-prop="time"] { border-top-color: var(--prop-time); }
+.saved-card[data-prop="money"] { border-top-color: var(--prop-money); }
+.saved-card[data-prop="watch"] { border-top-color: var(--prop-watch); }
+.saved-card[data-prop="make"] { border-top-color: var(--prop-make); }
+
+.saved-highlight {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.014em;
+  line-height: 1.35;
+}
+
+.saved-note {
+  white-space: pre-wrap;
+}
+
+.saved-card .card-quote {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+#save-dialog {
+  width: min(560px, calc(100vw - 32px));
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: inherit;
+}
+
+#save-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.32);
+}
+
+#save-dialog h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+
+.save-quote {
+  max-height: 9rem;
+  overflow: auto;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--wash);
+  line-height: 1.45;
+  user-select: text;
+}
+
+#save-dialog label {
+  display: block;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+#save-dialog input,
+#save-dialog textarea {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+}
+
+#save-dialog textarea {
+  resize: vertical;
+}
+
+.save-hint {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.dialog-actions button {
+  appearance: none;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+}
+
+#save-confirm {
+  background: var(--text);
+  border-color: var(--text);
+  color: #fff;
+}
+
+#save-remove {
+  margin-right: auto;
+}
+
 .topic-more {
   margin: 16px 0 0;
 }
@@ -692,8 +863,13 @@ footer h2 {
     flex: 1 1 100%;
   }
 
-  #topic-title {
+  #topic-title,
+  #panel-saved h2 {
     font-size: 24px;
+  }
+
+  .saved-find input {
+    width: 100%;
   }
 }
 
