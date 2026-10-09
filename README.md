@@ -90,13 +90,13 @@ The set of ids matches `index.json` `products`. `verified` is a boolean. `source
   "use_cases": ["inbox"],
   "date": "YYYY-MM-DD",
   "first_seen": "ISO-8601 timestamp",
-  "author": "handle",
+  "author": "handle or null",
   "quote": "Verbatim quote.",
   "sentiment": "label"
 }
 ```
 
-`agent_product` is a known product id. Each `use_cases` entry is a known category code. The list may be empty. Platform names are not fixed; the filter lists whatever appears in the file.
+`agent_product` is a known product id. Each `use_cases` entry is a known category code. The list may be empty. Platform names are not fixed; the filter lists whatever appears in the file. `author` is a string or null when the source has no public handle. The same URL may appear on more than one product; each of those is its own post.
 
 `data/snapshots/YYYY-MM-DD.json`
 

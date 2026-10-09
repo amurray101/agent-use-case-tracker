@@ -1,0 +1,39 @@
+{
+ "date": "2026-08-12",
+ "cumulative": true,
+ "basis": "post_date",
+ "totals": {
+  "all": {
+   "posts": 1,
+   "use_case_posts": 0
+  },
+  "instinct": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "meta_muse": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "grok_bot": {
+   "posts": 1,
+   "use_case_posts": 0
+  },
+  "manus_cue": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "chatgpt_dots": {
+   "posts": 0,
+   "use_case_posts": 0
+  }
+ },
+ "top15": {
+  "instinct": [],
+  "meta_muse": [],
+  "grok_bot": [],
+  "manus_cue": [],
+  "chatgpt_dots": [],
+  "all": []
+ }
+}

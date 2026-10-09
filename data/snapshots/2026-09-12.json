@@ -1,0 +1,403 @@
+{
+ "date": "2026-09-12",
+ "cumulative": true,
+ "basis": "post_date",
+ "totals": {
+  "all": {
+   "posts": 252,
+   "use_case_posts": 177
+  },
+  "instinct": {
+   "posts": 113,
+   "use_case_posts": 90
+  },
+  "meta_muse": {
+   "posts": 56,
+   "use_case_posts": 41
+  },
+  "grok_bot": {
+   "posts": 83,
+   "use_case_posts": 46
+  },
+  "manus_cue": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "chatgpt_dots": {
+   "posts": 0,
+   "use_case_posts": 0
+  }
+ },
+ "top15": {
+  "instinct": [
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 21,
+    "share": 0.2333
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 18,
+    "share": 0.2
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 17,
+    "share": 0.1889
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 11,
+    "share": 0.1222
+   },
+   {
+    "code": "REST",
+    "label": "Restaurant reservations",
+    "count": 11,
+    "share": 0.1222
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 10,
+    "share": 0.1111
+   },
+   {
+    "code": "APPT",
+    "label": "Appointments & local services",
+    "count": 7,
+    "share": 0.0778
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 7,
+    "share": 0.0778
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 7,
+    "share": 0.0778
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 7,
+    "share": 0.0778
+   },
+   {
+    "code": "FORMS",
+    "label": "Forms & paperwork",
+    "count": 7,
+    "share": 0.0778
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 6,
+    "share": 0.0667
+   },
+   {
+    "code": "FAMILY",
+    "label": "Family & kids",
+    "count": 6,
+    "share": 0.0667
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 6,
+    "share": 0.0667
+   },
+   {
+    "code": "HOME",
+    "label": "Home & utilities",
+    "count": 5,
+    "share": 0.0556
+   }
+  ],
+  "meta_muse": [
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 7,
+    "share": 0.1707
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 7,
+    "share": 0.1707
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 6,
+    "share": 0.1463
+   },
+   {
+    "code": "HOME",
+    "label": "Home & utilities",
+    "count": 5,
+    "share": 0.122
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 4,
+    "share": 0.0976
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 4,
+    "share": 0.0976
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 4,
+    "share": 0.0976
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 4,
+    "share": 0.0976
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 4,
+    "share": 0.0976
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 3,
+    "share": 0.0732
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 3,
+    "share": 0.0732
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 3,
+    "share": 0.0732
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 3,
+    "share": 0.0732
+   },
+   {
+    "code": "MON",
+    "label": "Price & availability alerts",
+    "count": 3,
+    "share": 0.0732
+   },
+   {
+    "code": "REST",
+    "label": "Restaurant reservations",
+    "count": 3,
+    "share": 0.0732
+   }
+  ],
+  "grok_bot": [
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 15,
+    "share": 0.3261
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 12,
+    "share": 0.2609
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 12,
+    "share": 0.2609
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 10,
+    "share": 0.2174
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 6,
+    "share": 0.1304
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 4,
+    "share": 0.087
+   },
+   {
+    "code": "BRIEF",
+    "label": "Briefings & meeting prep",
+    "count": 3,
+    "share": 0.0652
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 3,
+    "share": 0.0652
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 3,
+    "share": 0.0652
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 3,
+    "share": 0.0652
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 3,
+    "share": 0.0652
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 2,
+    "share": 0.0435
+   },
+   {
+    "code": "HOME",
+    "label": "Home & utilities",
+    "count": 2,
+    "share": 0.0435
+   },
+   {
+    "code": "MON",
+    "label": "Price & availability alerts",
+    "count": 2,
+    "share": 0.0435
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 1,
+    "share": 0.0217
+   }
+  ],
+  "manus_cue": [],
+  "chatgpt_dots": [],
+  "all": [
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 37,
+    "share": 0.209
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 28,
+    "share": 0.1582
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 25,
+    "share": 0.1412
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 22,
+    "share": 0.1243
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 19,
+    "share": 0.1073
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 16,
+    "share": 0.0904
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 15,
+    "share": 0.0847
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 14,
+    "share": 0.0791
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 14,
+    "share": 0.0791
+   },
+   {
+    "code": "REST",
+    "label": "Restaurant reservations",
+    "count": 14,
+    "share": 0.0791
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 14,
+    "share": 0.0791
+   },
+   {
+    "code": "HOME",
+    "label": "Home & utilities",
+    "count": 12,
+    "share": 0.0678
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 11,
+    "share": 0.0621
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 11,
+    "share": 0.0621
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 10,
+    "share": 0.0565
+   }
+  ]
+ }
+}

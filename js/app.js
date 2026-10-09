@@ -361,10 +361,27 @@ function renderBars(items, ms) {
 
   const maxCount = list.reduce((max, item) => Math.max(max, num(item.count)), 0);
   const fraction = list.every((item) => num(item.share) <= 1);
-  const height = Math.max(list.length, 1) * cachedRowH;
+  const targetSlots = Math.max(list.length, 1);
+  const prevSlots = chart._slots || targetSlots;
+  const slots = ms > 0 ? Math.max(targetSlots, prevSlots) : targetSlots;
+  const height = slots * cachedRowH;
   if (chart._h !== height) {
     chart.style.height = height + "px";
     chart._h = height;
+  }
+  chart._slots = slots;
+  if (chart._shrink) {
+    clearTimeout(chart._shrink);
+    chart._shrink = 0;
+  }
+  if (slots !== targetSlots) {
+    chart._shrink = setTimeout(() => {
+      const nextHeight = targetSlots * cachedRowH;
+      chart._slots = targetSlots;
+      chart.style.height = nextHeight + "px";
+      chart._h = nextHeight;
+      chart._shrink = 0;
+    }, ms + 80);
   }
 
   rowEls.forEach((el, code) => {

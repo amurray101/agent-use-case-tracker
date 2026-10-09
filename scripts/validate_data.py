@@ -266,9 +266,11 @@ def validate_posts(errors: list[str], posts, product_ids: set[str], codes: set[s
                         fail(errors, f"{where}.use_cases[{j}]: unknown code {code!r}")
         if "date" in post:
             check_date(errors, post.get("date"), f"{where}.date")
-        for key in ("first_seen", "author", "quote", "sentiment"):
+        for key in ("first_seen", "quote", "sentiment"):
             if key in post and not is_str(post[key]):
                 fail(errors, f"{where}.{key}: expected a string")
+        if "author" in post and post["author"] is not None and not is_str(post["author"]):
+            fail(errors, f"{where}.author: expected a string or null")
         if "first_seen" in post and is_str(post["first_seen"]) and not post["first_seen"].strip():
             fail(errors, f"{where}.first_seen: expected a non-empty string")
 
@@ -465,7 +467,7 @@ def minimal_dataset(root: Path) -> None:
                     "use_cases": ["inbox"],
                     "date": "2026-03-02",
                     "first_seen": "2026-03-02T00:00:00Z",
-                    "author": "self_test",
+                    "author": None,
                     "quote": "Self-test quote.",
                     "sentiment": "neutral",
                 }
@@ -553,6 +555,13 @@ def self_test() -> int:
         tax["version"] = 2
         (bad_version / "taxonomy.json").write_text(json.dumps(tax), encoding="utf-8")
         expect_fail(bad_version, "version", "does not match")
+
+        bad_author = root / "author"
+        minimal_dataset(bad_author)
+        authored = json.loads((bad_author / "posts.json").read_text(encoding="utf-8"))
+        authored[0]["author"] = 1
+        (bad_author / "posts.json").write_text(json.dumps(authored), encoding="utf-8")
+        expect_fail(bad_author, "author", "author")
 
         bad_file = root / "nosnap"
         minimal_dataset(bad_file)

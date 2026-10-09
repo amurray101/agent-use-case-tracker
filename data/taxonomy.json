@@ -1,0 +1,201 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "code": "EMAIL",
+   "label": "Email & inbox",
+   "definition": "Inbox triage, cleanup, unsubscribing, search, summaries, drafting and sending replies.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "MONEY",
+   "label": "Saving money on bills & subscriptions",
+   "definition": "Bill negotiation, insurance shopping, finding credits/rewards, and finding or cancelling subscriptions (old codes SAVE + SUBS, counted once per post). Bare 'it saved me $X' claims with no method are not counted here.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "TRAVEL",
+   "label": "Travel",
+   "definition": "Flights, hotels, trains, check-in, rebooking and trip planning.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "SHOP",
+   "label": "Shopping",
+   "definition": "Buying things online, including finding deals and promo codes.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "CS",
+   "label": "Customer service & refunds",
+   "definition": "Dealing with a company's support: refunds, claims, disputes, returns, compensation.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "RESEARCH",
+   "label": "Research & recommendations",
+   "definition": "Looking things up, answering questions, comparing options, recommendations.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "BIZ",
+   "label": "Work & business tasks",
+   "definition": "Work operations: leads, outreach, CRM, analytics, invoices, recruiting, ops.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "FIN",
+   "label": "Personal finance & payments",
+   "definition": "Paying bills, budgeting, tracking spending, taxes, investments, payments.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "CAL",
+   "label": "Calendar & scheduling",
+   "definition": "Managing the calendar, scheduling and rescheduling meetings.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "CONTENT",
+   "label": "Content & social media",
+   "definition": "Writing posts, social media management, making images, video or other media.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "FAMILY",
+   "label": "Family & kids",
+   "definition": "Tasks done explicitly for kids, a spouse, parents or other family (added alongside the task code).",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "CODE",
+   "label": "Building apps & code",
+   "definition": "Building apps, websites, scripts and fixing code.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "EVENT",
+   "label": "Events & tickets",
+   "definition": "Concerts, sports, shows, activities and ticket buying.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "HOBBY",
+   "label": "Hobbies & entertainment",
+   "definition": "Hobbies, games, cooking, creative and entertainment projects.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "MON",
+   "label": "Price & availability alerts",
+   "definition": "Watching prices, stock, reservations or award seats and alerting or acting when they change.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "REM",
+   "label": "Reminders & follow-ups",
+   "definition": "Reminders, follow-ups and deadline tracking.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "BRIEF",
+   "label": "Briefings & meeting prep",
+   "definition": "Daily briefings, digests, news summaries and meeting prep.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "REST",
+   "label": "Restaurant reservations",
+   "definition": "Booking or changing restaurant tables.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "FOOD",
+   "label": "Groceries & food ordering",
+   "definition": "Ordering groceries, takeout and coffee.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "APPT",
+   "label": "Appointments & local services",
+   "definition": "Booking appointments and local services (doctors, salons, handymen, classes).",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "HEALTH",
+   "label": "Health admin",
+   "definition": "Health and medical admin: records, insurance claims, prescriptions, fitness tracking.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "FORMS",
+   "label": "Forms & paperwork",
+   "definition": "Filling forms, paperwork, government and civic admin.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "JOBS",
+   "label": "Job search",
+   "definition": "Finding jobs and applying.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "DOCS",
+   "label": "Documents & notes",
+   "definition": "Documents, spreadsheets, notes and personal knowledge base.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "SELL",
+   "label": "Selling items",
+   "definition": "Marketplace/Craigslist listings and buyer messages.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "COORD",
+   "label": "Coordinating with people",
+   "definition": "Messaging people or other agents on the user's behalf, group plans.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "TRANS",
+   "label": "Rides & transport",
+   "definition": "Rides, transit and navigation.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "HOME",
+   "label": "Home & utilities",
+   "definition": "Home, utilities, energy and smart-home tasks.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "SCRAPE",
+   "label": "Web scraping & data",
+   "definition": "Scraping websites and extracting data.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "TINKER",
+   "label": "Testing the agent (not ranked)",
+   "definition": "Probing or testing the agent itself with no real task. Not ranked.",
+   "added": "2026-10-02"
+  },
+  {
+   "code": "GEN",
+   "label": "General opinion, no use case (not ranked)",
+   "definition": "Opinion about the product with no specific use case (incl. bare 'it saved me $X' claims). Not ranked.",
+   "added": "2026-10-02"
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-02",
+   "change": "Codebook v2: bill negotiation (SAVE) and subscription audit (SUBS) merged into one ranked category, MONEY 'Saving money on bills & subscriptions', counted once per post."
+  },
+  {
+   "date": "2026-10-08",
+   "change": "Tracker taxonomy v1 published: 31 categories (29 ranked, GEN and TINKER unranked) carried over unchanged from the Oct 2 codebook."
+  }
+ ]
+}

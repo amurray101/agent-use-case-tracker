@@ -1,0 +1,52 @@
+[
+ {
+  "id": "instinct",
+  "name": "Instinct",
+  "display_name": "Instinct",
+  "maker": "Instinct (Spear Street Technology Inc.; CEO Noah Shinn)",
+  "launched": "2026-08-26",
+  "source_url": "https://siliconangle.com/2026/08/27/consumer-focused-ai-assistant-startup-instinct-reportedly-raising-250m/",
+  "verified": true,
+  "note": "Invite-only personal agent used over iMessage/WhatsApp/SMS. Private beta since Feb 2026 (SiliconANGLE, WIRED); founder Noah Shinn's first public launch post was Aug 26, 2026, which is the date used here. Still invite-only."
+ },
+ {
+  "id": "meta_muse",
+  "name": "Muse",
+  "display_name": "Meta Muse",
+  "maker": "Meta",
+  "launched": "2026-09-08",
+  "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+  "verified": true,
+  "note": "Meta's personal AI agent (app 'Muse from Meta', WhatsApp, muse.ai), US launch Sep 8, 2026. Not the Muse Spark/Muse Code model family."
+ },
+ {
+  "id": "grok_bot",
+  "name": "Grok Bot",
+  "display_name": "Grok Bot",
+  "maker": "SpaceXAI (formerly xAI), with Cursor",
+  "launched": "2026-08-11",
+  "source_url": "https://x.ai/news/introducing-grok-bot",
+  "verified": true,
+  "note": "Desktop/iOS app of always-on 'Bots' with their own cloud computer; beta launched Aug 11, 2026 (date per VentureBeat and Bloomberg; the x.ai post itself is undated). Sold via SuperGrok and Cursor plans."
+ },
+ {
+  "id": "manus_cue",
+  "name": "Cue",
+  "display_name": "Manus Cue",
+  "maker": "Manus",
+  "launched": "2026-09-28",
+  "source_url": "https://manus.im/blog/introducing-manus-2-0",
+  "verified": true,
+  "note": "Standalone personal-agent app from Manus, launched with Manus 2.0 on Sep 28, 2026; each agent gets its own email, phone number, wallet and computer. Invite-code early access (code MEETCUE)."
+ },
+ {
+  "id": "chatgpt_dots",
+  "name": "dots",
+  "display_name": "ChatGPT dots",
+  "maker": "OpenAI",
+  "launched": "2026-09-29",
+  "source_url": "https://openai.com/index/introducing-dots/",
+  "verified": true,
+  "note": "Always-on agents inside ChatGPT (official name 'dots', lowercase; 'Dots' in headlines), powered by GPT-6 Astra; rolled out Sep 29, 2026 to Pro and Business Premium."
+ }
+]

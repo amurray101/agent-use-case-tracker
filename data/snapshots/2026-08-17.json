@@ -1,0 +1,186 @@
+{
+ "date": "2026-08-17",
+ "cumulative": true,
+ "basis": "post_date",
+ "totals": {
+  "all": {
+   "posts": 21,
+   "use_case_posts": 9
+  },
+  "instinct": {
+   "posts": 2,
+   "use_case_posts": 2
+  },
+  "meta_muse": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "grok_bot": {
+   "posts": 19,
+   "use_case_posts": 7
+  },
+  "manus_cue": {
+   "posts": 0,
+   "use_case_posts": 0
+  },
+  "chatgpt_dots": {
+   "posts": 0,
+   "use_case_posts": 0
+  }
+ },
+ "top15": {
+  "instinct": [
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 1,
+    "share": 0.5
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 1,
+    "share": 0.5
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 1,
+    "share": 0.5
+   }
+  ],
+  "meta_muse": [],
+  "grok_bot": [
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 3,
+    "share": 0.4286
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 3,
+    "share": 0.4286
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "FORMS",
+    "label": "Forms & paperwork",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 1,
+    "share": 0.1429
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 1,
+    "share": 0.1429
+   }
+  ],
+  "manus_cue": [],
+  "chatgpt_dots": [],
+  "all": [
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 3,
+    "share": 0.3333
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 3,
+    "share": 0.3333
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "FORMS",
+    "label": "Forms & paperwork",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 1,
+    "share": 0.1111
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 1,
+    "share": 0.1111
+   }
+  ]
+ }
+}
