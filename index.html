@@ -16,6 +16,7 @@
     <div class="wrap tabs" role="tablist" aria-label="Views">
       <button type="button" role="tab" id="tab-top" aria-controls="panel-top" aria-selected="true">Top 15</button>
       <button type="button" role="tab" id="tab-posts" aria-controls="panel-posts" aria-selected="false" tabindex="-1">Posts</button>
+      <button type="button" role="tab" id="tab-topic" aria-controls="panel-topic" aria-selected="false" tabindex="-1" hidden>Topic</button>
     </div>
   </div>
   <main class="wrap" id="main">
@@ -72,6 +73,14 @@
         <span id="page-label" class="page-label"></span>
         <button type="button" id="next">Next</button>
       </div>
+    </section>
+
+    <section id="panel-topic" role="tabpanel" aria-labelledby="tab-topic" tabindex="0" hidden>
+      <h2 id="topic-title"></h2>
+      <p id="topic-meta" class="caption"></p>
+      <div id="topic-board" class="board"></div>
+      <p id="topic-empty" class="empty" hidden>No posts</p>
+      <p id="topic-more" class="topic-more"><a id="topic-all" href="#posts">All posts</a></p>
     </section>
   </main>
 

@@ -1,7 +1,9 @@
 "use strict";
 
 const PAGE_SIZE = 100;
+const BOARD_SIZE = 9;
 const SORTS = ["date", "platform", "product", "use"];
+const SOCIAL_RANK = { X: 4, Reddit: 4, YouTube: 3, "Hacker News": 3, "App Store": 1, "Google Play": 1 };
 const PROPOSITIONS = [
   {
     id: "time",
@@ -36,6 +38,14 @@ const panelTop = document.getElementById("panel-top");
 const panelPosts = document.getElementById("panel-posts");
 const tabTop = document.getElementById("tab-top");
 const tabPosts = document.getElementById("tab-posts");
+const tabTopic = document.getElementById("tab-topic");
+const panelTopic = document.getElementById("panel-topic");
+const topicTitle = document.getElementById("topic-title");
+const topicMeta = document.getElementById("topic-meta");
+const topicBoard = document.getElementById("topic-board");
+const topicEmpty = document.getElementById("topic-empty");
+const topicMore = document.getElementById("topic-more");
+const topicAll = document.getElementById("topic-all");
 const tabList = document.querySelector(".tabs");
 const productFilter = document.getElementById("product-filter");
 const caption = document.getElementById("caption");
@@ -73,6 +83,7 @@ const state = {
   dir: "desc",
   page: 1,
   selectedCode: "",
+  topicCode: "",
 };
 
 const rowEls = new Map();
@@ -230,20 +241,25 @@ function showEmpty() {
   emptyEl.hidden = false;
   panelTop.hidden = true;
   panelPosts.hidden = true;
+  panelTopic.hidden = true;
   legend.hidden = true;
   document.querySelector(".tabs-bar").hidden = true;
 }
 
 function showTab(tab) {
-  state.tab = tab === "posts" ? "posts" : "top";
-  const top = state.tab === "top";
-  panelTop.hidden = !top;
-  panelPosts.hidden = top;
+  state.tab = tab === "posts" ? "posts" : tab === "topic" ? "topic" : "top";
+  panelTop.hidden = state.tab !== "top";
+  panelPosts.hidden = state.tab !== "posts";
+  panelTopic.hidden = state.tab !== "topic";
   emptyEl.hidden = true;
-  tabTop.setAttribute("aria-selected", top ? "true" : "false");
-  tabPosts.setAttribute("aria-selected", top ? "false" : "true");
-  tabTop.tabIndex = top ? 0 : -1;
-  tabPosts.tabIndex = top ? -1 : 0;
+  [
+    [tabTop, state.tab === "top"],
+    [tabPosts, state.tab === "posts"],
+    [tabTopic, state.tab === "topic"],
+  ].forEach((pair) => {
+    pair[0].setAttribute("aria-selected", pair[1] ? "true" : "false");
+    pair[0].tabIndex = pair[1] ? 0 : -1;
+  });
 }
 
 function setPostsAvailable(ok) {
@@ -507,19 +523,144 @@ function showDetail(code) {
   });
 }
 
-function postsHref(product, code) {
+function topicHref(code) {
   const params = new URLSearchParams();
-  if (product && product !== "all") params.set("product", product);
+  if (code) params.set("use", code);
+  if (state.product && state.product !== "all") params.set("product", state.product);
+  return "#topic?" + params.toString();
+}
+
+function quoteFingerprint(quote) {
+  return String(quote || "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 90);
+}
+
+function topicRank(post, code) {
+  const cases = Array.isArray(post.use_cases) ? post.use_cases : [];
+  const primary = cases.length === 1 && cases[0] === code ? 3 : cases[0] === code ? 2 : 0;
+  const social = SOCIAL_RANK[post.post_platform] || 0;
+  const length = String(post.quote || "").length;
+  let readable = 2;
+  if (length < 50) readable = 0;
+  else if (length < 90) readable = 1;
+  else if (length <= 360) readable = 3;
+  return [primary, social, readable, post.date || ""];
+}
+
+function compareRank(a, b) {
+  const left = topicRank(a.post, a.code);
+  const right = topicRank(b.post, b.code);
+  for (let i = 0; i < left.length; i += 1) {
+    if (left[i] === right[i]) continue;
+    return left[i] < right[i] ? 1 : -1;
+  }
+  return a.index - b.index;
+}
+
+function pickTopicPosts(code, product) {
+  const pool = [];
+  posts.forEach((post, index) => {
+    const cases = Array.isArray(post.use_cases) ? post.use_cases : [];
+    if (!cases.includes(code)) return;
+    if (product && product !== "all" && post.agent_product !== product) return;
+    pool.push({ post: post, code: code, index: index });
+  });
+  pool.sort(compareRank);
+  const picked = [];
+  const seen = new Set();
+  const authors = new Map();
+  const byProduct = new Map();
+  function take(entry, spread) {
+    const post = entry.post;
+    const fingerprint = quoteFingerprint(post.quote);
+    if (!fingerprint || seen.has(fingerprint)) return false;
+    const author = String(post.author || "").toLowerCase();
+    if (author && (authors.get(author) || 0) >= 1) return false;
+    if (spread && (!product || product === "all") && (byProduct.get(post.agent_product) || 0) >= 3) return false;
+    seen.add(fingerprint);
+    if (author) authors.set(author, (authors.get(author) || 0) + 1);
+    byProduct.set(post.agent_product, (byProduct.get(post.agent_product) || 0) + 1);
+    picked.push(post);
+    return true;
+  }
+  pool.forEach((entry) => {
+    if (picked.length >= BOARD_SIZE) return;
+    take(entry, true);
+  });
+  pool.forEach((entry) => {
+    if (picked.length >= BOARD_SIZE) return;
+    const fingerprint = quoteFingerprint(entry.post.quote);
+    if (!fingerprint || seen.has(fingerprint)) return;
+    seen.add(fingerprint);
+    picked.push(entry.post);
+  });
+  return { picked: picked, total: pool.length };
+}
+
+function renderCard(post, proposition) {
+  const href = safeUrl(post.url);
+  const card = document.createElement(href ? "a" : "article");
+  card.className = "card";
+  card.dataset.prop = proposition ? proposition.id : "none";
+  if (href) {
+    card.href = href;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+  }
+  const meta = document.createElement("p");
+  meta.className = "card-meta";
+  meta.textContent = [post.post_platform || "Post", productName(post.agent_product)].filter(Boolean).join(" · ");
+  const quote = document.createElement("p");
+  quote.className = "card-quote";
+  quote.textContent = post.quote || "";
+  const foot = document.createElement("p");
+  foot.className = "card-foot";
+  if (post.author) {
+    const who = document.createElement("span");
+    who.textContent = post.author;
+    foot.append(who);
+  }
+  const when = document.createElement("span");
+  when.className = "card-date";
+  when.textContent = post.date || "";
+  foot.append(when);
+  card.append(meta, quote, foot);
+  return card;
+}
+
+function renderTopic() {
+  const code = state.topicCode;
+  const label = useLabel(code);
+  const proposition = propositionFor(code);
+  topicTitle.textContent = label;
+  tabTopic.hidden = !code;
+  tabTopic.textContent = label || "Topic";
+  const product = state.product && state.product !== "all" ? state.product : "";
+  const result = code ? pickTopicPosts(code, product) : { picked: [], total: 0 };
+  const bits = [];
+  if (proposition) bits.push(proposition.label);
+  if (product) bits.push(productName(product));
+  if (!result.total) bits.push("No posts");
+  else if (result.picked.length === result.total) bits.push(countPhrase(result.total, "post", "posts"));
+  else bits.push(formatInt(result.picked.length) + " of " + countPhrase(result.total, "post", "posts"));
+  topicMeta.textContent = bits.join(" · ");
+  topicBoard.replaceChildren();
+  result.picked.forEach((post) => topicBoard.append(renderCard(post, proposition)));
+  topicBoard.hidden = result.picked.length === 0;
+  topicEmpty.hidden = result.picked.length > 0;
+  const params = new URLSearchParams();
+  if (product) params.set("product", product);
   if (code) params.set("use", code);
   const query = params.toString();
-  return "#posts" + (query ? "?" + query : "");
+  topicAll.href = "#posts" + (query ? "?" + query : "");
+  topicMore.hidden = result.total === 0;
 }
 
 function onRowIntent(event) {
   const row = event.target.closest(".row");
   if (!row || row.dataset.leaving === "1") return;
   if (event.type === "click") {
-    location.hash = postsHref(state.product, row.dataset.code);
+    state.topicCode = row.dataset.code;
+    location.hash = topicHref(row.dataset.code);
     return;
   }
   if (row.dataset.code !== state.selectedCode) showDetail(row.dataset.code);
@@ -763,6 +904,12 @@ function renderPosts() {
 }
 
 function buildHash() {
+  if (state.tab === "topic") {
+    const params = new URLSearchParams();
+    if (state.topicCode) params.set("use", state.topicCode);
+    if (state.product && state.product !== "all") params.set("product", state.product);
+    return "#topic?" + params.toString();
+  }
   if (state.tab === "posts") {
     const params = new URLSearchParams();
     if (state.platform) params.set("platform", state.platform);
@@ -812,6 +959,18 @@ function applyHash() {
       syncPostControls();
       showTab("posts");
       renderPosts();
+    } else if (tab === "topic") {
+      const product = params.get("product") || "all";
+      state.product = productIds.indexOf(product) === -1 ? "all" : product;
+      state.topicCode = params.get("use") || "";
+      syncSegment();
+      if (state.topicCode) {
+        renderTopic();
+        showTab("topic");
+      } else {
+        showTab("top");
+        showCurrent(false);
+      }
     } else {
       const product = params.get("product") || "all";
       state.product = productIds.indexOf(product) === -1 ? "all" : product;
@@ -830,13 +989,15 @@ function applyHash() {
 
 function activateTab(tab) {
   if (!ready) return;
-  const next = tab === "posts" ? "posts" : "top";
+  const next = tab === "posts" ? "posts" : tab === "topic" ? "topic" : "top";
+  if (next === "topic" && !state.topicCode) return;
   if (state.tab === next) {
     writeHash();
     return;
   }
   showTab(next);
   if (next === "posts") renderPosts();
+  else if (next === "topic") renderTopic();
   else showCurrent(false);
   writeHash();
 }
@@ -905,19 +1066,20 @@ productFilter.addEventListener("keydown", (event) => {
 
 tabTop.addEventListener("click", () => activateTab("top"));
 tabPosts.addEventListener("click", () => activateTab("posts"));
+tabTopic.addEventListener("click", () => activateTab("topic"));
 tabList.addEventListener("keydown", (event) => {
-  const order = [tabTop, tabPosts];
+  const order = [tabTop, tabPosts, tabTopic].filter((tab) => !tab.hidden);
   const index = order.indexOf(document.activeElement);
   if (index < 0) return;
   let next = null;
   if (event.key === "ArrowRight") next = order[(index + 1) % order.length];
   if (event.key === "ArrowLeft") next = order[(index - 1 + order.length) % order.length];
   if (event.key === "Home") next = order[0];
-  if (event.key === "End") next = order[1];
+  if (event.key === "End") next = order[order.length - 1];
   if (!next) return;
   event.preventDefault();
   next.focus();
-  activateTab(next === tabPosts ? "posts" : "top");
+  activateTab(next === tabPosts ? "posts" : next === tabTopic ? "topic" : "top");
 });
 
 playButton.addEventListener("click", startPlay);
