@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+  # Re-run from the Actions tab without another commit.
   workflow_dispatch:
 
 permissions:
