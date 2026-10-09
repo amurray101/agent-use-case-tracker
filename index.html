@@ -14,25 +14,21 @@
   </header>
   <div class="tabs-bar">
     <div class="wrap tabs" role="tablist" aria-label="Views">
-      <button type="button" role="tab" id="tab-top" aria-controls="panel-top" aria-selected="true">Top 15</button>
-      <button type="button" role="tab" id="tab-posts" aria-controls="panel-posts" aria-selected="false" tabindex="-1">Posts</button>
+      <button type="button" role="tab" id="tab-top" data-tab="top" aria-controls="panel-top" aria-selected="true">Top 15</button>
+      <button type="button" role="tab" id="tab-posts" data-tab="posts" aria-controls="panel-posts" aria-selected="false" tabindex="-1">Posts</button>
+      <button type="button" role="tab" id="tab-topic" data-tab="topic" aria-controls="panel-topic" aria-selected="false" tabindex="-1" hidden>Topic</button>
+      <button type="button" role="tab" id="tab-saved" data-tab="saved" aria-controls="panel-saved" aria-selected="false" tabindex="-1">Saved</button>
     </div>
   </div>
   <main class="wrap" id="main">
     <p id="empty" class="empty" hidden>No data yet</p>
+    <ul id="legend" class="legend" hidden></ul>
 
     <section id="panel-top" role="tabpanel" aria-labelledby="tab-top" tabindex="0">
       <div id="product-filter" class="segment" role="radiogroup" aria-label="Product"></div>
       <p id="caption" class="caption"></p>
       <div id="chart" class="chart">
         <p id="chart-empty" class="chart-empty" hidden>None</p>
-      </div>
-      <div id="detail" class="detail">
-        <div id="detail-body" hidden>
-          <h2 id="detail-label"></h2>
-          <p id="detail-def"></p>
-          <a id="detail-link" href="#posts">Posts</a>
-        </div>
       </div>
       <div class="scrub">
         <button type="button" id="play" aria-pressed="false">Play</button>
@@ -68,6 +64,7 @@
               <th scope="col" data-sort="use" aria-sort="none"><button type="button">Use case</button></th>
               <th scope="col">Quote</th>
               <th scope="col">Link</th>
+              <th scope="col">Save</th>
             </tr>
           </thead>
           <tbody id="posts-body"></tbody>
@@ -79,24 +76,47 @@
         <button type="button" id="next">Next</button>
       </div>
     </section>
+
+    <section id="panel-topic" role="tabpanel" aria-labelledby="tab-topic" tabindex="0" hidden>
+      <h2 id="topic-title"></h2>
+      <p id="topic-meta" class="caption"></p>
+      <div id="topic-board" class="board"></div>
+      <p id="topic-empty" class="empty" hidden>No posts</p>
+      <p id="topic-more" class="topic-more"><a id="topic-all" href="#posts">All posts</a></p>
+    </section>
+
+    <section id="panel-saved" role="tabpanel" aria-labelledby="tab-saved" tabindex="0" hidden>
+      <h2>Saved</h2>
+      <p id="saved-meta" class="caption"></p>
+      <div class="saved-find" id="saved-tools">
+        <label>Find
+          <input id="saved-q" type="search" autocomplete="off" spellcheck="false">
+        </label>
+      </div>
+      <div id="saved-list" class="saved-list"></div>
+      <p id="saved-empty" class="empty" hidden>No saved posts</p>
+    </section>
   </main>
 
-  <footer class="wrap" id="about" hidden>
-    <section id="method-section">
-      <h2>Method</h2>
-      <p id="method"></p>
-    </section>
-    <section id="products-section" hidden>
-      <h2>Products</h2>
-      <ul id="product-list"></ul>
-    </section>
-    <section id="taxonomy-section" hidden>
-      <h2>Taxonomy</h2>
-      <p id="taxonomy-version"></p>
-      <ul id="changelog"></ul>
-    </section>
-    <p id="updated" class="updated"></p>
-  </footer>
+  <dialog id="save-dialog" aria-labelledby="save-heading">
+    <form id="save-form">
+      <h2 id="save-heading">Save post</h2>
+      <p id="save-quote" class="save-quote"></p>
+      <label>Highlight
+        <input id="save-highlight" type="text" autocomplete="off" spellcheck="false" maxlength="500">
+      </label>
+      <p class="save-hint">Select a passage in the quote, or type one.</p>
+      <label>Note
+        <textarea id="save-note" rows="3" maxlength="2000" placeholder="Why this is worth keeping"></textarea>
+      </label>
+      <div class="dialog-actions">
+        <button type="button" id="save-remove">Remove</button>
+        <button type="button" id="save-cancel">Cancel</button>
+        <button type="submit" id="save-confirm">Save</button>
+      </div>
+    </form>
+  </dialog>
+
   <noscript>JavaScript is required.</noscript>
   <script src="js/app.js"></script>
 </body>

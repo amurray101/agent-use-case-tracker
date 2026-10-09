@@ -42,7 +42,7 @@ All files are UTF-8 JSON. When any JSON file is present, these files are require
 }
 ```
 
-`snapshots` is ascending and unique. `products` is the ordered list of product ids. The page reads product names from `products.json`. It does not hardcode a product list. `method` is shown in the footer. `updated` is shown in Pacific time (`America/Los_Angeles`).
+`snapshots` is ascending and unique. `products` is the ordered list of product ids. The page reads product names from `products.json`. It does not hardcode a product list. `method` and category definitions stay in the data files and are not shown on the page.
 
 `data/products.json` is a list of:
 
@@ -140,12 +140,16 @@ python3 scripts/serve_fixture.py
 
 ## Views
 
-Top 15: product control, date slider, and play control. The bars move with transform and opacity only. Hover or tap a bar for the category definition and a link to the matching posts.
+Top 15: product control, date slider, and play control. The bars move with transform and opacity only. Bar color is the value proposition: saves time, saves money, looks out for me, or helps me make things. Tap a bar to open a board of social posts for that category. The board links to the full posts table.
 
-Posts: date, platform, product, use case, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. Filters and the quote search are stored in the URL hash.
+Posts: date, platform, product, use case, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. Filters and the quote search are stored in the URL hash. Save keeps a post in this browser, with an optional highlight and a note.
+
+Saved: posts kept in this browser, with the highlight and note. The list is not uploaded.
 
 - `#top`
 - `#top?product=product-id&date=YYYY-MM-DD`
+- `#topic?use=category-code&product=product-id`
 - `#posts?platform=&product=&use=&q=&sort=&dir=&page=`
+- `#saved`
 
 The posts table shows 100 rows per page.
