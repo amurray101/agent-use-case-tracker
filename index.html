@@ -20,19 +20,13 @@
   </div>
   <main class="wrap" id="main">
     <p id="empty" class="empty" hidden>No data yet</p>
+    <ul id="legend" class="legend" hidden></ul>
 
     <section id="panel-top" role="tabpanel" aria-labelledby="tab-top" tabindex="0">
       <div id="product-filter" class="segment" role="radiogroup" aria-label="Product"></div>
       <p id="caption" class="caption"></p>
       <div id="chart" class="chart">
         <p id="chart-empty" class="chart-empty" hidden>None</p>
-      </div>
-      <div id="detail" class="detail">
-        <div id="detail-body" hidden>
-          <h2 id="detail-label"></h2>
-          <p id="detail-def"></p>
-          <a id="detail-link" href="#posts">Posts</a>
-        </div>
       </div>
       <div class="scrub">
         <button type="button" id="play" aria-pressed="false">Play</button>
@@ -81,22 +75,6 @@
     </section>
   </main>
 
-  <footer class="wrap" id="about" hidden>
-    <section id="method-section">
-      <h2>Method</h2>
-      <p id="method"></p>
-    </section>
-    <section id="products-section" hidden>
-      <h2>Products</h2>
-      <ul id="product-list"></ul>
-    </section>
-    <section id="taxonomy-section" hidden>
-      <h2>Taxonomy</h2>
-      <p id="taxonomy-version"></p>
-      <ul id="changelog"></ul>
-    </section>
-    <p id="updated" class="updated"></p>
-  </footer>
   <noscript>JavaScript is required.</noscript>
   <script src="js/app.js"></script>
 </body>

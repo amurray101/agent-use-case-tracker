@@ -2,19 +2,35 @@
 
 const PAGE_SIZE = 100;
 const SORTS = ["date", "platform", "product", "use"];
+const PROPOSITIONS = [
+  {
+    id: "time",
+    label: "Saves time",
+    codes: ["EMAIL", "TRAVEL", "CAL", "REM", "BRIEF", "REST", "FOOD", "APPT", "FORMS", "TRANS", "HOME", "RESEARCH", "JOBS", "EVENT", "BIZ"],
+  },
+  {
+    id: "money",
+    label: "Saves money",
+    codes: ["MONEY", "SHOP", "FIN", "SELL"],
+  },
+  {
+    id: "watch",
+    label: "Looks out for me",
+    codes: ["CS", "MON", "HEALTH", "FAMILY", "COORD"],
+  },
+  {
+    id: "make",
+    label: "Helps me make things",
+    codes: ["CODE", "CONTENT", "DOCS", "HOBBY", "SCRAPE"],
+  },
+];
+const propositionByCode = new Map();
+PROPOSITIONS.forEach((item) => {
+  item.codes.forEach((code) => propositionByCode.set(code, item));
+});
 
 const numberFormat = new Intl.NumberFormat("en-US");
 const collator = new Intl.Collator(undefined, { sensitivity: "base", numeric: true });
-const pacificTime = new Intl.DateTimeFormat("en-US", {
-  timeZone: "America/Los_Angeles",
-  year: "numeric",
-  month: "short",
-  day: "numeric",
-  hour: "numeric",
-  minute: "2-digit",
-  timeZoneName: "short",
-});
-
 const emptyEl = document.getElementById("empty");
 const panelTop = document.getElementById("panel-top");
 const panelPosts = document.getElementById("panel-posts");
@@ -25,10 +41,7 @@ const productFilter = document.getElementById("product-filter");
 const caption = document.getElementById("caption");
 const chart = document.getElementById("chart");
 const chartEmpty = document.getElementById("chart-empty");
-const detailBody = document.getElementById("detail-body");
-const detailLabel = document.getElementById("detail-label");
-const detailDef = document.getElementById("detail-def");
-const detailLink = document.getElementById("detail-link");
+const legend = document.getElementById("legend");
 const playButton = document.getElementById("play");
 const dateInput = document.getElementById("date");
 const dateLabel = document.getElementById("date-label");
@@ -45,7 +58,6 @@ const platformSelect = document.getElementById("f-platform");
 const productSelect = document.getElementById("f-product");
 const useSelect = document.getElementById("f-use");
 const quoteInput = document.getElementById("f-q");
-const about = document.getElementById("about");
 
 const state = {
   tab: "top",
@@ -104,12 +116,6 @@ function formatShare(share, fraction) {
   if (!Number.isFinite(pct)) return "";
   const rounded = Math.round(pct * 10) / 10;
   return (Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1)) + "%";
-}
-
-function formatPacific(iso) {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return String(iso);
-  return pacificTime.format(date);
 }
 
 function safeUrl(url) {
@@ -202,11 +208,29 @@ function prefetchAll() {
   worker();
 }
 
+function propositionFor(code) {
+  return propositionByCode.get(code) || null;
+}
+
+function renderLegend() {
+  legend.replaceChildren();
+  PROPOSITIONS.forEach((item) => {
+    const li = document.createElement("li");
+    const swatch = document.createElement("span");
+    swatch.className = "swatch";
+    swatch.dataset.prop = item.id;
+    swatch.setAttribute("aria-hidden", "true");
+    li.append(swatch, document.createTextNode(item.label));
+    legend.append(li);
+  });
+  legend.hidden = false;
+}
+
 function showEmpty() {
   emptyEl.hidden = false;
   panelTop.hidden = true;
   panelPosts.hidden = true;
-  about.hidden = true;
+  legend.hidden = true;
   document.querySelector(".tabs-bar").hidden = true;
 }
 
@@ -258,7 +282,6 @@ function selectProduct(id) {
   if (!id || state.product === id) return;
   state.product = id;
   syncSegment();
-  updateDetailLink();
   showCurrent(true);
   writeHash();
 }
@@ -413,6 +436,8 @@ function renderBars(items, ms) {
     el.querySelector(".name").textContent = item.label || useLabel(item.code);
     el.querySelector(".count").textContent = formatInt(item.count);
     el.querySelector(".share").textContent = shareText;
+    const proposition = propositionFor(item.code);
+    el.dataset.prop = proposition ? proposition.id : "none";
     const on = item.code === state.selectedCode;
     el.classList.toggle("is-on", on);
     el.setAttribute("aria-pressed", on ? "true" : "false");
@@ -475,22 +500,11 @@ function retireRow(el, code, ms) {
 function showDetail(code) {
   if (!code) return;
   state.selectedCode = code;
-  const category = taxonomyByCode.get(code);
-  const item = lastItems.find((row) => row.code === code);
-  detailBody.hidden = false;
-  detailLabel.textContent = (category && category.label) || (item && item.label) || code;
-  detailDef.textContent = (category && category.definition) || "No definition.";
-  updateDetailLink();
   rowEls.forEach((el) => {
     const on = el.dataset.code === code && el.dataset.leaving !== "1";
     el.classList.toggle("is-on", on);
     if (el.dataset.leaving !== "1") el.setAttribute("aria-pressed", on ? "true" : "false");
   });
-}
-
-function updateDetailLink() {
-  if (!state.selectedCode) return;
-  detailLink.href = postsHref(state.product, state.selectedCode);
 }
 
 function postsHref(product, code) {
@@ -504,6 +518,10 @@ function postsHref(product, code) {
 function onRowIntent(event) {
   const row = event.target.closest(".row");
   if (!row || row.dataset.leaving === "1") return;
+  if (event.type === "click") {
+    location.hash = postsHref(state.product, row.dataset.code);
+    return;
+  }
   if (row.dataset.code !== state.selectedCode) showDetail(row.dataset.code);
 }
 
@@ -645,12 +663,31 @@ function cell(text, nowrap) {
   return td;
 }
 
+function useCell(post) {
+  const td = document.createElement("td");
+  const codes = Array.isArray(post.use_cases) ? post.use_cases : [];
+  codes.forEach((code) => {
+    if (typeof code !== "string" || !code) return;
+    if (td.childNodes.length) td.append(document.createTextNode(", "));
+    const mark = document.createElement("span");
+    const proposition = propositionFor(code);
+    mark.className = "use-mark";
+    mark.dataset.prop = proposition ? proposition.id : "none";
+    mark.setAttribute("aria-hidden", "true");
+    const label = document.createElement("span");
+    label.textContent = useLabel(code);
+    if (proposition) label.title = proposition.label;
+    td.append(mark, label);
+  });
+  return td;
+}
+
 function renderPostRow(post) {
   const tr = document.createElement("tr");
   tr.append(cell(post.date || "", true));
   tr.append(cell(post.post_platform || "", true));
   tr.append(cell(post._name || "", true));
-  tr.append(cell(post._use || ""));
+  tr.append(useCell(post));
   const quoteCell = document.createElement("td");
   const quote = document.createElement("p");
   quote.className = "quote";
@@ -723,81 +760,6 @@ function renderPosts() {
   prevButton.disabled = state.page <= 1;
   nextButton.disabled = state.page >= pages;
   syncSortHeaders();
-}
-
-function renderFooter() {
-  const method = index && typeof index.method === "string" ? index.method : "";
-  document.getElementById("method").textContent = method;
-  document.getElementById("method-section").hidden = !method;
-
-  const list = document.getElementById("product-list");
-  list.replaceChildren();
-  const items = productsInOrder();
-  items.forEach((item) => {
-    const product = productById.get(item.id) || { name: item.name };
-    const li = document.createElement("li");
-    const href = safeUrl(product.source_url);
-    const name = document.createElement(href ? "a" : "span");
-    name.textContent = product.name || item.id;
-    if (href) {
-      name.href = href;
-      name.target = "_blank";
-      name.rel = "noopener noreferrer";
-    }
-    li.append(name);
-    const meta = [];
-    if (product.maker) meta.push(product.maker);
-    if (product.launched) meta.push("Launched " + product.launched);
-    meta.push(product.verified ? "Verified" : "Unverified");
-    const metaEl = document.createElement("div");
-    metaEl.className = "product-meta";
-    metaEl.textContent = meta.join(" · ");
-    li.append(metaEl);
-    if (product.note) {
-      const note = document.createElement("div");
-      note.className = "note";
-      note.textContent = product.note;
-      li.append(note);
-    }
-    list.append(li);
-  });
-  document.getElementById("products-section").hidden = items.length === 0;
-
-  const taxSection = document.getElementById("taxonomy-section");
-  const versionEl = document.getElementById("taxonomy-version");
-  const changes = document.getElementById("changelog");
-  changes.replaceChildren();
-  if (taxonomy && Number.isInteger(taxonomy.version)) {
-    versionEl.hidden = false;
-    versionEl.textContent = "Version " + taxonomy.version;
-  } else {
-    versionEl.hidden = true;
-    versionEl.textContent = "";
-  }
-  const changelog = taxonomy && Array.isArray(taxonomy.changelog) ? taxonomy.changelog : [];
-  changelog.forEach((change) => {
-    if (!change) return;
-    const li = document.createElement("li");
-    const date = document.createElement("span");
-    date.className = "change-date";
-    date.textContent = change.date || "";
-    li.append(date, document.createTextNode(change.change || ""));
-    changes.append(li);
-  });
-  taxSection.hidden = !taxonomy;
-
-  const updated = document.getElementById("updated");
-  if (index && index.updated) {
-    updated.hidden = false;
-    updated.textContent = "Updated " + formatPacific(index.updated);
-  } else {
-    updated.hidden = true;
-  }
-  about.hidden =
-    document.getElementById("method-section").hidden &&
-    document.getElementById("products-section").hidden &&
-    taxSection.hidden &&
-    updated.hidden;
 }
 
 function buildHash() {
@@ -884,7 +846,7 @@ function renderAboutLists() {
   buildFilters();
   preparePosts();
   setPostsAvailable(!postsMissing);
-  renderFooter();
+  renderLegend();
 }
 
 async function init() {

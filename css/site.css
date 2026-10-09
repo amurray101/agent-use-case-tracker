@@ -6,6 +6,11 @@
   --wash: #f5f5f7;
   --track: #f2f2f2;
   --accent: #0071e3;
+  --prop-time: #0a66c2;
+  --prop-money: #0e7a45;
+  --prop-watch: #b45309;
+  --prop-make: #6941c6;
+  --prop-none: #1d1d1f;
   --row-h: 44px;
   --move: 280ms;
   --fade: 200ms;
@@ -261,29 +266,60 @@ main {
   display: block;
   height: 100%;
   width: 100%;
-  background: var(--text);
+  background: var(--prop-none);
   border-radius: 1px;
   transform: scaleX(0);
   transform-origin: left center;
 }
 
-.detail {
-  min-height: 6.5rem;
-  margin-top: 8px;
-  padding-top: 16px;
-  border-top: 1px solid var(--line-soft);
+.row[data-prop="time"] .fill { background: var(--prop-time); }
+.row[data-prop="money"] .fill { background: var(--prop-money); }
+.row[data-prop="watch"] .fill { background: var(--prop-watch); }
+.row[data-prop="make"] .fill { background: var(--prop-make); }
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
 }
 
-.detail h2 {
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 6px;
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.detail p {
-  max-width: 66ch;
-  margin-bottom: 8px;
+.swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--prop-none);
 }
+
+.swatch[data-prop="time"] { background: var(--prop-time); }
+.swatch[data-prop="money"] { background: var(--prop-money); }
+.swatch[data-prop="watch"] { background: var(--prop-watch); }
+.swatch[data-prop="make"] { background: var(--prop-make); }
+
+.use-mark {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background: var(--prop-none);
+  vertical-align: 0.05em;
+}
+
+.use-mark[data-prop="time"] { background: var(--prop-time); }
+.use-mark[data-prop="money"] { background: var(--prop-money); }
+.use-mark[data-prop="watch"] { background: var(--prop-watch); }
+.use-mark[data-prop="make"] { background: var(--prop-make); }
 
 .scrub {
   display: flex;
