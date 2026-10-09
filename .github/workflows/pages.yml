@@ -1,0 +1,59 @@
+# Publishes the static site on every push to main.
+# Files are copied as committed. Data JSON is not rebuilt.
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check validator
+        run: python3 scripts/validate_data.py --self-test
+
+      - name: Validate data
+        run: python3 scripts/validate_data.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/css _site/js _site/data/snapshots
+          cp index.html _site/index.html
+          cp css/site.css _site/css/site.css
+          cp js/app.js _site/js/app.js
+          if compgen -G "data/*.json" > /dev/null; then
+            cp data/*.json _site/data/
+          fi
+          if compgen -G "data/snapshots/*.json" > /dev/null; then
+            cp data/snapshots/*.json _site/data/snapshots/
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
