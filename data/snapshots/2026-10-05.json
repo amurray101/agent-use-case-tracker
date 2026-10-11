@@ -4,16 +4,16 @@
  "basis": "post_date",
  "totals": {
   "all": {
-   "posts": 1547,
-   "use_case_posts": 1079
+   "posts": 1548,
+   "use_case_posts": 1080
   },
   "instinct": {
    "posts": 407,
    "use_case_posts": 283
   },
   "meta_muse": {
-   "posts": 901,
-   "use_case_posts": 659
+   "posts": 902,
+   "use_case_posts": 660
   },
   "grok_bot": {
    "posts": 161,
@@ -126,91 +126,91 @@
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 134,
-    "share": 0.2033
+    "share": 0.203
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 89,
-    "share": 0.1351
+    "share": 0.1348
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
-    "count": 65,
-    "share": 0.0986
+    "count": 66,
+    "share": 0.1
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 64,
-    "share": 0.0971
+    "share": 0.097
    },
    {
     "code": "SHOP",
     "label": "Shopping",
     "count": 64,
-    "share": 0.0971
+    "share": 0.097
    },
    {
     "code": "TRAVEL",
     "label": "Travel",
     "count": 61,
-    "share": 0.0926
+    "share": 0.0924
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 57,
-    "share": 0.0865
+    "share": 0.0864
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
     "count": 56,
-    "share": 0.085
+    "share": 0.0848
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
     "count": 54,
-    "share": 0.0819
+    "share": 0.0818
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
     "count": 49,
-    "share": 0.0744
+    "share": 0.0742
    },
    {
     "code": "CS",
     "label": "Customer service & refunds",
     "count": 47,
-    "share": 0.0713
+    "share": 0.0712
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
     "count": 45,
-    "share": 0.0683
+    "share": 0.0682
    },
    {
     "code": "HOBBY",
     "label": "Hobbies & entertainment",
     "count": 41,
-    "share": 0.0622
+    "share": 0.0621
    },
    {
     "code": "FAMILY",
     "label": "Family & kids",
     "count": 40,
-    "share": 0.0607
+    "share": 0.0606
    },
    {
     "code": "MON",
     "label": "Price & availability alerts",
     "count": 38,
-    "share": 0.0577
+    "share": 0.0576
    }
   ],
   "grok_bot": [
@@ -416,67 +416,67 @@
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 218,
-    "share": 0.202
+    "share": 0.2019
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 131,
-    "share": 0.1214
+    "share": 0.1213
    },
    {
     "code": "TRAVEL",
     "label": "Travel",
     "count": 121,
-    "share": 0.1121
+    "share": 0.112
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
     "count": 107,
-    "share": 0.0992
+    "share": 0.0991
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
     "count": 102,
-    "share": 0.0945
+    "share": 0.0944
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 100,
-    "share": 0.0927
+    "share": 0.0926
    },
    {
     "code": "SHOP",
     "label": "Shopping",
     "count": 96,
-    "share": 0.089
+    "share": 0.0889
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
     "count": 94,
-    "share": 0.0871
+    "share": 0.087
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 89,
-    "share": 0.0825
+    "share": 0.0824
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
-    "count": 86,
-    "share": 0.0797
+    "count": 87,
+    "share": 0.0806
    },
    {
     "code": "CS",
     "label": "Customer service & refunds",
     "count": 79,
-    "share": 0.0732
+    "share": 0.0731
    },
    {
     "code": "REM",
@@ -488,7 +488,7 @@
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 67,
-    "share": 0.0621
+    "share": 0.062
    },
    {
     "code": "MON",
