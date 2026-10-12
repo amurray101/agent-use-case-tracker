@@ -4,7 +4,7 @@
  "basis": "post_date",
  "totals": {
   "all": {
-   "posts": 1548,
+   "posts": 1549,
    "use_case_posts": 1080
   },
   "instinct": {
@@ -24,7 +24,7 @@
    "use_case_posts": 2
   },
   "chatgpt_dots": {
-   "posts": 72,
+   "posts": 73,
    "use_case_posts": 42
   }
  },
