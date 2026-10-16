@@ -4,7 +4,7 @@
  "basis": "post_date",
  "totals": {
   "all": {
-   "posts": 510,
+   "posts": 511,
    "use_case_posts": 382
   },
   "instinct": {
@@ -16,7 +16,7 @@
    "use_case_posts": 174
   },
   "grok_bot": {
-   "posts": 113,
+   "posts": 114,
    "use_case_posts": 62
   },
   "manus_cue": {
