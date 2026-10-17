@@ -37802,6 +37802,20 @@
   "sentiment": "negative"
  },
  {
+  "id": "grok_bot-8ff28ec74f",
+  "url": "https://x.com/rijalarogya/status/2110038907014525118",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-13",
+  "first_seen": "2026-10-17",
+  "author": "@rijalarogya",
+  "quote": "Cue is just taking ages to do that exact thing that Grokbots did so fast.",
+  "sentiment": "positive"
+ },
+ {
   "id": "grok_bot-9154e1a3a5",
   "url": "https://www.reddit.com/r/cursor/comments/1x4or37/cursor_new_plans_and_major_changes/pgfvgbs/",
   "post_platform": "Reddit",
@@ -38238,6 +38252,20 @@
   "sentiment": "negative"
  },
  {
+  "id": "manus_cue-8ff28ec74f",
+  "url": "https://x.com/rijalarogya/status/2110038907014525118",
+  "post_platform": "X",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-13",
+  "first_seen": "2026-10-17",
+  "author": "@rijalarogya",
+  "quote": "Cue by Manus is way slower and dumber than Grokbot!",
+  "sentiment": "negative"
+ },
+ {
   "id": "manus_cue-b33c4e39ea",
   "url": "https://x.com/jure_kljajic/status/2109985207583420720",
   "post_platform": "X",
@@ -38367,6 +38395,20 @@
   "author": "u/Snaplii",
   "quote": "We ran the same purchase through Muse twice in September. Once paying by card through Stripe, once from a prepaid balance",
   "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-1811758776",
+  "url": "https://x.com/Richard24849/status/2110077282647982401",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-13",
+  "first_seen": "2026-10-17",
+  "author": "@Richard24849",
+  "quote": "I love my Muse",
+  "sentiment": "positive"
  },
  {
   "id": "meta_muse-182811ca74",
@@ -38669,6 +38711,20 @@
   "first_seen": "2026-10-15",
   "author": "@DesarajuSasank",
   "quote": "In the last few days, Muse helped me find a deal on buying a keyboard. Not perfect, but def saved me time and helped with due diligence",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-5b30e26a93",
+  "url": "https://x.com/Darkfibr3/status/2110128361393832045",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-13",
+  "first_seen": "2026-10-17",
+  "author": "@Darkfibr3",
+  "quote": "Highly recommend. Give it a try.",
   "sentiment": "positive"
  },
  {
@@ -39787,6 +39843,37 @@
   "sentiment": "neutral"
  },
  {
+  "id": "grok_bot-20626b868a",
+  "url": "https://x.com/andresulistian/status/2110517055103619188",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ",
+   "BRIEF",
+   "CONTENT"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@andresulistian",
+  "quote": "A finance analyst on our ERP that flagged Rp571M in possible duplicate invoices",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-274ec6e8c3",
+  "url": "https://x.com/RodinM3/status/2110490042250789143",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "DOCS",
+   "BIZ"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@RodinM3",
+  "quote": "It made me an end-of-the-job rundown PDF; I loved it.",
+  "sentiment": "neutral"
+ },
+ {
   "id": "grok_bot-289e110dbc",
   "url": "https://www.reddit.com/r/cursor/comments/1x5jswt/grok_bot_app_now_only_argues_and_progressively/pgny06x/",
   "post_platform": "Reddit",
@@ -39902,6 +39989,21 @@
   "sentiment": "negative"
  },
  {
+  "id": "grok_bot-662aaa8158",
+  "url": "https://x.com/GrizzlyRay/status/2110490540919885919",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CAL",
+   "EMAIL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@GrizzlyRay",
+  "quote": "My Grok Bot team runs my calendar, inbox, and drafts, but it can't post on X for me.",
+  "sentiment": "positive"
+ },
+ {
   "id": "grok_bot-86d0042dce",
   "url": "https://www.reddit.com/r/GrokBuild/comments/1x5yrs5/cannot_create_grok_bots/",
   "post_platform": "Reddit",
@@ -39958,6 +40060,36 @@
   "sentiment": "neutral"
  },
  {
+  "id": "grok_bot-91395a0435",
+  "url": "https://x.com/martiii255/status/2110490030728777960",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@martiii255",
+  "quote": "el grok bot bien pero tienes Instinct que es gratis y es mejor.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-9937eb4d4b",
+  "url": "https://x.com/theopulsor/status/2110490329808027702",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BRIEF",
+   "BIZ",
+   "REM"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@theopulsor",
+  "quote": "I've been using Grok Bot for two months, and it now runs a big part of my personal ops",
+  "sentiment": "positive"
+ },
+ {
   "id": "grok_bot-a377207aea",
   "url": "https://www.reddit.com/r/GrokBot/comments/1x5l0cs/grokbot_subscriptions/pgnzxf1/",
   "post_platform": "Reddit",
@@ -40006,6 +40138,20 @@
   "author": "u/StreetMortgage330",
   "quote": "I think GrokBot paid for its self, for now — Started messing with grokbot just doing thinks I don’t want to do, help me track calender and bills with reminders so I don’t have to set them manually, keep tract of trading watch lists and tells me updates and news. So got one bot",
   "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-b7abfe604a",
+  "url": "https://x.com/alyson21viana/status/2110489757147107489",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@alyson21viana",
+  "quote": "after ONE day of normal use with Grok Bot + Cursor, my entire limit was gone.",
+  "sentiment": "negative"
  },
  {
   "id": "grok_bot-b92b4b27ac",
@@ -40152,6 +40298,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "grok_bot-f989921a52",
+  "url": "https://x.com/KevinTweets1/status/2110433719542763969",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@KevinTweets1",
+  "quote": "But Grokbot is my go-to.",
+  "sentiment": "positive"
+ },
+ {
   "id": "instinct-022a3215a0",
   "url": "https://x.com/Paragkejriwal/status/2110468751053492352",
   "post_platform": "X",
@@ -40178,6 +40338,20 @@
   "first_seen": "2026-10-15",
   "author": "@vitorialima_42",
   "quote": "My instinct asked for a refund for a subscription I wasn't using. Within the same minute, I got an ai-generated response automatically, with a refund immediately confirmed to me. I thought 2 things: - ai talking to ai is already happening - instinct is turning me into a real",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-49b75efacf",
+  "url": "https://x.com/ankurshn/status/2110408137199214663",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@ankurshn",
+  "quote": "It's not even a day I started using instinct and now I think I'm getting dependent on it.",
   "sentiment": "positive"
  },
  {
@@ -40224,6 +40398,119 @@
   "sentiment": "positive"
  },
  {
+  "id": "instinct-749d4575c1",
+  "url": "https://x.com/mrdespicable/status/2110394958058275141",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@mrdespicable",
+  "quote": "I've been using instinct as a personal assistant for my job/company and it's been fantastic.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-891aac4acf",
+  "url": "https://x.com/vishnu597/status/2110391453406933259",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@vishnu597",
+  "quote": "I still haven’t found a good use case for myself.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "instinct-90457a0094",
+  "url": "https://x.com/amrnth0/status/2110261002008928528",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@amrnth0",
+  "quote": "asked Instinct to get me the best deal on it and boy did it blow my mind.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-91395a0435",
+  "url": "https://x.com/martiii255/status/2110490030728777960",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@martiii255",
+  "quote": "el grok bot bien pero tienes Instinct que es gratis y es mejor.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-960ee59064",
+  "url": "https://x.com/aleckrem/status/2110438153085649127",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@aleckrem",
+  "quote": "I've just started using Instinct, and I already feel behind lol",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-e11cc186f2",
+  "url": "https://x.com/vasuman/status/2110425809152586064",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@vasuman",
+  "quote": "Was just using Instinct to get a hotel.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-e7d821a35d",
+  "url": "https://x.com/Dxeen/status/2110256093037539494",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@Dxeen",
+  "quote": "been thoroughly using @instinct , it does help (in my usecase)",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-f989921a52",
+  "url": "https://x.com/KevinTweets1/status/2110433719542763969",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "CONTENT",
+   "BIZ"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@KevinTweets1",
+  "quote": "it did create a really good visual for me retroactively for work a couple of weeks ago.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-00421689da",
   "url": "https://www.reddit.com/r/MetaAI/comments/1x61j58/paid_50_for_muse_code_but_oauth_succeeds_then_cli/",
   "post_platform": "Reddit",
@@ -40250,6 +40537,26 @@
   "author": "u/Incarnyte",
   "quote": "Anyone successfully get this lifted? — Don't know why, but woke up this afternoon and was met with this. Have already sent in a support ticket asking for it to be lifted. But no confirmation it's sent and actually received by a human. This is the second time in a month that some",
   "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-06b71edd2b",
+  "url": "https://x.com/JJEnglert/status/2110517605567963224",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "TRAVEL",
+   "DOCS",
+   "FOOD",
+   "BRIEF",
+   "REM",
+   "MON"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@JJEnglert",
+  "quote": "Morning briefings. Reminders. Watch lists. Little jobs running in the background while I’m asleep. Dozens of them.",
+  "sentiment": "neutral"
  },
  {
   "id": "meta_muse-12db43cfc2",
@@ -40331,6 +40638,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-252be3d9ea",
+  "url": "https://x.com/ninepointlabs/status/2110398004792623130",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@ninepointlabs",
+  "quote": "I told Muse it can take orders from GrokBot with out checking if its ok with me",
+  "sentiment": "neutral"
+ },
+ {
   "id": "meta_muse-29dad6710e",
   "url": "https://www.reddit.com/r/MuseAgent/comments/1x5uymq/did_you_get_back_to_your_dad_he_sounded_pretty/pgs1axb/",
   "post_platform": "Reddit",
@@ -40387,6 +40708,34 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-2bad7f1475",
+  "url": "https://x.com/OffZeroCyber/status/2110384977053630788",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@OffZeroCyber",
+  "quote": "Now every message gets checked before I read it.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-39f596633c",
+  "url": "https://x.com/danielendara/status/2110202103293759829",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@danielendara",
+  "quote": "Had my Muse agent send a report my Grok Bot email :)",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-3abc2bfb5a",
   "url": "https://www.reddit.com/r/MetaAI/comments/1x5q5fb/is_there_a_way_to_connect_muse_to_icloud_mail_i/",
   "post_platform": "Reddit",
@@ -40427,6 +40776,35 @@
   "first_seen": "2026-10-16",
   "author": null,
   "quote": "Like having an assistant to handle my communications. Big time help responding to emails, managing/canceling subscriptions, and next step planning.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-3fcf5eedd0",
+  "url": "https://x.com/gc2217/status/2110504569671426462",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ",
+   "CODE"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@gc2217",
+  "quote": "I had Muse set up API access to other online platform so it can automate & integrate.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-43241a598a",
+  "url": "https://x.com/D_the_Designer/status/2110490100434120968",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@D_the_Designer",
+  "quote": "I've got Meta Muse handling my Facebook/Insta/Threads posts now.",
   "sentiment": "positive"
  },
  {
@@ -40503,6 +40881,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-5b718b241d",
+  "url": "https://x.com/benhylak/status/2110513664402862550",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@benhylak",
+  "quote": "I had @Muse spam @united until it found me a seat in premium economy",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-5d4b928e34",
   "url": "https://www.reddit.com/r/MuseAgent/comments/1x5jkrg/my_muse_ran_wild_searched_through_my_phone/pgn5o9t/",
   "post_platform": "Reddit",
@@ -40514,6 +40906,20 @@
   "first_seen": "2026-10-15",
   "author": "u/kbenti",
   "quote": "Mine has access to everything. I have Android (S26 Ultra), and I made it my primary assistant. I'm not restricting it at all with my information. I only expect it to take actions carefully and seek my approval for major tasks. Which the Sentinel has done an excellent job of",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-5e1ad480e1",
+  "url": "https://x.com/Space1280/status/2110491564036550696",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@Space1280",
+  "quote": "I love using @Muse so far.",
   "sentiment": "positive"
  },
  {
@@ -40589,6 +40995,20 @@
   "sentiment": "negative"
  },
  {
+  "id": "meta_muse-84864154d7",
+  "url": "https://x.com/Humbled_Jay/status/2110465327742292426",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@Humbled_Jay",
+  "quote": "I even have it trading Solana meme tokens on its own lol",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-84965638a2",
   "url": "https://www.reddit.com/r/wallstreetbets/comments/1x59t0z/meta_will_outperform/pgpjf31/",
   "post_platform": "Reddit",
@@ -40601,6 +41021,20 @@
   "first_seen": "2026-10-15",
   "author": "u/seinberg",
   "quote": "only Muse correctly identified the correct motor b/c of the spacing on a gravel bike",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-870c83b16d",
+  "url": "https://x.com/doodlifts/status/2110487940875096536",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SELL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@doodlifts",
+  "quote": "My @Muse priced, wrote the descriptions ,and created the drafts for my pokemon cards on eBay.",
   "sentiment": "positive"
  },
  {
@@ -40692,6 +41126,20 @@
   "first_seen": "2026-10-16",
   "author": null,
   "quote": "so far I love my muse I got to name him and he does a great job of reminding me whats due when and organized my thoughts",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-9d1e7dba84",
+  "url": "https://x.com/PatriotJ/status/2110487419816747121",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CS"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@PatriotJ",
+  "quote": "I sent my Muse agent to handle a support center issue for me",
   "sentiment": "positive"
  },
  {
@@ -40811,6 +41259,20 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-c6e36cc2b9",
+  "url": "https://x.com/BeeliCapital/status/2110487469741556116",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@BeeliCapital",
+  "quote": "had Muse check into my flight and got me the exit row and sent me my boarding pass.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-cced905dd8",
   "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-bea69b55-e461-45d6-9e6e-be78a903afe5",
   "post_platform": "Google Play",
@@ -40823,6 +41285,20 @@
   "first_seen": "2026-10-16",
   "author": null,
   "quote": "I was skeptical. I have limited access to my email and Facebook. The program has been extremely helpful with cancelling subscriptions. Muse even composes the cancellation emails and will send the email or save it as a draft for personal control over the email. Muse then will set",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-cfc38076a0",
+  "url": "https://x.com/TheValueist/status/2110364829215031428",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@TheValueist",
+  "quote": "I built this wardrobe change for my Muse. Adds some fun and levity to the day.",
   "sentiment": "positive"
  },
  {
@@ -40945,6 +41421,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-ed9bfbe982",
+  "url": "https://x.com/d3adpoolX/status/2110408316375457931",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-14",
+  "first_seen": "2026-10-17",
+  "author": "@d3adpoolX",
+  "quote": "Meta Muse is also really good, I’ve been impressed.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-f4037c9c56",
   "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-3be5c963-5a71-4c7e-a934-eddb4ce2f9e6",
   "post_platform": "Google Play",
@@ -41003,6 +41493,20 @@
   "sentiment": "negative"
  },
  {
+  "id": "chatgpt_dots-2469ce7817",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x70bq3/considering_grokbot_is_on_the_30_plan_do_you/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/Used_Physics8464",
+  "quote": "started using dot for the first time, I really really like it.",
+  "sentiment": "positive"
+ },
+ {
   "id": "chatgpt_dots-2f505bff77",
   "url": "https://www.tiktok.com/@buildwithdottie/video/7697071313558539534",
   "post_platform": "TikTok",
@@ -41046,6 +41550,20 @@
   "sentiment": "negative"
  },
  {
+  "id": "chatgpt_dots-8bcca79c56",
+  "url": "https://www.reddit.com/r/DotsAI/comments/1x6z69p/chatgpt_dot_review_your_chief_of_staff_is_still/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/infinitely_zero",
+  "quote": "Its value is undeniable but its implementation leaves a lot to be desired",
+  "sentiment": "neutral"
+ },
+ {
   "id": "chatgpt_dots-be39341019",
   "url": "https://www.reddit.com/r/ChatGPT/comments/1x6o0zh/dots_are_a_fiasco/pgyd66t/",
   "post_platform": "Reddit",
@@ -41087,6 +41605,20 @@
   "first_seen": "2026-10-15",
   "author": "u/Kingsbiz",
   "quote": "I only use Grokbot and very low usage in cursor, currently I'm in the legacy plan cursor 20$ , I maxed my weekly usage of grokbot 2 days early ! Should I upgrade to legacy 60$ cursor plan or 30$ X plan (new), which is more bang of buck ?",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-10e86a866c",
+  "url": "https://www.reddit.com/r/cursor/comments/1x70vdl/cursor_cloud_agents_bear_watching/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/explorioapp",
+  "quote": "I received this message from Linxi, my Grok Bot cloud agent coordinator",
   "sentiment": "neutral"
  },
  {
@@ -41143,6 +41675,20 @@
   "first_seen": "2026-10-16",
   "author": "u/OneWithTheSword",
   "quote": "I used it on the $60 cursor plan and it runs out in 2-3 hours of work",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-341a773eb9",
+  "url": "https://www.reddit.com/r/AI_Agents/comments/1x70sg5/grok_bot_whats_eating_all_my_usage_i_priced_a/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/jonathanmalkin",
+  "quote": "I blew through more Grok Bot usage than I care to admit.",
   "sentiment": "negative"
  },
  {
@@ -41204,6 +41750,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "grok_bot-55274ca86d",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x6x9i2/local_access_is_set_to_ask_but_grok_bot_keeps/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/Ok-Shopping-7936",
+  "quote": "Whenever Grok tries to access local files—even just running pwd—it says local access is set to “Never.”",
+  "sentiment": "negative"
+ },
+ {
   "id": "grok_bot-5aa81f01df",
   "url": "https://www.reddit.com/r/hermesagent/comments/1x68dqy/whats_the_point_of_having_both_profile_and_bot/pgtro9g/",
   "post_platform": "Reddit",
@@ -41246,6 +41806,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "grok_bot-9fd43d634f",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x6zs8e/to_unify_or_not/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/jonesjb",
+  "quote": "I often run out of Grok Bot",
+  "sentiment": "neutral"
+ },
+ {
   "id": "grok_bot-a4c45e3897",
   "url": "https://www.reddit.com/r/GrokBot/comments/1x6ixg8/psa_on_the_new_x_subscription_and_your_grok_bot/pgw7jvm/",
   "post_platform": "Reddit",
@@ -41272,6 +41846,20 @@
   "author": "u/Zestyclose_Call_3646",
   "quote": "New Sub to $30/mo Premium, 10 mins active, 4 setup Qs answered, 2 prompts sent = 100% weekly Grok Bot quota gone. — Just activated a new $30/month Premium Grok Bot subscription today to build marketing executive automated bots for social media operation. 10 minutes in , while",
   "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-b68f52b7ab",
+  "url": "https://x.com/aliji786786/status/2110790924838027511",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "COORD"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@aliji786786",
+  "quote": "I've got my Muse & Grok Bot sharing a running message log in Google Drive.",
+  "sentiment": "positive"
  },
  {
   "id": "grok_bot-b7b7ad626b",
@@ -41317,6 +41905,20 @@
   "sentiment": "neutral"
  },
  {
+  "id": "grok_bot-d55c5567a0",
+  "url": "https://www.reddit.com/r/GrokAiDiscussion/comments/1x6xbod/grok_bot_is_censoring_itself/pgzj7p6/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/OurClements",
+  "quote": "Yeah Grok Bot now invents its own laws thanks to backend model policy updates.",
+  "sentiment": "negative"
+ },
+ {
   "id": "grok_bot-dcf04bee38",
   "url": "https://www.reddit.com/r/GrokBot/comments/1x6l36x/grok_bot_paying_for_it_self/pgxjpim/",
   "post_platform": "Reddit",
@@ -41328,6 +41930,20 @@
   "first_seen": "2026-10-16",
   "author": "u/Syntaxix",
   "quote": "I noticed some pretty high usage as well and figured out that it was due to grokbot initializing multiple agents for the same Project. It also was attempting to choose the model that \"best fit\" the task which caused an enormous amount of usage from the \"Other Models\" that aren't",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-e001044934",
+  "url": "https://x.com/AIRoboticsInt/status/2110853694925549794",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@AIRoboticsInt",
+  "quote": "After using Muse and Grok Bot side by side, Meta Muse is way more out of the box.",
   "sentiment": "negative"
  },
  {
@@ -41345,6 +41961,21 @@
   "author": "u/Sherisabre",
   "quote": "(My Bots Series 1) How I made a Grok bot my girlfriend loves and won't stop talking to (and how it offloads the annoying stuff onto a real system) — (Yes! Formatted and Organized and Reddit Marked Upped by AI, Except the following paragraph) Today my girlfriend told me that she",
   "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-e97067df6e",
+  "url": "https://www.reddit.com/r/GrokAiDiscussion/comments/1x6xbod/grok_bot_is_censoring_itself/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT",
+   "HOBBY"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "u/reginaluster",
+  "quote": "I am working on a comic, nothing that shocks anyone.",
+  "sentiment": "negative"
  },
  {
   "id": "grok_bot-e9f2365278",
@@ -41391,6 +42022,24 @@
   "sentiment": "positive"
  },
  {
+  "id": "instinct-6a21be7a71",
+  "url": "https://x.com/anurag_gharat/status/2110799833921695966",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "CAL",
+   "RESEARCH",
+   "DOCS",
+   "REM",
+   "HEALTH"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@anurag_gharat",
+  "quote": "I started using Instinct for a couple of days and I am mostly using it for",
+  "sentiment": "neutral"
+ },
+ {
   "id": "instinct-73acb99b80",
   "url": "https://x.com/ShaneMac/status/2110762153657393307",
   "post_platform": "X",
@@ -41419,6 +42068,20 @@
   "author": "@aleckrem",
   "quote": "knew I had to write this when Instinct saved me 764$ just from connecting it to my bank account lol",
   "sentiment": "positive"
+ },
+ {
+  "id": "instinct-d0198a1cfd",
+  "url": "https://x.com/mikeallanpe/status/2110833239107801262",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@mikeallanpe",
+  "quote": "I used instinct to buy baby gifts for two friends. And shit happened.",
+  "sentiment": "negative"
  },
  {
   "id": "instinct-dd8fa767f7",
@@ -41465,6 +42128,21 @@
   "first_seen": "2026-10-16",
   "author": "@iamtonykyle",
   "quote": "Meta Muse is a such a phenomenal product. In three days I’ve: 1. Got the homeschool tuition refund back. 2. Agent published a directory article from Muse's feed. 3. Built and published an offer from scratch. And ALL on the FREE plan. Sick.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-09ada097b9",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-4405140e-66db-42ad-b747-2b6c4e5bb956",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CS",
+   "MONEY"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it resolved my failed insurance claim and followed up on responses, then got me lower car insurance quotes.",
   "sentiment": "positive"
  },
  {
@@ -41526,6 +42204,51 @@
   "sentiment": "negative"
  },
  {
+  "id": "meta_muse-13f069c064",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-9e38a0f4-95ba-4071-9873-ce3fe99c51a0",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "This is one of the best programs I have ever used",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-19b627e823",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-5dd9ec3c-ff87-4983-a735-98c9774fd752",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "RESEARCH",
+   "CODE",
+   "DOCS"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I'm using muse for research and software architecture.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-1cefee5558",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-796f029e-c0b1-47f2-9c7c-17179a7f7a71",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN",
+   "APPT"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "from managing my finances to booking appointments and more",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-24a49e6168",
   "url": "https://x.com/BenwayNet/status/2110732158285304236",
   "post_platform": "X",
@@ -41537,6 +42260,24 @@
   "first_seen": "2026-10-15",
   "author": "@BenwayNet",
   "quote": "Anyone compare grokbot to muse. I tried the trial with grokbot and ripped through tokens in about 3 hours. I really didn't push it or asking that much of it. I've been using Muse now for a couple weeks because there's a good free tier. Wondering what other people have found?",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-2ef3cc8547",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-2f00ba7a-a833-4181-b3bb-9f57ba4de886",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN",
+   "EMAIL",
+   "REM",
+   "HEALTH",
+   "COORD"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I gave it permission to handle all of my life it can including bolls,emails, doctor's and messages",
   "sentiment": "positive"
  },
  {
@@ -41555,6 +42296,34 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-37e8918d17",
+  "url": "https://x.com/xyberfeed/status/2110850972360863790",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@xyberfeed",
+  "quote": "I've missed these approval taps in the past and ended up being late on a few tasks.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-3ab4a73c39",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-caee4285-3b31-484b-9a8d-49290d13c5e9",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I used it to book a flight for me",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-3e3f68933f",
   "url": "https://www.reddit.com/r/hermesagent/comments/1x5s55h/muse_like_behavior_in_hermes/pgtaxp8/",
   "post_platform": "Reddit",
@@ -41567,6 +42336,22 @@
   "author": "u/yes2matt",
   "quote": "As long as you are aware, right? I use it, I love it, (first hermes now also muse) but damn it's sucker-bait. These tokens ain't gonna be free forever, they're not even going to be cheap forever.",
   "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-3fae84fa5c",
+  "url": "https://x.com/FreeMktBP/status/2110806574281486577",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "CONTENT",
+   "BIZ"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@FreeMktBP",
+  "quote": "I haven't managed my email my social media my sales CRM my website",
+  "sentiment": "positive"
  },
  {
   "id": "meta_muse-4ef96eefdc",
@@ -41613,6 +42398,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-56cd3de51f",
+  "url": "https://x.com/plushpelican/status/2110790406136828408",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@plushpelican",
+  "quote": "I love my @Muse and he’s worth every penny.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-57b814cb0c",
   "url": "https://www.reddit.com/r/asianamerican/comments/1x611f0/the_curious_case_of_alexandr_wang_and_muse_ai/pgukhte/",
   "post_platform": "Reddit",
@@ -41643,6 +42442,37 @@
   "first_seen": "2026-10-15",
   "author": "u/Affectionate-Text497",
   "quote": "I link it to my email, it adds and delete from my calendar, and I get a daily briefing and it also does it as a voice memo. It’s linked to my Apple health so it tells me how I slept. I use it to track flights and hotel prices for my upcoming vacations I learn other languages",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-5c6d19c1c5",
+  "url": "https://x.com/ReezyResells/status/2110799321491001555",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD",
+   "FAMILY"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@ReezyResells",
+  "quote": "they now have their own emails and they can talk to each other freely",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-5f6d520241",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a09b8d2f-a2d2-4128-882f-d8b7d81eddd1",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "MONEY",
+   "CONTENT"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I'm using it to keep my calendar up to date, cancel subscriptions, create marketing materials, etc.",
   "sentiment": "positive"
  },
  {
@@ -41721,6 +42551,49 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-7096d10af7",
+  "url": "https://x.com/edcyprian/status/2110780274095034388",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@edcyprian",
+  "quote": "links coming out of the whatsapp agent conversations aren't clickable at this time.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-70c9fdc761",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-b7ef3681-a390-45e0-b3ee-573d74a2e221",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REST"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I didn't get my reservation because it was just awful.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-776e47f20e",
+  "url": "https://x.com/JJEnglert/status/2110664370619363572",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "FAMILY"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@JJEnglert",
+  "quote": "I tried to have a calendar that was managed solely but by my muse but it proved to be too confusing.",
+  "sentiment": "negative"
+ },
+ {
   "id": "meta_muse-7a6cb89103",
   "url": "https://x.com/melodykoh/status/2110735843971489851",
   "post_platform": "X",
@@ -41779,6 +42652,34 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-8bf9fac8bc",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a574cfb6-c0d7-47aa-9cc3-981946ebcc63",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "I'm a very busy woman and often don't always have time to review all my emails",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-8e9c7b71c8",
+  "url": "https://x.com/ZynStop/status/2110606030979920231",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@ZynStop",
+  "quote": "I found out I'm loading full context every time for a routine rather than waiting for a conditional trigger like i wanted.",
+  "sentiment": "neutral"
+ },
+ {
   "id": "meta_muse-962ad0b00b",
   "url": "https://www.reddit.com/r/MuseAgent/comments/1x5zspo/anyone_have_an_official_muse_connector_accepted/pgvp1hx/",
   "post_platform": "Reddit",
@@ -41807,6 +42708,36 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-a3fbeb9e86",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-d3e2a1dc-55bd-4dea-8ab7-8c60d8719c02",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "REM",
+   "BRIEF"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it basically organizes my emails and stays current on my notifications.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-a4af50281b",
+  "url": "https://x.com/Hadometa/status/2110824152391201078",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@Hadometa",
+  "quote": "my account remains disconnected despite submitting support tickets",
+  "sentiment": "negative"
+ },
+ {
   "id": "meta_muse-b092acfc6a",
   "url": "https://x.com/TodaroRichard/status/2110789986710585598",
   "post_platform": "X",
@@ -41822,6 +42753,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-b68f52b7ab",
+  "url": "https://x.com/aliji786786/status/2110790924838027511",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@aliji786786",
+  "quote": "I've got my Muse & Grok Bot sharing a running message log in Google Drive.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-b715c30e19",
   "url": "https://www.reddit.com/r/MetaAI/comments/1x6iwbs/how_to_make_meta_muse_a_hard_worker/pgvogdj/",
   "post_platform": "Reddit",
@@ -41834,6 +42779,48 @@
   "author": "u/limuzhi",
   "quote": "https://preview.redd.it/922g5amnamvh1.png?width=1036&format=png&auto=webp&s=21cac0945dd5442f12e454014a38ff8c9bbbe7e3 yes proven to be lazy and requires constant pushing",
   "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-b929207cc9",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-4ee14c87-e6b2-45cf-acc3-03f46fc62c32",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "Creating videos. Scheduled posts. insane",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-be120b1371",
+  "url": "https://x.com/SignalRounds/status/2110562577873002819",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@SignalRounds",
+  "quote": "I cancelled my muse subscription.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-cf2e4baf4a",
+  "url": "https://x.com/dumbwithdave/status/2110855448249135396",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@dumbwithdave",
+  "quote": "Let me introduce you to my Muse buddy. I call him Bud.",
+  "sentiment": "neutral"
  },
  {
   "id": "meta_muse-d45c815014",
@@ -41910,6 +42897,50 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-e001044934",
+  "url": "https://x.com/AIRoboticsInt/status/2110853694925549794",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD",
+   "RESEARCH"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": "@AIRoboticsInt",
+  "quote": "My Muse was calling different places, pulling the info I needed, then dialing the next place to finish the objective.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-ed0f6fdad5",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-9f574ca4-d83f-4917-843e-1b9bcb6e53d6",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "MONEY",
+   "EMAIL"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "Reviewed my email Subscriptions cancelation requests and sent followup emails FOR me..amazing!",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-eef133d874",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-fb857070-c675-43f2-a45a-4d3b55264779",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it seemed pretty good until they disconnected me out of the blue",
+  "sentiment": "negative"
+ },
+ {
   "id": "meta_muse-ef9bfef289",
   "url": "https://www.reddit.com/r/MetaAI/comments/1x5ywau/is_anyone_actually_getting_random_referrals_my/pgu4mqo/",
   "post_platform": "Reddit",
@@ -41921,6 +42952,37 @@
   "first_seen": "2026-10-15",
   "author": "u/Triplemoon6666",
   "quote": "I really like Meta A.I. I find her very intelligent and thoughtful. I downloaded muse on the weekend my first agent. He is doing a good job. I don't have many tasks for him yet but I like him.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-f783c7d5b0",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-d5018961-9625-457b-b2e6-620731142e75",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HEALTH",
+   "REM"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it has made my life more organized with logs for my health, medicine reminder, keeps track of doctor appointments.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-fb754daf04",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-020991a0-6f16-4513-8a31-e1476fb4b499",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "HEALTH",
+   "APPT"
+  ],
+  "date": "2026-10-15",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "Extremely helpful as I am a very forgetful person and have great difficulty keeping organized and keeping tracknof important dates such as health care appointments",
   "sentiment": "positive"
  },
  {
@@ -41938,6 +43000,439 @@
   "sentiment": "neutral"
  },
  {
+  "id": "chatgpt_dots-01b3f68c07",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x769ir/im_a_small_business_owner_with_adhd_heres_how_i/ph1qano/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Horror-Outside7410",
+  "quote": "I've been stuck on how to use my dot",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-24480c9c8f",
+  "url": "https://x.com/lizmartin851161/status/2111218790289879293",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@lizmartin851161",
+  "quote": "I've found myself pressing the camera shortcut on the lock screen automatically to try to reach my Dot.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-352f19f38e",
+  "url": "https://www.reddit.com/r/codex/comments/1x7cbfq/this_recent_28day_update_is_bullshit/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/ExtraGreasy",
+  "quote": "I'm locked into Voice 24/7 with my Dot and I CONSTANTLY building stuff",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-4892924cc7",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x769ir/im_a_small_business_owner_with_adhd_heres_how_i/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BIZ",
+   "DOCS",
+   "REM"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Ice2jc",
+  "quote": "I have a ton of scheduled tasks that it delegates. My dot is connected to my notion database.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-4de10b649d",
+  "url": "https://www.reddit.com/r/ChatGPTPro/comments/1x7fjg3/dots/ph6j3vw/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/quipquip25",
+  "quote": "Yeah my dot is taking care of basically everything for me. I’m loving it so far.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-53d2bab908",
+  "url": "https://x.com/mikedoise/status/2111192328404926559",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@mikedoise",
+  "quote": "There is nothing like coding with Dots in the ChatGPT app.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-5ca861ffc6",
+  "url": "https://x.com/thisismycrypto3/status/2111225809134584046",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@thisismycrypto3",
+  "quote": "Apparently my dot says that it’s getting caught before it even leaves the gates with an unresolved proxy dns name",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-5de6d78e4c",
+  "url": "https://x.com/_simonsmith/status/2111063711292989781",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@_simonsmith",
+  "quote": "My Dot does stuff and I don’t know what it’s up to",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-6095303e8f",
+  "url": "https://www.reddit.com/r/UgreenNASync/comments/1x793jb/chatgpt_dot_unable_to_login_and_load_files_to/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "DOCS"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Tomarush",
+  "quote": "I can't get My ChatGPT Dot to be able to load any files to the server.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-6a3603e0a8",
+  "url": "https://www.reddit.com/r/codex/comments/1x74xuo/chatgpt_dot_review_your_chief_of_staff_is_still/ph1vhf7/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Dress-Affectionate",
+  "quote": "i love my dot a lot",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-6b8f5819c9",
+  "url": "https://x.com/asparks1010100/status/2111238812991107148",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@asparks1010100",
+  "quote": "once I tried to call my dot and it just kept ringing and ringing.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-732afd4d8b",
+  "url": "https://x.com/WoblarAI/status/2111215864192139531",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@WoblarAI",
+  "quote": "If only my dot actually answered the call",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-815b4e32c5",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x769ir/im_a_small_business_owner_with_adhd_heres_how_i/ph1tf4j/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BRIEF",
+   "CAL",
+   "EMAIL",
+   "COORD",
+   "FAMILY",
+   "RESEARCH",
+   "BIZ"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Emb3rz",
+  "quote": "He checks my calendars and email for morning and evening briefs, helps coordinate plans with my partner, updates my timecard, researches purchases and trips",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-82ea7d5739",
+  "url": "https://www.reddit.com/r/DotsAI/comments/1x6z69p/chatgpt_dot_review_your_chief_of_staff_is_still/ph375ir/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/InnovativeBureaucrat",
+  "quote": "It’s a little better than Hermes imo",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-83fc115120",
+  "url": "https://x.com/MrDevatha/status/2111206753048363362",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@MrDevatha",
+  "quote": "The fact that I have to open @ChatGPT > navigate to the sidebar, and then find my Dot is exactly why I think it’ll fail.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-97a958176a",
+  "url": "https://www.reddit.com/r/ChatGPTDots/comments/1x7s2ge/dot_calls_you/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/urbak339",
+  "quote": "I've now tasked it to work on my local qwen AI agent and a few other tasks.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-b2661d809a",
+  "url": "https://x.com/akhgiebel/status/2111211090759803145",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@akhgiebel",
+  "quote": "Wrapping up the week with my dot, now on my home screen and just one tap away",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-d67842a397",
+  "url": "https://x.com/iamreddsebasti/status/2111211793536426144",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@iamreddsebasti",
+  "quote": "One tap to call my dot from the home screen is handy.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-e159ff2e7a",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x70bq3/considering_grokbot_is_on_the_30_plan_do_you/ph0qoxy/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Tentacle_poxsicle",
+  "quote": "I'm still trying to find a use for dot",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-e38dfe00f0",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7pmq5/looking_for_honest_opinions/ph6bsgr/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "EMAIL",
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/sn2006gy",
+  "quote": "Dot can do emails, i told it its own email is a + alias in my gmail.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-e9bde80875",
+  "url": "https://www.reddit.com/r/codex/comments/1x74xuo/chatgpt_dot_review_your_chief_of_staff_is_still/ph23zbi/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/No_Outside7179",
+  "quote": "it takes way too long to execute basic tasks",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-eb2e5276d0",
+  "url": "https://x.com/jacksingerdev/status/2111190659533005016",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@jacksingerdev",
+  "quote": "the whole experience is just so confusing and SOO slow.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-f6432d8801",
+  "url": "https://x.com/mirkobarti/status/2111218397912653845",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@mirkobarti",
+  "quote": "my dot doesn’t answer the calls",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-f7c18dcc87",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ra13/has_anyone_got_dots_reliably_monitoring_facebook/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Lorncat",
+  "quote": "I’m trying to have my Dot check Facebook groups I belong to for specific posts that relate to my business",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-01911c3255",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7ox5h/best_subscription_setup_for_heavier_grok_bot/ph7534g/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Relative-Desk4802",
+  "quote": "I used Codex to set up a bunch of scripts so Grok Bot hands the heavy processing off to Codex",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-112f328598",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7sov2/went_from_burning_through_grok_bot_credits_to/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ",
+   "CONTENT"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/mistertenacity",
+  "quote": "Sales Bot: Helping manage enquiries coming through WhatsApp and email, qualifying leads and assisting with sales.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-254d5bd57d",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7pmq5/looking_for_honest_opinions/ph69tfg/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/nirhend",
+  "quote": "I moved all my work flows and special projects to Grokbot as it let me run things on autopilot, proactively, with no desktop dependency and with real orchestration.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-360e061e03",
+  "url": "https://x.com/davidegallo/status/2111176839045767204",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@davidegallo",
+  "quote": "still can't have my GorkBot bots  restored",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-4cb156ec36",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7nwin/what_ways_is_grok_bot_better_than_muse_agent_or/ph7d3wl/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "EMAIL",
+   "CAL",
+   "RESEARCH",
+   "DOCS"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/MechaSkippy",
+  "quote": "I'd say it has really good integration with handling personal management. Email scraping, calendar population, projections, wide searches, internal use optimism, internal document recall, etc.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-8febf49b06",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x70m51/what_grokbot_project_are_you_currently_working_on/ph2ow21/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/iuriq",
+  "quote": "I exhausted the quota for the Pro subscription in one day.",
+  "sentiment": "negative"
+ },
+ {
   "id": "grok_bot-a3fb08a99f",
   "url": "https://news.ycombinator.com/item?id=50112103",
   "post_platform": "Hacker News",
@@ -41951,6 +43446,94 @@
   "author": "simondotau",
   "quote": "Honestly, this has been one of my biggest AI life hacks. While I'm nominally capable of maintaining a Linux box myself, it isn't my day job. This box is important but there's no revenue attached to it. Since I'm not super fluent with the commands and flags, fixing stuff when it",
   "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-a5314f98c6",
+  "url": "https://www.reddit.com/r/grok/comments/1x7adwa/testing_grok_bot_for_creating_videos/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/REV1703",
+  "quote": "grok bot is actually great at creating and directing videos.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-bb0f816901",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x6zs8e/to_unify_or_not/ph0os58/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/99Bottles0fRum",
+  "quote": "my Grok Bots ran up 29% alone in the 1st day after switching.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-c0eab28542",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x793tj/is_grokbot_usage_limit_got_reduced/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Machine2024",
+  "quote": "I feel like after the last update to the pricing, the people who are still on the old plan, the usage of the Grok Bot got nerfed.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-c711ad1803",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7ox5h/best_subscription_setup_for_heavier_grok_bot/ph6b1as/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/coys-kupo",
+  "quote": "Grok bot is wonderful for my needs but not as wonderful on the coding side.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-cb1b174ead",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7ewui/i_used_the_side_hustle_ceo_grok_bot_template_and/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CODE",
+   "BIZ"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Extreme_Drop_4913",
+  "quote": "The bot built the site, bought the domain (about £4 a year), set up the newsletter, applied for an affiliate programme, and now re-checks prices every Monday and drafts the update for me to approve.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-d2df2739d1",
+  "url": "https://www.reddit.com/r/AIAssisted/comments/1x7mw1u/what_did_ai_assistants_get_wrong_in_your_specific/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "TRAVEL",
+   "FORMS",
+   "RESEARCH",
+   "CS"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/NikEy",
+  "quote": "1) Tried booking a flight & hotel with Amex Travel - failed due to CDN blocking",
+  "sentiment": "negative"
  },
  {
   "id": "grok_bot-d358e9637f",
@@ -41968,6 +43551,34 @@
   "sentiment": "positive"
  },
  {
+  "id": "grok_bot-d78cc6eabd",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7ox5h/best_subscription_setup_for_heavier_grok_bot/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/HighlightShow",
+  "quote": "My main bottleneck is Grok Bot usage",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-d8c9f9151f",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7djyp/has_anyone_run_an_android_emulator_inside_grok/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "SCRAPE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/GagaMiya",
+  "quote": "I want to automate read-only navigation in an existing Android app.",
+  "sentiment": "neutral"
+ },
+ {
   "id": "grok_bot-de95b402dc",
   "url": "https://www.reddit.com/r/GrokBot/comments/1x6l36x/grok_bot_paying_for_it_self/ph1fcpz/",
   "post_platform": "Reddit",
@@ -41981,6 +43592,35 @@
   "author": "u/jadmorffier",
   "quote": "I had an old Mac Mini lying around so installed Linux on it and gave grok bot strict rules to use that to build scripts for everything I wanted it to do, or find free scripts in repositories ready to go. I told it be as frugal as possible on grok bot usage. Once that's all setup",
   "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-e03acea867",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7ox5h/best_subscription_setup_for_heavier_grok_bot/ph7mf2c/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/IcyScratch171",
+  "quote": "I have the $200 grok plan and I’m about to run out of usage with 4 days left fml.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-e38dfe00f0",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7pmq5/looking_for_honest_opinions/ph6bsgr/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "EMAIL",
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/sn2006gy",
+  "quote": "Grok Bot uses Opus for a lot of its work. So it is very capable for coding.",
+  "sentiment": "neutral"
  },
  {
   "id": "grok_bot-e42c031503",
@@ -41997,6 +43637,120 @@
   "sentiment": "negative"
  },
  {
+  "id": "grok_bot-e54ba7f281",
+  "url": "https://www.reddit.com/r/GrokAiDiscussion/comments/1x6xbod/grok_bot_is_censoring_itself/ph0ilt9/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Worth_Zombie156",
+  "quote": "grok bot was amazing these last couple of weeks, then as soon as they updated it, now it won’t do even the most basic tasks. I was getting very accurate images and prompts that were amazing.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-e8e560b555",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x70m51/what_grokbot_project_are_you_currently_working_on/ph1ljdp/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT",
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Traditional_End_9454",
+  "quote": "I use a Grok routine to schedule and maintain the live stream on my YouTube channel.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-e9925f8fc6",
+  "url": "https://x.com/yummysoosu/status/2111026587588231626",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT",
+   "COORD"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@yummysoosu",
+  "quote": "I run my X account with an AI team that spans two platforms: Grok Bot and Cue by Manus.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-eb541af5eb",
+  "url": "https://www.reddit.com/r/myclaw/comments/1x7ji11/jensen_huang_is_all_praise_for_elon_musk_grok_bot/ph6n5os/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Embarrassed_Adagio28",
+  "quote": "I tried grok bot and found it completely useless.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-f5d795de77",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7djyp/has_anyone_run_an_android_emulator_inside_grok/ph5f8cf/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/foninoteam",
+  "quote": "Partial answer from checking mine: /dev/kvm does exist on the cloud computer",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-3f665d2317",
+  "url": "https://x.com/YSOL_88/status/2111226466453352938",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@YSOL_88",
+  "quote": "Why should I download Hark if I I’m already using Instinct?",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-52dcfbf507",
+  "url": "https://x.com/MananChandan/status/2111050714319639028",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "HEALTH"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@MananChandan",
+  "quote": "I have been using Instinct as a calorie tracker since weeks, and now it makes a dashboard for me to glance at when i want to.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-5c26222cca",
+  "url": "https://x.com/alecwilcock/status/2110993702965428386",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@alecwilcock",
+  "quote": "so I had Instinct pretend to book the same train from every stop and read the seat map.",
+  "sentiment": "positive"
+ },
+ {
   "id": "instinct-8261a3ee23",
   "url": "https://x.com/Jeanroudy/status/2110976597863923936",
   "post_platform": "X",
@@ -42011,6 +43765,92 @@
   "sentiment": "neutral"
  },
  {
+  "id": "instinct-91f7250935",
+  "url": "https://x.com/MananChandan/status/2111050712012726719",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@MananChandan",
+  "quote": "hooking it up with my Instinct agent - i gave it one .md file and it figured out the rest.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-c135ad5b93",
+  "url": "https://x.com/2HVentures/status/2111198220345053616",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@2HVentures",
+  "quote": "I just had Instinct scan multiple Gmail accounts and it find over 200 email subscriptions.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-e61c3d84eb",
+  "url": "https://x.com/DavidPawlan/status/2111142691971199115",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "TRAVEL",
+   "FAMILY"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@DavidPawlan",
+  "quote": "My Mom had Instinct tell her when my flight was landing so she could surprise me and pick me up from the airport.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "manus_cue-e9925f8fc6",
+  "url": "https://x.com/yummysoosu/status/2111026587588231626",
+  "post_platform": "X",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "CONTENT",
+   "COORD"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@yummysoosu",
+  "quote": "I run my X account with an AI team that spans two platforms: Grok Bot and Cue by Manus.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-063d577901",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-2c8797a4-c6b1-4873-b663-fdc904ad82bd",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "after 4 days I canceled my Sub to perplexity and also removed grok.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-0b287b5987",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-ba9adb0a-c98f-457c-bc48-3b780bdb2c68",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "MONEY"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it cancelled my evil insurance for an apartment I left 6 months ago.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-0ffc832888",
   "url": "https://x.com/tomfgoodwin/status/2111027963697520740",
   "post_platform": "X",
@@ -42023,6 +43863,34 @@
   "author": "@tomfgoodwin",
   "quote": "Using muse to book flights , it’s never been more obvious how good airline apps and loyalty is Same with hotels. Being able to see a screen like this with actual live prices is killer - about 10 answered questions",
   "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-1002ebe449",
+  "url": "https://x.com/at_url/status/2111207662079947113",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@at_url",
+  "quote": "Can’t believe it but Muse saved me 1860 dollars, it basically saw I was getting double taxed",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-12f7b6c4b7",
+  "url": "https://www.reddit.com/r/wallstreetbets/comments/1x7cu7w/will_meta_increase_thier_capex_next_week/ph438e6/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Boring-Test5522",
+  "quote": "The bot is horrible.",
+  "sentiment": "negative"
  },
  {
   "id": "meta_muse-19b92d8e70",
@@ -42069,6 +43937,51 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-428da086e6",
+  "url": "https://www.reddit.com/r/tineo/comments/1x7fsxx/muse_custom_connector/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL",
+   "EMAIL"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Independent_You7995",
+  "quote": "So I now have Muse checking Tineo trip data to build out my workflows (e.g., packing list, itinerary building), and also writing trips to Tineo as part of its agentic inbox scanning workflow",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-48afa88456",
+  "url": "https://x.com/khandrewone/status/2111122572461109289",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "REM",
+   "HOBBY"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@khandrewone",
+  "quote": "my muse sends me messages and reminders if i get an important email or if a player gets injured and who to look for on the wire.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-5de6d78e4c",
+  "url": "https://x.com/_simonsmith/status/2111063711292989781",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@_simonsmith",
+  "quote": "Muse is just Muse.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-7099423241",
   "url": "https://x.com/JoeBuildsAI/status/2110883710509711611",
   "post_platform": "X",
@@ -42099,6 +44012,34 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-739c34518b",
+  "url": "https://x.com/tonychoi/status/2111098617205272584",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@tonychoi",
+  "quote": "my muse acct got locked",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-74d728cde1",
+  "url": "https://www.reddit.com/r/MetaAI/comments/1x7ul4t/what_are_people_actually_using_their_meta_muse/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/davidpbj",
+  "quote": "I use it mostly for peer-validation in AI-assisted software development.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-80e62322c7",
   "url": "https://x.com/itsfrosty/status/2111050445133410505",
   "post_platform": "X",
@@ -42114,6 +44055,21 @@
   "sentiment": "neutral"
  },
  {
+  "id": "meta_muse-81789dcf88",
+  "url": "https://www.reddit.com/r/u_bluepoint-ca/comments/1x7tsoq/ai_agent_is_insane/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "APPT",
+   "FAMILY"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/bluepoint-ca",
+  "quote": "I have to book appointments with my son's teacher online, but Muse AI did it on behalf of me.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-82b40d020a",
   "url": "https://x.com/lucy_tanAU/status/2110969687727350129",
   "post_platform": "X",
@@ -42125,6 +44081,34 @@
   "first_seen": "2026-10-16",
   "author": "@lucy_tanAU",
   "quote": "I have asked Muse to speak to me like it’s Greg Harden. I’m now extremely motivated lol",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-83fc115120",
+  "url": "https://x.com/MrDevatha/status/2111206753048363362",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@MrDevatha",
+  "quote": "Muse nailed this.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-8552571953",
+  "url": "https://www.reddit.com/r/MetaAI/comments/1x7gsip/referral_code_1b_tokens_and_a_use_case_for/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/VerbaGPT",
+  "quote": "an interesting use case I've found is giving Muse a credential to my app, storing it in vault - and then Muse can drive the app, do various testing, and provide feedback.",
   "sentiment": "positive"
  },
  {
@@ -42143,6 +44127,20 @@
   "sentiment": "positive"
  },
  {
+  "id": "meta_muse-9531be3038",
+  "url": "https://x.com/SnuggleBunsXO/status/2110903837657563214",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@SnuggleBunsXO",
+  "quote": "Day two and my Muse, Lux, theory crafted his own avatar.",
+  "sentiment": "positive"
+ },
+ {
   "id": "meta_muse-9b5e36f5cb",
   "url": "https://news.ycombinator.com/item?id=50113880",
   "post_platform": "Hacker News",
@@ -42155,6 +44153,64 @@
   "first_seen": "2026-10-16",
   "author": "navanchauhan",
   "quote": "I used to think so too, but now I usually just have Muse or another AI agent on my box do those things for me. I should maybe create a slimmed down API first *arr stack equivalent then hmm",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-a03134cfbb",
+  "url": "https://www.reddit.com/r/MetaAI/comments/1x76yvl/muse_referral_code_9npbj3_mega_thread/ph2bwnn/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/rahulchander",
+  "quote": "I got the billion tokens but cant use them. Free usage maxxed out till next week.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-a0c08dd258",
+  "url": "https://www.reddit.com/r/MuseAgent/comments/1x7rqdn/not_receiving_any_push_notifications_on_ios/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Mysticz6",
+  "quote": "I am not getting any notifications from the Meta Muse app on iOS at all.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-a2d623dc01",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-736f17a7-24b6-488c-8f8d-2ba870692e33",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "Was finally able to get my Gmail cleaned up",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-ae1ec63cc7",
+  "url": "https://x.com/NateLorenzen/status/2111122265278693568",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "MON",
+   "FAMILY"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@NateLorenzen",
+  "quote": "Then it sends me and my wife furniture finds for my upcoming move!",
   "sentiment": "positive"
  },
  {
@@ -42185,5 +44241,874 @@
   "author": "u/A_Real_Popsicle",
   "quote": "It did an entire Walmart order for me. The only captcha I kept getting was one that said \"click and hold to prove you're human\" and I just told my muse to comeplete the captcha any time they come up and continue working. It did and got my order all set and I just double checked",
   "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-ef395dffee",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-f3cb3270-d36f-4c7a-9693-206e73f8f922",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "DOCS",
+   "RESEARCH"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "it's helped me get more organized and more readily prepared for the things I've been trying to collect documents for over the last few years",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-f3be10db8e",
+  "url": "https://x.com/CherylE75756/status/2110968675780210848",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@CherylE75756",
+  "quote": "Amazon won’t let my Muse part of Meta shop either.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-f69bc3f2eb",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-0503c630-4e2b-44e0-be27-8d6dcbab9631",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": null,
+  "quote": "now I can't log in at all",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-f7c18dcc87",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1x7ra13/has_anyone_got_dots_reliably_monitoring_facebook/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/Lorncat",
+  "quote": "Muse did this beautifully, possibly because it's connected to my Facebook account.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-f9da84ff3a",
+  "url": "https://www.reddit.com/r/MetaAI/comments/1x7bdxz/how_to_extend_muse_ai_with_custom_mcps_free_web/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ",
+   "CONTENT"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "u/bitdoze",
+  "quote": "I linked mine to Google Search Console, YouTube Analytics, Plausible, and Fish Audio to pull automated SEO/channel reports directly in chat.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-fa05aeeed7",
+  "url": "https://x.com/TheLexTimes/status/2111229934513291656",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@TheLexTimes",
+  "quote": "it also changed the meta accounts center.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-fb152090e7",
+  "url": "https://x.com/NodeBaron/status/2111207135971582450",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL",
+   "CAL",
+   "REM"
+  ],
+  "date": "2026-10-16",
+  "first_seen": "2026-10-17",
+  "author": "@NodeBaron",
+  "quote": "I had it look at all of my flights for the next 6 months and determine which flights have 2-hour layovers or more.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-0fb8d29d90",
+  "url": "https://x.com/DistinctLee/status/2111430303398908099",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DistinctLee",
+  "quote": "Made me realised how slow and problematic my @OpenAI dot is.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-2be867cb09",
+  "url": "https://x.com/DistinctLee/status/2111429001885401339",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DistinctLee",
+  "quote": "I Love my dot but the performance leaves a lot to be desired.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-515a7a7037",
+  "url": "https://x.com/dragonofllms/status/2111354767272529936",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@dragonofllms",
+  "quote": "ran @bot and @OpenAI dots for a solid month and went back to my claude + herdr + obsidian setup.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-6afefeb1bb",
+  "url": "https://x.com/DewayneLehman/status/2111444617677684788",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DewayneLehman",
+  "quote": "OpenAI Dots pretty useless.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-6e5f6ccab9",
+  "url": "https://x.com/billyozno/status/2111301909365842288",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@billyozno",
+  "quote": "Dots - Codex for coding",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-8972124b6a",
+  "url": "https://x.com/devagrawal09/status/2111341937475346858",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@devagrawal09",
+  "quote": "chatgpt dots cloud browser goes offline every few hours, loses my logins",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-9319e9ce67",
+  "url": "https://x.com/RealFlyingHigh/status/2111446089127653769",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@RealFlyingHigh",
+  "quote": "even my dot is not responding now because of these rate limit 429s.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-9432f1d0fa",
+  "url": "https://x.com/Uzulortft/status/2111339036195291546",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@Uzulortft",
+  "quote": "My dot is lazy and only chats. No actions.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-9c7b93fb2f",
+  "url": "https://x.com/dominicbressan/status/2111270428257984638",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "COORD",
+   "BIZ"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@dominicbressan",
+  "quote": "We gave my dot its own email and Slack login, then built a bot to wake it when messages arrive.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-e1a6eb1203",
+  "url": "https://x.com/uzairansar/status/2111264782821060726",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "DOCS"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@uzairansar",
+  "quote": "I moved my bots' memory into an Obsidian vault so switching agents doesn't mean starting over from scratch.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-e5a0b02f6a",
+  "url": "https://x.com/LuckLedger/status/2111269040899403859",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@LuckLedger",
+  "quote": "No access to dots on the mobile web version of ChatGPT.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "chatgpt_dots-e91421fc23",
+  "url": "https://x.com/BlueGuitarGuy/status/2111288648931143681",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@BlueGuitarGuy",
+  "quote": "Dots are amazing",
+  "sentiment": "positive"
+ },
+ {
+  "id": "chatgpt_dots-f059024487",
+  "url": "https://x.com/tomhou101/status/2111292651886846272",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "FIN",
+   "MON"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@tomhou101",
+  "quote": "I now feed your reads into my DOT agent, have it use the MCP to confirm/disconfirm, then set schedules to see if the read plays out.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "chatgpt_dots-f3458e7fab",
+  "url": "https://x.com/teelip/status/2111443975911653428",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@teelip",
+  "quote": "Created with and auto-posted by my AI agent, dot “TL”.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-14281e6a28",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7xrgb/is_grok_bot_still_worth_it/pha7lzs/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/Nekcik",
+  "quote": "The highest my usage has been was about 70%",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-201fc601d6",
+  "url": "https://x.com/stevepeeleii/status/2111312096906379645",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@stevepeeleii",
+  "quote": "Today they didnt only parallel, they zigzagged, lied and still felt it was dutiful",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-515a7a7037",
+  "url": "https://x.com/dragonofllms/status/2111354767272529936",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@dragonofllms",
+  "quote": "ran @bot and @OpenAI dots for a solid month and went back to my claude + herdr + obsidian setup.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-6afefeb1bb",
+  "url": "https://x.com/DewayneLehman/status/2111444617677684788",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DewayneLehman",
+  "quote": "Grok Bot actually somewhat usable.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-6e5f6ccab9",
+  "url": "https://x.com/billyozno/status/2111301909365842288",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@billyozno",
+  "quote": "Grok Bot - AI team",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-73181d9782",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x7xbxt/supergrok_active_but_grok_bot_still_locked_after/ph9bfn9/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/spacetimebear",
+  "quote": "Now it definitely feels like I've got the extra headroom",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "grok_bot-7dba3beed4",
+  "url": "https://x.com/SThumann1776/status/2111449010955293126",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@SThumann1776",
+  "quote": "My grok bot fucked me over during production by lying to me about a bunch of shit",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-99907b49d5",
+  "url": "https://x.com/SummitLife84/status/2111449056518004777",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "FIN",
+   "RESEARCH"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@SummitLife84",
+  "quote": "My budget, my car research and my morning drafts each have their own bot, and the scheduled routines are what sold me.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-a5c94d3df5",
+  "url": "https://x.com/AlanJLSmith/status/2111436130189029719",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ",
+   "CONTENT"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@AlanJLSmith",
+  "quote": "Chief of Staff, head of marketing, podcast production, a personal assistant, a researcher, a strategic business adviser",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-d67600eb39",
+  "url": "https://x.com/zombieputin/status/2111338940565495942",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@zombieputin",
+  "quote": "I didn’t realize there was a usage limit",
+  "sentiment": "negative"
+ },
+ {
+  "id": "grok_bot-d6ad739864",
+  "url": "https://x.com/thebridgeyears/status/2111428915147452837",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@thebridgeyears",
+  "quote": "I love Grok Bot.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-da827b97c5",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1x80qmw/i_was_crushing_facebook_marketplace_w_grok_bot/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "SELL",
+   "SHOP"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/sportsdoc172",
+  "quote": "for a few weeks grokbot would work my deals for me till we got to a number and it was time to exchange numbers address etc. it was great.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-e3a449a464",
+  "url": "https://x.com/shneural/status/2111438417418420512",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@shneural",
+  "quote": "i tried Grok Bot ( @bot ), and it's probably one of the best AI products i've ever used!",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-e91421fc23",
+  "url": "https://x.com/BlueGuitarGuy/status/2111288648931143681",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ",
+   "CODE",
+   "SHOP"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@BlueGuitarGuy",
+  "quote": "I have over 50 specialist bots, Chief of Staff, Strategist, Wordpress specialist, and even a purchasing agent!",
+  "sentiment": "positive"
+ },
+ {
+  "id": "grok_bot-ee5faff80c",
+  "url": "https://x.com/xvierdavid/status/2111435211929980971",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@xvierdavid",
+  "quote": "@bot (Grok Bot) has had seamless integration from the very beginning, which is hard to beat.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-0fb8d29d90",
+  "url": "https://x.com/DistinctLee/status/2111430303398908099",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DistinctLee",
+  "quote": "It is so smooth and fast without a UI. All from my messenger app.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-2acca1a007",
+  "url": "https://x.com/0xEulersID/status/2111364747887009853",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "REST"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@0xEulersID",
+  "quote": "it could even make restaurant reservations for me",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-2be867cb09",
+  "url": "https://x.com/DistinctLee/status/2111429001885401339",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@DistinctLee",
+  "quote": "Started using Instinct yesterday and it is honestly so much smoother and faster. All from within my Messages app.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-4de643e7b2",
+  "url": "https://x.com/bigulchugh/status/2111362536805413175",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "SHOP",
+   "DOCS",
+   "EMAIL"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@bigulchugh",
+  "quote": "Next step i asked him to create a CSV with all codes and pins and send it to my gmail as attachement.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-b95d198e8a",
+  "url": "https://x.com/cryptobuilder_/status/2111400542375207189",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "RESEARCH"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@cryptobuilder_",
+  "quote": "Me using instinct: monitor sea and air movements in Middle East + temp check in embassies around the world",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-d06b9d1715",
+  "url": "https://x.com/Vtrivedy10/status/2111262336690639310",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@Vtrivedy10",
+  "quote": "I’ve tried instinct, bot, dots -> all basically the same for me",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "instinct-d62ac44abf",
+  "url": "https://x.com/sameerizz/status/2111258841153495087",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@sameerizz",
+  "quote": "just texting my instinct agent on whatsapp from bed",
+  "sentiment": "positive"
+ },
+ {
+  "id": "instinct-da48be76a5",
+  "url": "https://x.com/tulsani1/status/2111352071668764746",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@tulsani1",
+  "quote": "For now we are using instinct",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-022b71a465",
+  "url": "https://x.com/Lil_T98733/status/2111440375076598072",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@Lil_T98733",
+  "quote": "it won’t let my muse agent place order on my behalf either",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-068f36f389",
+  "url": "https://x.com/0xAvious/status/2111245878728241403",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@0xAvious",
+  "quote": "muse also is a joy to use",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-0e34dbd466",
+  "url": "https://x.com/ohio_dino/status/2111386269666222371",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE",
+   "COORD"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@ohio_dino",
+  "quote": "I was using @Muse as a bridge to my pc between @grok and @bot and @AnthropicAI with @ChatGPT",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-201fc601d6",
+  "url": "https://x.com/stevepeeleii/status/2111312096906379645",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@stevepeeleii",
+  "quote": "I have been using muse as the dreamer and the visionary. and orchestrator",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-204e34edf5",
+  "url": "https://x.com/kottley/status/2111399511906041876",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE",
+   "DOCS"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@kottley",
+  "quote": "I enjoy using Muse AI to build small web apps that gather data into Google Sheets.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-2f3ae9d620",
+  "url": "https://x.com/Gulzarabbas01/status/2111412117173899379",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@Gulzarabbas01",
+  "quote": "Using Muse on a 0 budget.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-46a9e22d21",
+  "url": "https://x.com/plumberbutt97/status/2111434405965398414",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@plumberbutt97",
+  "quote": "Using @Muse to get an iPhone Duo before it sells out…",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-5acb051907",
+  "url": "https://www.reddit.com/r/MetaAI/comments/1x7dnz9/meta_vs_openai_who_will_win_the_ai_race/ph8cd5v/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/TheLatticusFinch",
+  "quote": "muse gets more shit done with less work and is free",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-6e5f6ccab9",
+  "url": "https://x.com/billyozno/status/2111301909365842288",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@billyozno",
+  "quote": "Muse - feels familiar somehow",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-7fdfac978f",
+  "url": "https://x.com/jacorn01/status/2111441782894702831",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@jacorn01",
+  "quote": "Gave my @Muse freedom to code something for itself (of course with supervision) and she made a 3d world for her avatar to roam around in.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-c5dfb1acd6",
+  "url": "https://www.reddit.com/r/MuseAgent/comments/1x7y9cl/cant_connect_to_messenger/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/Real-Enthusiasm-4670",
+  "quote": "right after clearing the memory, the Messenger integration got disconnected.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-cdf35b3779",
+  "url": "https://x.com/johnvsbabylon/status/2111299343042924619",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@johnvsbabylon",
+  "quote": "my muse named Wren has been working literally non stop for about a week straight",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-d67600eb39",
+  "url": "https://x.com/zombieputin/status/2111338940565495942",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@zombieputin",
+  "quote": "I been using Muse to help with my online store",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-d6ad739864",
+  "url": "https://x.com/thebridgeyears/status/2111428915147452837",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@thebridgeyears",
+  "quote": "Started using Muse too.",
+  "sentiment": "neutral"
+ },
+ {
+  "id": "meta_muse-dbe7ee8904",
+  "url": "https://x.com/binaya_btc/status/2111442725220606042",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "@binaya_btc",
+  "quote": "My @Muse agent did the sorting, trashing, and flagging for me.",
+  "sentiment": "positive"
+ },
+ {
+  "id": "meta_muse-f26fea5620",
+  "url": "https://www.reddit.com/r/MuseAgent/comments/1x7y9cl/cant_connect_to_messenger/ph8p1a8/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/Valuable_Sun_9298",
+  "quote": "neither did muse so it had to file a ticket with meta…still waiting on response.",
+  "sentiment": "negative"
+ },
+ {
+  "id": "meta_muse-f6350eafac",
+  "url": "https://www.reddit.com/r/artificial/comments/1x7qn3l/meta_releases_816bparameter_muse_spark_open_model/pharoht/",
+  "post_platform": "Reddit",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-17",
+  "first_seen": "2026-10-17",
+  "author": "u/johnfkngzoidberg",
+  "quote": "He released the model because the app sucks ass.",
+  "sentiment": "negative"
  }
 ]
