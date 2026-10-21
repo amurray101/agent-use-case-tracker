@@ -67,6 +67,10 @@ const productFilter = document.getElementById("product-filter");
 const caption = document.getElementById("caption");
 const chart = document.getElementById("chart");
 const chartEmpty = document.getElementById("chart-empty");
+const jobFold = document.getElementById("job-fold");
+const jobFoldList = document.getElementById("job-fold-list");
+const topicJobs = document.getElementById("topic-jobs");
+const topicJobList = document.getElementById("topic-job-list");
 const legend = document.getElementById("legend");
 const playButton = document.getElementById("play");
 const dateInput = document.getElementById("date");
@@ -83,6 +87,7 @@ const nextButton = document.getElementById("next");
 const platformSelect = document.getElementById("f-platform");
 const productSelect = document.getElementById("f-product");
 const useSelect = document.getElementById("f-use");
+const subjobSelect = document.getElementById("f-subjob");
 const quoteInput = document.getElementById("f-q");
 
 const state = {
@@ -94,6 +99,7 @@ const state = {
   platform: "",
   postProduct: "",
   use: "",
+  subjob: "",
   q: "",
   sort: "date",
   dir: "desc",
@@ -109,7 +115,10 @@ const snapshotCache = new Map();
 const productById = new Map();
 const taxonomyByCode = new Map();
 const postById = new Map();
+const subjobById = new Map();
+const subjobsByCategory = new Map();
 const saves = new Map();
+let subjobs = [];
 let savePost = null;
 
 let index = null;
@@ -187,6 +196,153 @@ function productName(id) {
 function useLabel(code) {
   const category = taxonomyByCode.get(code);
   return (category && category.label) || code || "";
+}
+
+function isOtherJob(job) {
+  const id = String((job && job.id) || "");
+  const name = String((job && job.name) || "");
+  return id.endsWith(".other") || /^other\b/i.test(name);
+}
+
+function sortSubjobs(list) {
+  return list.slice().sort((a, b) => {
+    const other = Number(isOtherJob(a)) - Number(isOtherJob(b));
+    if (other) return other;
+    const diff = num(b.count) - num(a.count);
+    if (diff) return diff;
+    return collator.compare(a.name || a.id || "", b.name || b.id || "");
+  });
+}
+
+function indexSubjobs(raw) {
+  subjobs = [];
+  subjobById.clear();
+  subjobsByCategory.clear();
+  const list = raw && Array.isArray(raw.subjobs) ? raw.subjobs : [];
+  list.forEach((job) => {
+    if (!job || typeof job.id !== "string" || !job.id) return;
+    subjobs.push(job);
+    subjobById.set(job.id, job);
+    if (typeof job.category !== "string" || !job.category) return;
+    if (!subjobsByCategory.has(job.category)) subjobsByCategory.set(job.category, []);
+    subjobsByCategory.get(job.category).push(job);
+  });
+  subjobsByCategory.forEach((jobs, code) => {
+    subjobsByCategory.set(code, sortSubjobs(jobs));
+  });
+}
+
+function subjobLabel(id) {
+  const job = subjobById.get(id);
+  return (job && (job.name || job.id)) || id || "";
+}
+
+function subjobMap(post) {
+  const raw = post && post.subjobs;
+  if (!raw || typeof raw !== "object") return {};
+  if (Array.isArray(raw)) {
+    const map = {};
+    raw.forEach((id) => {
+      if (typeof id !== "string" || !id) return;
+      const code = id.split(".")[0];
+      if (code && !map[code]) map[code] = id;
+    });
+    return map;
+  }
+  return raw;
+}
+
+function subjobIdFor(post, code) {
+  const map = subjobMap(post);
+  if (code && typeof map[code] === "string") return map[code];
+  if (!code && post && typeof post.subjob === "string") return post.subjob;
+  return "";
+}
+
+function postsFilterHref(product, code, subjob) {
+  const params = new URLSearchParams();
+  if (product && product !== "all") params.set("product", product);
+  if (code) params.set("use", code);
+  if (subjob) params.set("subjob", subjob);
+  const query = params.toString();
+  return "#posts" + (query ? "?" + query : "");
+}
+
+function renderJobArticles(container, jobs) {
+  container.replaceChildren();
+  jobs.forEach((job) => {
+    const article = document.createElement("article");
+    article.className = "job";
+    const head = document.createElement("p");
+    head.className = "job-head";
+    const name = document.createElement("a");
+    name.className = "job-name";
+    name.href = postsFilterHref(state.product, job.category, job.id);
+    name.textContent = job.name || job.id;
+    const count = document.createElement("span");
+    count.className = "job-count";
+    count.textContent = formatInt(job.count);
+    head.append(name, count);
+    const definition = document.createElement("p");
+    definition.className = "job-def";
+    definition.textContent = job.definition || "";
+    const counts = document.createElement("p");
+    counts.className = "job-counts";
+    const parts = [];
+    productIds.forEach((id) => {
+      const value = job.counts && job.counts[id];
+      if (!Number.isFinite(Number(value))) return;
+      parts.push(productName(id) + " " + formatInt(value));
+    });
+    counts.textContent = parts.join(" · ");
+    article.append(head, definition, counts);
+    const examples = Array.isArray(job.examples) ? job.examples.slice(0, 2) : [];
+    if (examples.length) {
+      const list = document.createElement("ul");
+      list.className = "job-examples";
+      examples.forEach((example) => {
+        if (!example) return;
+        const item = document.createElement("li");
+        const href = safeUrl(example.url);
+        const quote = document.createElement(href ? "a" : "span");
+        quote.className = "job-quote";
+        quote.textContent = example.quote || "";
+        if (href) {
+          quote.href = href;
+          quote.target = "_blank";
+          quote.rel = "noopener noreferrer";
+        }
+        item.append(quote);
+        list.append(item);
+      });
+      article.append(list);
+    }
+    container.append(article);
+  });
+}
+
+function renderJobFold() {
+  const codes = lastItems.map((item) => item && item.code).filter((code) => typeof code === "string" && code);
+  const open = new Set();
+  jobFoldList.querySelectorAll("details[open]").forEach((el) => {
+    if (el.dataset.code) open.add(el.dataset.code);
+  });
+  jobFoldList.replaceChildren();
+  codes.forEach((code) => {
+    const jobs = subjobsByCategory.get(code) || [];
+    if (!jobs.length) return;
+    const details = document.createElement("details");
+    details.dataset.code = code;
+    if (open.has(code)) details.open = true;
+    const summary = document.createElement("summary");
+    summary.textContent = useLabel(code);
+    const list = document.createElement("div");
+    list.className = "job-list";
+    renderJobArticles(list, jobs);
+    details.append(summary, list);
+    jobFoldList.append(details);
+  });
+  jobFold.hidden = jobFoldList.childElementCount === 0;
 }
 
 function productsInOrder() {
@@ -807,6 +963,14 @@ function renderTopic() {
   result.picked.forEach((post) => topicBoard.append(renderCard(post, proposition)));
   topicBoard.hidden = result.picked.length === 0;
   topicEmpty.hidden = result.picked.length > 0;
+  const jobs = code ? subjobsByCategory.get(code) || [] : [];
+  if (jobs.length) {
+    renderJobArticles(topicJobList, jobs);
+    topicJobs.hidden = false;
+  } else {
+    topicJobList.replaceChildren();
+    topicJobs.hidden = true;
+  }
   const params = new URLSearchParams();
   if (product) params.set("product", product);
   if (code) params.set("use", code);
@@ -838,6 +1002,7 @@ async function showCurrent(animate) {
     caption.textContent = "Snapshot unavailable · " + date;
     chartEmpty.hidden = false;
     chartEmpty.textContent = "No data yet";
+    jobFold.hidden = true;
     return;
   }
   if (token !== renderToken) return;
@@ -856,6 +1021,7 @@ async function showCurrent(animate) {
     caption.textContent = "No counts · " + when;
   }
   renderBars(rows, animate ? motionMs() : 0);
+  renderJobFold();
 }
 
 function fillSelect(select, options, allLabel) {
@@ -918,6 +1084,19 @@ function buildFilters() {
     });
   });
   fillSelect(useSelect, uses, "All use cases");
+  fillSubjobSelect();
+}
+
+function fillSubjobSelect() {
+  const jobs = state.use ? subjobsByCategory.get(state.use) || [] : [];
+  fillSelect(
+    subjobSelect,
+    jobs.map((job) => ({ value: job.id, label: job.name || job.id })),
+    "All sub-jobs"
+  );
+  subjobSelect.disabled = !state.use;
+  if (state.subjob && !jobs.some((job) => job.id === state.subjob)) state.subjob = "";
+  subjobSelect.value = state.subjob;
 }
 
 function preparePosts() {
@@ -936,6 +1115,7 @@ function filterPosts() {
     if (state.platform && post.post_platform !== state.platform) return false;
     if (state.postProduct && post.agent_product !== state.postProduct) return false;
     if (state.use && !(post.use_cases || []).includes(state.use)) return false;
+    if (state.subjob && subjobIdFor(post, state.use) !== state.subjob) return false;
     if (query && !post._q.includes(query)) return false;
     return true;
   });
@@ -991,6 +1171,8 @@ function renderPostRow(post) {
   tr.append(cell(post.post_platform || "", true));
   tr.append(cell(post._name || "", true));
   tr.append(useCell(post));
+  const jobId = subjobIdFor(post, state.use);
+  tr.append(cell(jobId ? subjobLabel(jobId) : ""));
   const quoteCell = document.createElement("td");
   const quote = document.createElement("p");
   quote.className = "quote";
@@ -1144,6 +1326,7 @@ function syncPostControls() {
   platformSelect.value = state.platform;
   productSelect.value = state.postProduct;
   useSelect.value = state.use;
+  fillSubjobSelect();
   if (quoteInput.value !== state.q) quoteInput.value = state.q;
 }
 
@@ -1160,7 +1343,7 @@ function renderPosts() {
   if (!slice.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 7;
+    td.colSpan = 8;
     td.textContent = "No posts";
     tr.append(td);
     fragment.append(tr);
@@ -1193,6 +1376,7 @@ function buildHash() {
     if (state.platform) params.set("platform", state.platform);
     if (state.postProduct) params.set("product", state.postProduct);
     if (state.use) params.set("use", state.use);
+    if (state.subjob) params.set("subjob", state.subjob);
     if (state.q) params.set("q", state.q);
     if (state.sort !== "date") params.set("sort", state.sort);
     if (state.dir !== "desc") params.set("dir", state.dir);
@@ -1228,6 +1412,9 @@ function applyHash() {
       state.platform = params.get("platform") || "";
       state.postProduct = params.get("product") || "";
       state.use = params.get("use") || "";
+      const requestedJob = params.get("subjob") || "";
+      const knownJobs = state.use ? subjobsByCategory.get(state.use) || [] : [];
+      state.subjob = knownJobs.some((job) => job.id === requestedJob) ? requestedJob : "";
       state.q = params.get("q") || "";
       const sort = params.get("sort") || "date";
       state.sort = SORTS.indexOf(sort) === -1 ? "date" : sort;
@@ -1299,6 +1486,7 @@ async function init() {
   const productsRaw = await fetchJson("data/products.json");
   const taxonomyRaw = await fetchJson("data/taxonomy.json");
   const postsRaw = await fetchJson("data/posts.json");
+  const subjobsRaw = await fetchJson("data/subjobs.json");
   const snapshots = indexRaw && Array.isArray(indexRaw.snapshots) ? indexRaw.snapshots : [];
   dates = snapshots.filter((day) => typeof day === "string" && day).slice().sort();
   if (!indexRaw || !dates.length) {
@@ -1320,6 +1508,7 @@ async function init() {
   productIds = (Array.isArray(index.products) ? index.products : []).filter((id) => typeof id === "string" && id);
   posts = Array.isArray(postsRaw) ? postsRaw.filter((post) => post && typeof post === "object") : [];
   postsMissing = !Array.isArray(postsRaw);
+  indexSubjobs(subjobsRaw);
   state.dateIndex = dates.length - 1;
   loadSaves();
   renderAboutLists();
@@ -1447,6 +1636,14 @@ productSelect.addEventListener("change", () => {
 });
 useSelect.addEventListener("change", () => {
   state.use = useSelect.value;
+  state.subjob = "";
+  state.page = 1;
+  fillSubjobSelect();
+  renderPosts();
+  writeHash();
+});
+subjobSelect.addEventListener("change", () => {
+  state.subjob = subjobSelect.value;
   state.page = 1;
   renderPosts();
   writeHash();

@@ -219,7 +219,93 @@ def validate_taxonomy(errors: list[str], taxonomy, version) -> set[str]:
     return codes
 
 
-def validate_posts(errors: list[str], posts, product_ids: set[str], codes: set[str]) -> None:
+def validate_subjobs(errors: list[str], data, product_ids: set[str], codes: set[str]) -> set[str]:
+    ids: set[str] = set()
+    if not isinstance(data, dict):
+        fail(errors, "subjobs.json: expected an object")
+        return ids
+    require_keys(errors, data, ("version", "note", "subjobs"), "subjobs.json")
+    version = data.get("version")
+    if "version" in data and (isinstance(version, bool) or not isinstance(version, int)):
+        fail(errors, "subjobs.json version: expected an integer")
+    if "note" in data and not is_str(data.get("note")):
+        fail(errors, "subjobs.json note: expected a string")
+    rows = data.get("subjobs")
+    if "subjobs" in data and not isinstance(rows, list):
+        fail(errors, "subjobs.json subjobs: expected a list")
+        return ids
+    if not isinstance(rows, list):
+        return ids
+    for i, job in enumerate(rows):
+        where = f"subjobs.json subjobs[{i}]"
+        if not isinstance(job, dict):
+            fail(errors, f"{where}: expected an object")
+            continue
+        require_keys(
+            errors,
+            job,
+            ("category", "category_label", "id", "name", "definition", "count", "counts", "examples"),
+            where,
+        )
+        category = job.get("category")
+        if "category" in job:
+            if not is_str(category) or not category:
+                fail(errors, f"{where}.category: expected a code")
+            elif codes and category not in codes:
+                fail(errors, f"{where}.category: unknown code {category!r}")
+        for key in ("category_label", "name", "definition"):
+            text = job.get(key)
+            if key in job and (not is_str(text) or not text.strip()):
+                fail(errors, f"{where}.{key}: expected a non-empty string")
+        job_id = job.get("id")
+        if "id" in job:
+            if not is_str(job_id) or not job_id.strip():
+                fail(errors, f"{where}.id: expected a non-empty string")
+            elif job_id in ids:
+                fail(errors, f"subjobs.json: duplicate id {job_id!r}")
+            else:
+                ids.add(job_id)
+        if "count" in job and not is_whole(job.get("count")):
+            fail(errors, f"{where}.count: expected a non-negative integer")
+        counts = job.get("counts")
+        if "counts" in job:
+            if not isinstance(counts, dict):
+                fail(errors, f"{where}.counts: expected an object")
+            else:
+                for product_id, count in counts.items():
+                    if product_ids and product_id not in product_ids:
+                        fail(errors, f"{where}.counts: unknown product id {product_id!r}")
+                    if not is_whole(count):
+                        fail(errors, f"{where}.counts.{product_id}: expected a non-negative integer")
+        examples = job.get("examples")
+        if "examples" in job:
+            if not isinstance(examples, list):
+                fail(errors, f"{where}.examples: expected a list")
+            else:
+                for j, example in enumerate(examples):
+                    slot = f"{where}.examples[{j}]"
+                    if not isinstance(example, dict):
+                        fail(errors, f"{slot}: expected an object")
+                        continue
+                    require_keys(errors, example, ("id", "url", "agent_product", "quote"), slot)
+                    if "id" in example and (not is_str(example.get("id")) or not example["id"].strip()):
+                        fail(errors, f"{slot}.id: expected a non-empty string")
+                    url = example.get("url")
+                    if "url" in example and (not is_str(url) or not (url.startswith("https://") or url.startswith("http://"))):
+                        fail(errors, f"{slot}.url: expected an http(s) URL")
+                    agent = example.get("agent_product")
+                    if "agent_product" in example:
+                        if not is_str(agent) or not agent:
+                            fail(errors, f"{slot}.agent_product: expected a product id")
+                        elif product_ids and agent not in product_ids:
+                            fail(errors, f"{slot}.agent_product: unknown product id {agent!r}")
+                    quote = example.get("quote")
+                    if "quote" in example and (not is_str(quote) or not quote.strip()):
+                        fail(errors, f"{slot}.quote: expected a non-empty string")
+    return ids
+
+
+def validate_posts(errors: list[str], posts, product_ids: set[str], codes: set[str], subjob_ids: set[str] | None = None) -> None:
     if not isinstance(posts, list):
         fail(errors, "posts.json: expected a list")
         return
@@ -271,6 +357,29 @@ def validate_posts(errors: list[str], posts, product_ids: set[str], codes: set[s
                 fail(errors, f"{where}.{key}: expected a string")
         if "author" in post and post["author"] is not None and not is_str(post["author"]):
             fail(errors, f"{where}.author: expected a string or null")
+        subjob = post.get("subjob")
+        if "subjob" in post and subjob is not None and (not is_str(subjob) or not subjob.strip()):
+            fail(errors, f"{where}.subjob: expected a string or null")
+        elif subjob_ids and is_str(subjob) and subjob not in subjob_ids:
+            fail(errors, f"{where}.subjob: unknown id {subjob!r}")
+        if "subjobs" in post:
+            raw_subjobs = post.get("subjobs")
+            if isinstance(raw_subjobs, list):
+                for j, item in enumerate(raw_subjobs):
+                    if not is_str(item) or not item.strip():
+                        fail(errors, f"{where}.subjobs[{j}]: expected an id")
+                    elif subjob_ids and item not in subjob_ids:
+                        fail(errors, f"{where}.subjobs[{j}]: unknown id {item!r}")
+            elif isinstance(raw_subjobs, dict):
+                for key, item in raw_subjobs.items():
+                    if codes and key not in codes:
+                        fail(errors, f"{where}.subjobs: unknown code {key!r}")
+                    if not is_str(item) or not item.strip():
+                        fail(errors, f"{where}.subjobs.{key}: expected an id")
+                    elif subjob_ids and item not in subjob_ids:
+                        fail(errors, f"{where}.subjobs.{key}: unknown id {item!r}")
+            else:
+                fail(errors, f"{where}.subjobs: expected an object or a list")
         if "first_seen" in post and is_str(post["first_seen"]) and not post["first_seen"].strip():
             fail(errors, f"{where}.first_seen: expected a non-empty string")
 
@@ -384,12 +493,19 @@ def validate_dir(data_dir: Path) -> tuple[bool, list[str]]:
     else:
         codes = validate_taxonomy(errors, taxonomy, version)
 
+    subjob_ids: set[str] = set()
+    subjobs_path = data_dir / "subjobs.json"
+    if subjobs_path.is_file():
+        subjobs = load_json(errors, subjobs_path)
+        if subjobs is not None:
+            subjob_ids = validate_subjobs(errors, subjobs, set(product_ids), codes)
+
     posts_path = data_dir / "posts.json"
     posts = load_json(errors, posts_path) if posts_path.is_file() else None
     if posts is None and not posts_path.is_file():
         fail(errors, "posts.json: missing")
     else:
-        validate_posts(errors, posts, set(product_ids), codes)
+        validate_posts(errors, posts, set(product_ids), codes, subjob_ids)
 
     dates = []
     if isinstance(index, dict) and isinstance(index.get("snapshots"), list):

@@ -30,6 +30,11 @@
       <div id="chart" class="chart">
         <p id="chart-empty" class="chart-empty" hidden>None</p>
       </div>
+      <section id="job-fold" class="job-fold" hidden>
+        <h2>Sub-jobs</h2>
+        <p class="jobs-note">Sub-jobs are assigned by rules derived from the posts, so some may be misbucketed.</p>
+        <div id="job-fold-list"></div>
+      </section>
       <div class="scrub">
         <button type="button" id="play" aria-pressed="false">Play</button>
         <input id="date" type="range" min="0" max="0" step="1" value="0" aria-label="Date">
@@ -49,6 +54,9 @@
         <label>Use case
           <select id="f-use"></select>
         </label>
+        <label>Sub-job
+          <select id="f-subjob"></select>
+        </label>
         <label>Quote
           <input id="f-q" type="search" autocomplete="off" spellcheck="false">
         </label>
@@ -62,6 +70,7 @@
               <th scope="col" data-sort="platform" aria-sort="none"><button type="button">Platform</button></th>
               <th scope="col" data-sort="product" aria-sort="none"><button type="button">Product</button></th>
               <th scope="col" data-sort="use" aria-sort="none"><button type="button">Use case</button></th>
+              <th scope="col">Sub-job</th>
               <th scope="col">Quote</th>
               <th scope="col">Link</th>
               <th scope="col">Save</th>
@@ -80,6 +89,11 @@
     <section id="panel-topic" role="tabpanel" aria-labelledby="tab-topic" tabindex="0" hidden>
       <h2 id="topic-title"></h2>
       <p id="topic-meta" class="caption"></p>
+      <section id="topic-jobs" class="job-fold" hidden>
+        <h3>Sub-jobs</h3>
+        <p class="jobs-note">Sub-jobs are assigned by rules derived from the posts, so some may be misbucketed.</p>
+        <div id="topic-job-list" class="job-list"></div>
+      </section>
       <div id="topic-board" class="board"></div>
       <p id="topic-empty" class="empty" hidden>No posts</p>
       <p id="topic-more" class="topic-more"><a id="topic-all" href="#posts">All posts</a></p>

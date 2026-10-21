@@ -563,6 +563,103 @@ mark.hl {
   margin: 16px 0 0;
 }
 
+.job-fold {
+  margin-top: 8px;
+}
+
+.job-fold h2,
+.job-fold h3 {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.014em;
+}
+
+.jobs-note {
+  max-width: 62ch;
+  margin: 6px 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.job-fold details {
+  border-top: 1px solid var(--line-soft);
+}
+
+.job-fold summary {
+  padding: 12px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.job {
+  padding: 0 0 14px;
+}
+
+.job + .job {
+  padding-top: 12px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.job-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.job-name {
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.job-count,
+.job-counts,
+.job-def {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.job-count {
+  font-variant-numeric: tabular-nums;
+}
+
+.job-def,
+.job-counts {
+  margin-top: 4px;
+}
+
+.job-examples {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.job-examples li + li {
+  margin-top: 4px;
+}
+
+.job-examples a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.job-examples a:hover {
+  text-decoration: underline;
+}
+
+.job-quote {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .scrub {
   display: flex;
   align-items: center;
@@ -672,6 +769,10 @@ mark.hl {
   background: transparent;
   font-size: 16px;
   color: var(--text);
+}
+
+.filters select:disabled {
+  color: var(--muted);
 }
 
 .filters input {

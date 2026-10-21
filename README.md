@@ -92,11 +92,15 @@ The set of ids matches `index.json` `products`. `verified` is a boolean. `source
   "first_seen": "ISO-8601 timestamp",
   "author": "handle or null",
   "quote": "Verbatim quote.",
-  "sentiment": "label"
+  "sentiment": "label",
+  "subjob": "primary-subjob-id or null",
+  "subjobs": { "inbox": "inbox.cleanup" }
 }
 ```
 
-`agent_product` is a known product id. Each `use_cases` entry is a known category code. The list may be empty. Platform names are not fixed; the filter lists whatever appears in the file. `author` is a string or null when the source has no public handle. The same URL may appear on more than one product; each of those is its own post.
+`agent_product` is a known product id. Each `use_cases` entry is a known category code. The list may be empty. Platform names are not fixed; the filter lists whatever appears in the file. `author` is a string or null when the source has no public handle. The same URL may appear on more than one product; each of those is its own post. `subjob` is the primary sub-job id or null. `subjobs` maps a category code to that post's sub-job id for the category. A list of ids is also accepted.
+
+`data/subjobs.json` is optional. When present it is `{ "version", "note", "subjobs" }`. Each sub-job has `category`, `category_label`, `id`, `name`, `definition`, `count`, `counts` (product id to a non-negative integer), and `examples` (`id`, `url`, `agent_product`, `quote`).
 
 `data/snapshots/YYYY-MM-DD.json`
 
@@ -140,16 +144,16 @@ python3 scripts/serve_fixture.py
 
 ## Views
 
-Top 15: product control, date slider, and play control. The bars move with transform and opacity only. Bar color is the value proposition: saves time, saves money, looks out for me, or helps me make things. Tap a bar to open a board of social posts for that category. The board links to the full posts table.
+Top 15: product control, date slider, and play control. The bars move with transform and opacity only. Bar color is the value proposition: saves time, saves money, looks out for me, or helps me make things. Each use case expands to its sub-jobs. Tap a bar to open a board of social posts for that category. The board links to the full posts table.
 
-Posts: date, platform, product, use case, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. Filters and the quote search are stored in the URL hash. Save keeps a post in this browser, with an optional highlight and a note.
+Posts: date, platform, product, use case, sub-job, quote, author, and a link to the original post. Column headers sort date, platform, product, and use case. The sub-job filter follows the use-case filter. Filters and the quote search are stored in the URL hash. Save keeps a post in this browser, with an optional highlight and a note.
 
 Saved: posts kept in this browser, with the highlight and note. The list is not uploaded.
 
 - `#top`
 - `#top?product=product-id&date=YYYY-MM-DD`
 - `#topic?use=category-code&product=product-id`
-- `#posts?platform=&product=&use=&q=&sort=&dir=&page=`
+- `#posts?platform=&product=&use=&subjob=&q=&sort=&dir=&page=`
 - `#saved`
 
 The posts table shows 100 rows per page.
