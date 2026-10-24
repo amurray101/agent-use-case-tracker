@@ -4,19 +4,19 @@
  "basis": "collected",
  "totals": {
   "all": {
-   "posts": 3780,
-   "use_case_posts": 2460
+   "posts": 3783,
+   "use_case_posts": 2461
   },
   "instinct": {
    "posts": 622,
    "use_case_posts": 419
   },
   "meta_muse": {
-   "posts": 2113,
-   "use_case_posts": 1518
+   "posts": 2115,
+   "use_case_posts": 1519
   },
   "grok_bot": {
-   "posts": 595,
+   "posts": 596,
    "use_case_posts": 304
   },
   "manus_cue": {
@@ -126,25 +126,25 @@
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 342,
-    "share": 0.2253
+    "share": 0.2251
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
     "count": 183,
-    "share": 0.1206
+    "share": 0.1205
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 163,
-    "share": 0.1074
+    "share": 0.1073
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 158,
-    "share": 0.1041
+    "share": 0.104
    },
    {
     "code": "REM",
@@ -156,19 +156,19 @@
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 151,
-    "share": 0.0995
+    "share": 0.0994
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
     "count": 150,
-    "share": 0.0988
+    "share": 0.0987
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
     "count": 150,
-    "share": 0.0988
+    "share": 0.0987
    },
    {
     "code": "BIZ",
@@ -179,8 +179,8 @@
    {
     "code": "SHOP",
     "label": "Shopping",
-    "count": 139,
-    "share": 0.0916
+    "count": 140,
+    "share": 0.0922
    },
    {
     "code": "TRAVEL",
@@ -470,7 +470,7 @@
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 522,
-    "share": 0.2122
+    "share": 0.2121
    },
    {
     "code": "CODE",
@@ -488,13 +488,13 @@
     "code": "CONTENT",
     "label": "Content & social media",
     "count": 260,
-    "share": 0.1057
+    "share": 0.1056
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 258,
-    "share": 0.1049
+    "share": 0.1048
    },
    {
     "code": "TRAVEL",
@@ -518,19 +518,19 @@
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 209,
-    "share": 0.085
+    "share": 0.0849
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
     "count": 209,
-    "share": 0.085
+    "share": 0.0849
    },
    {
     "code": "SHOP",
     "label": "Shopping",
-    "count": 203,
-    "share": 0.0825
+    "count": 204,
+    "share": 0.0829
    },
    {
     "code": "DOCS",
