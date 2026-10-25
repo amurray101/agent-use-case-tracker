@@ -65218,6 +65218,26 @@
   }
  },
  {
+  "id": "chatgpt_dots-2efbb69f41",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1xazbqc/been_using_muse_and_dots_for_a_month_heres_my/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "EMAIL",
+   "RESEARCH"
+  ],
+  "date": "2026-10-20",
+  "first_seen": "2026-10-24",
+  "author": "u/HeavyMetal_Protein",
+  "quote": "Dots searched my inbox, cross-referenced the ID",
+  "sentiment": "positive",
+  "subjob": "EMAIL.find",
+  "subjobs": {
+   "EMAIL": "EMAIL.find",
+   "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
   "id": "chatgpt_dots-73a94507c8",
   "url": "https://www.reddit.com/r/codex/comments/1xa8u70/dot_is_doing_great/phsw9m9/",
   "post_platform": "Reddit",
@@ -65278,6 +65298,22 @@
   "author": "@Shlooomth",
   "quote": "Being able to just walk around outside while doing information work by having a conversation is a really great feeling.",
   "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-d892cbb132",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1xazbqc/been_using_muse_and_dots_for_a_month_heres_my/19rebkji2powx/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-20",
+  "first_seen": "2026-10-24",
+  "author": "u/oZiix",
+  "quote": "I remember dot explaining it to me on release. So I just asked it with just a screen shot of my initial post and your reply. That clarifies it. Your point and their understanding are compatible: dot can use relevant information from past ChatGPT conversations without receiving",
+  "sentiment": "neutral",
   "subjob": null,
   "subjobs": {}
  },
@@ -65356,6 +65392,22 @@
    "RESEARCH": "RESEARCH.find",
    "BIZ": "BIZ.team"
   }
+ },
+ {
+  "id": "grok_bot-18067a7e4d",
+  "url": "https://www.reddit.com/r/GrokBot/comments/1xb4jfn/cant_login_to_gmail_cant_login_to_yt_cant_login/",
+  "post_platform": "Reddit",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-20",
+  "first_seen": "2026-10-24",
+  "author": "u/liviuberechet",
+  "quote": "Can't login to Gmail, can't login to YT, can't login to Reddit... is this normal? (New to GrokBot) — Just signed up for an account the other day, after seeing tons of ads of how you can do all these things with GrokBot. First day impression has been pretty terrible... I must be",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "grok_bot-1a730ff208",
@@ -67385,6 +67437,74 @@
   }
  },
  {
+  "id": "chatgpt_dots-0192e25294",
+  "url": "https://www.reddit.com/r/ChatGPT/comments/1xbgf9p/anyone_else_finding_dots_codex_progress_updates/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/JipyRSPS",
+  "quote": "It makes the whole workflow feel much slower and clunkier than it should.",
+  "sentiment": "negative",
+  "subjob": "CODE.orchestrate",
+  "subjobs": {
+   "CODE": "CODE.orchestrate"
+  }
+ },
+ {
+  "id": "chatgpt_dots-02526d8902",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rfom033c95w/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/ApprehensiveYou8207",
+  "quote": "man my dot just stares blankly at me half the time like it forgot what electricity is, i'd lose my mind if it killed an overnight archive",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-0812a40acc",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rfo77h7zw4i/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Old-Bake-420",
+  "quote": "dot simply can’t be tinkered with in any meaningful way.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-0b8c4a953a",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xbmt0l/what_i_learned_trying_to_keep_tailscale_working/19rfsqxmovpi9/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/New_Jaguar_9104",
+  "quote": "I made this to enable my dot to control the herdr session I run on a Linux box",
+  "sentiment": "positive",
+  "subjob": "CODE.fix",
+  "subjobs": {
+   "CODE": "CODE.fix"
+  }
+ },
+ {
   "id": "chatgpt_dots-2d2ac26992",
   "url": "https://x.com/metedata/status/2113045704075587704",
   "post_platform": "X",
@@ -67405,6 +67525,44 @@
   }
  },
  {
+  "id": "chatgpt_dots-36ca902231",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xbmt0l/what_i_learned_trying_to_keep_tailscale_working/19rg1zrxeqlt1/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/habeebiii",
+  "quote": "Finally. THANK YOU. literally trying this now EDIT: my dot said \"nope I'm not setting that up bc it bypasses network restrictions.\" LOL, fuck this. fuck OAI and fuck dots. $200 sub cancelled.",
+  "sentiment": "negative",
+  "subjob": "CODE.other",
+  "subjobs": {
+   "CODE": "CODE.other"
+  }
+ },
+ {
+  "id": "chatgpt_dots-3c3dc5ee3c",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xbal1y/my_ai_assistant_sent_a_business_email_without/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "EMAIL",
+   "BIZ"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/denby10562",
+  "quote": "It never showed me a draft.",
+  "sentiment": "negative",
+  "subjob": "EMAIL.draft",
+  "subjobs": {
+   "EMAIL": "EMAIL.draft",
+   "BIZ": "BIZ.marketing"
+  }
+ },
+ {
   "id": "chatgpt_dots-76dc32e94c",
   "url": "https://news.ycombinator.com/item?id=50188709",
   "post_platform": "Hacker News",
@@ -67416,6 +67574,38 @@
   "first_seen": "2026-10-22",
   "author": "zamadatix",
   "quote": "Drives me nuts that it's such a manual process to link my ChatGPT/Codex machines individually to each other and my Dot can only seem to connect with the chats on one linked machine at a time (before even getting to control or how completely useless the cloud VPS for the Dot is).",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-7774479585",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rfn2tzzziow/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Professional_Ad705",
+  "quote": "I have to constantly wake it up it even when I've had it on a schedule.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-7b50fce7c7",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rfn0pygrkgz/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Xiepex",
+  "quote": "However, Open AI promised a real agent who would work for you, I believed him, I now have a subscription, but he himself can’t do anything without me, I no longer trust him to work without me",
   "sentiment": "negative",
   "subjob": null,
   "subjobs": {}
@@ -67438,6 +67628,98 @@
   "subjobs": {
    "SHOP": "SHOP.buy",
    "COORD": "COORD.other"
+  }
+ },
+ {
+  "id": "chatgpt_dots-91d4bcac68",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xbal1y/my_ai_assistant_sent_a_business_email_without/19rfivm4nxkww/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/InnovativeBureaucrat",
+  "quote": "For gmail it is anything goes.",
+  "sentiment": "negative",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other"
+  }
+ },
+ {
+  "id": "chatgpt_dots-94e03a3e51",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rfxojigy2cj/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Corv9tte",
+  "quote": "I think this is the worst product ever made in the history of mankind, I'm not gonna lie. Dots is literally a waste of time",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-a21bd7f51e",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Xiepex",
+  "quote": "My Dot always stops working on its own, Open AI — I'm tired of it. This is the second time I've asked him to make a working archive of my Dot while I'm sleeping and send it to me. He agrees. I look in the morning and now he's just sleeping. I ask where my archive is, Dot replies",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-a4837dba2f",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xblqxj/my_dot_always_stops_working_on_its_own_open_ai/19rg3xhkp5vmt/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "REM",
+   "BRIEF",
+   "EMAIL",
+   "SHOP"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/TheOriginalAcidtech",
+  "quote": "I only have it doing things like scheduled reminders, mornign briefs, email reviews, order audits etc.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "BRIEF": "BRIEF.other",
+   "EMAIL": "EMAIL.summary",
+   "SHOP": "SHOP.buy"
+  }
+ },
+ {
+  "id": "chatgpt_dots-e8feb91e3a",
+  "url": "https://www.reddit.com/r/OpenAI/comments/1xbmt0l/what_i_learned_trying_to_keep_tailscale_working/",
+  "post_platform": "Reddit",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/CH_CGV",
+  "quote": "I’ve been using the Dots cloud computer as a development environment",
+  "sentiment": "neutral",
+  "subjob": "CODE.fix",
+  "subjobs": {
+   "CODE": "CODE.fix"
   }
  },
  {
@@ -68003,6 +68285,90 @@
   "subjobs": {
    "CODE": "CODE.orchestrate"
   }
+ },
+ {
+  "id": "manus_cue-00d609011e",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpw6w/anyone_elses_chat_mode_not_working/19rfxlsjnj85e/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "HOBBY"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "the only reason why I use manus anyway for creative writing and other personal stuff",
+  "sentiment": "negative",
+  "subjob": "HOBBY.creative",
+  "subjobs": {
+   "HOBBY": "HOBBY.creative"
+  }
+ },
+ {
+  "id": "manus_cue-0ec9f96f18",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbme9f/urgent_manus_webdev_project_broken_due_to_railway/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/TFilly402",
+  "quote": "My project is encountering the following error",
+  "sentiment": "negative",
+  "subjob": "CODE.website",
+  "subjobs": {
+   "CODE": "CODE.website"
+  }
+ },
+ {
+  "id": "manus_cue-7704f4472c",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpihx/agent_mode_while_on_chat_mode/19rfxun53jpuq/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/Quick_Weekend8260",
+  "quote": "https://preview.redd.it/hhy2aisbluwh1.jpeg?width=1179&format=pjpg&auto=webp&s=8b8911ff55ac79e9695cd0ed7d9790c7df4d8f6e Same here… I think it’s a bug caused by the the lastest update",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-887fd7c310",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpw6w/anyone_elses_chat_mode_not_working/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "anyone else's chat mode not working? — was using a chat thread that had originally been in chat mode but it automatically reroutes to agent mode, it seems like a bug. Is this happening to anyone else? I even updated the app and it's the same thing even though I select chat mode",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-fa8d21084d",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpw6w/anyone_elses_chat_mode_not_working/19rfy79j1v75t/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-21",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "manus \"support\" if you can even call it that it's useless. ur sending an email and it's a ai bot responding to you so not even a real human. there's a guy who's part of the company who's normally in this sub reddit so I'm gonna dm him and see what's happening",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "meta_muse-0f0972dcf1",
@@ -69130,6 +69496,28 @@
   }
  },
  {
+  "id": "grok_bot-12d2a37bcc",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14696784859",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "HEALTH",
+   "FOOD",
+   "HOME"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I have a nutritionist bot that tracks my meals/macros/nutrients for what I need in regards to my latest labs and that bot communicates with my meal planning bot that keeps a list of my pantry staples",
+  "sentiment": "positive",
+  "subjob": "HEALTH.fitness",
+  "subjobs": {
+   "HEALTH": "HEALTH.fitness",
+   "FOOD": "FOOD.other",
+   "HOME": "HOME.other"
+  }
+ },
+ {
   "id": "grok_bot-19b873f00b",
   "url": "https://x.com/Mike_AF__/status/2113062168589443472",
   "post_platform": "X",
@@ -69146,6 +69534,22 @@
   "subjobs": {
    "RESEARCH": "RESEARCH.find"
   }
+ },
+ {
+  "id": "grok_bot-20e840073f",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14698362684",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "They remember everything, work together, save me hours every day and never act without my OK.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "grok_bot-228952e266",
@@ -69208,6 +69612,24 @@
   "subjobs": {}
  },
  {
+  "id": "grok_bot-3bc2917fc6",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14699376983",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it's helped me create filters to block spam emails, it's even searched the web for my email and taking me off of list that it found my email on",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup"
+  }
+ },
+ {
   "id": "grok_bot-56ee5318f7",
   "url": "https://x.com/0xCodez/status/2113270979476545573",
   "post_platform": "X",
@@ -69242,6 +69664,24 @@
   "subjobs": {}
  },
  {
+  "id": "grok_bot-737992f55c",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14697971575",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "FORMS"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it has saved me thousands of dollars by helping me with some sticky administrative things, like navigating government websites",
+  "sentiment": "positive",
+  "subjob": "FORMS.gov",
+  "subjobs": {
+   "FORMS": "FORMS.gov"
+  }
+ },
+ {
   "id": "grok_bot-9389200a7f",
   "url": "https://x.com/luisdalmolin/status/2113271537348526451",
   "post_platform": "X",
@@ -69258,6 +69698,22 @@
   "subjobs": {
    "BRIEF": "BRIEF.daily"
   }
+ },
+ {
+  "id": "grok_bot-ac3b525fd0",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14696629391",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "the top subscription tier doesn't offer nearly enough usage for power users",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "grok_bot-bde9daa814",
@@ -69278,6 +69734,22 @@
    "BRIEF": "BRIEF.daily",
    "EMAIL": "EMAIL.cleanup"
   }
+ },
+ {
+  "id": "grok_bot-c4eb3c31cc",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14698673038",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "just last week I reached my limit within 3 days of usage",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "grok_bot-db2208a2ca",
@@ -69316,6 +69788,26 @@
   "subjobs": {}
  },
  {
+  "id": "grok_bot-feb7b3bba7",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14697675189",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "FIN",
+   "BIZ"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I am a sole proprietor who had nine years worth of messy books. Grok Bot sorted it all out without having to force reconcile anything saving me thousands of dollars and bookkeeper fees.",
+  "sentiment": "positive",
+  "subjob": "FIN.budget",
+  "subjobs": {
+   "FIN": "FIN.budget",
+   "BIZ": "BIZ.marketing"
+  }
+ },
+ {
   "id": "instinct-10ff5930a9",
   "url": "https://x.com/chest/status/2113302436630680039",
   "post_platform": "X",
@@ -69351,6 +69843,26 @@
   "subjobs": {
    "MON": "MON.price",
    "TRAVEL": "TRAVEL.other"
+  }
+ },
+ {
+  "id": "instinct-35eff7912a",
+  "url": "https://www.reddit.com/r/NomiAI/comments/1xcib22/using_an_ai_agent_to_collaboratively_help_nomis/",
+  "post_platform": "Reddit",
+  "agent_product": "instinct",
+  "use_cases": [
+   "CONTENT",
+   "HOBBY"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/gwynwas",
+  "quote": "I've been using instinct.com AI agent to help my Nomis post blog posts and to play web-based games.",
+  "sentiment": "positive",
+  "subjob": "CONTENT.post",
+  "subjobs": {
+   "CONTENT": "CONTENT.post",
+   "HOBBY": "HOBBY.games"
   }
  },
  {
@@ -69427,6 +69939,24 @@
   "subjobs": {
    "CS": "CS.other",
    "TRAVEL": "TRAVEL.checkin"
+  }
+ },
+ {
+  "id": "instinct-987f2540c4",
+  "url": "https://www.reddit.com/r/InstinctHQ/comments/1xc67lx/using_instinct_to_find_my_halloween_costume/",
+  "post_platform": "Reddit",
+  "agent_product": "instinct",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/maxobes",
+  "quote": "This year's costume hunt has reduced tremendously in friction due to Instinct's impressive shopping research capability.",
+  "sentiment": "positive",
+  "subjob": "SHOP.find",
+  "subjobs": {
+   "SHOP": "SHOP.find"
   }
  },
  {
@@ -69516,6 +70046,70 @@
   "subjobs": {}
  },
  {
+  "id": "manus_cue-18b04d0811",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpihx/agent_mode_while_on_chat_mode/19rh10dr9617p/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/Quick_Weekend8260",
+  "quote": "I’m just gonna stop using Manus. That’s a big joke.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-285b307f67",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpw6w/anyone_elses_chat_mode_not_working/19rgiitdqaark/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "I was using the app before I updated it and it was fine. shortly after that I went into another chat thread and it started acting up from there. Kept starting new chats to see if chat mode would work and it didn't. I contacted support which is nothing more than an AI botand they",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-2de2087aa3",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpw6w/anyone_elses_chat_mode_not_working/19rhh566ph1j6/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "yes. they removed chat mode during their latest update without even notifying users. they did the same thing a year ago and we made so much uproar here in the subreddit that they were forced tk bring it back. it's really bad and there isn't much hope but we are trying to get it",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-36c41dde0b",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rgikuq7ygw3/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "Yeah if they've removed chat mode then im done and I'll cancel my subscription. they tried removing it months ago and after alot of uproar inside the subreddit they brought it back. So I hope it's not the same thing happening again",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "manus_cue-3842f7486d",
   "url": "https://x.com/dahongfei/status/2113196282592592349",
   "post_platform": "X",
@@ -69528,6 +70122,104 @@
   "author": "@dahongfei",
   "quote": "Claude launched #Duet yesterday too. From Meta @Muse and Manus Cue to OpenAI dot, everyone seems to be rolling out a personal agent. I’ve tried them, and so far they don’t feel all that different. In China, Tencent, Alibaba and ByteDance are working on agents too, but mostly",
   "sentiment": "neutral",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-642f2c28ff",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rh0akdw7eh0/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "Yep. they've discontinued chat mode. it's confirmed....I'm out ✌🏽 bunch of fucking idiots https://preview.redd.it/zlzlek09vywh1.jpeg?width=1075&format=pjpg&auto=webp&s=9ffb6273d9e770662583caf3218ee517336e0a50",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-777a0788eb",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rgiy0h9ogzp/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/LIFEsongs_imaza",
+  "quote": "There goes my two websites though",
+  "sentiment": "negative",
+  "subjob": "CODE.website",
+  "subjobs": {
+   "CODE": "CODE.website"
+  }
+ },
+ {
+  "id": "manus_cue-981fa674ae",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19ri5hjh6wttu/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "agreed. I already cancelled my subscription. I hope many more do the same thing too",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-aaf08699f7",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19ri579xo6x37/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/LIFEsongs_imaza",
+  "quote": "I say we all end subscriptions. They ended chat mode so I say they don't deserve the funds",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-bb1d1ec3ac",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rgjl03nb08y/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/LIFEsongs_imaza",
+  "quote": "I'm already tempted to say fuck it and cancel the subscription and terminate the account. Support said they'd get a human to contact me and what happened? Nothing. The company has turned into a god damn joke. I don't have the money for the constant buying of credits. It's as bad",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-ccc98b4378",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rgk0r8rm0w4/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-24",
+  "author": "u/painkiller134",
+  "quote": "yep. support told me the same thing and it's been hours since. the customer \"service\" is terrible. even when they removed it months ago and I reached out to support via email it's skme ai bot you're talking to and even though they say they've sent your complaint to a human still",
+  "sentiment": "negative",
   "subjob": null,
   "subjobs": {}
  },
@@ -69568,6 +70260,24 @@
   }
  },
  {
+  "id": "meta_muse-1394d91c0a",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14697106289",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Creative Brainstorming & YouTube Planning:",
+  "sentiment": "positive",
+  "subjob": "CONTENT.video",
+  "subjobs": {
+   "CONTENT": "CONTENT.video"
+  }
+ },
+ {
   "id": "meta_muse-26c647c15f",
   "url": "https://x.com/mhykhael/status/2113265806419300385",
   "post_platform": "X",
@@ -69584,6 +70294,24 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-2b9704e7a9",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14698577476",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FORMS"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "she prefills my forms, sends them to my printer, and all I do is sign and mail.",
+  "sentiment": "positive",
+  "subjob": "FORMS.fill",
+  "subjobs": {
+   "FORMS": "FORMS.fill"
+  }
+ },
+ {
   "id": "meta_muse-2ebbc94664",
   "url": "https://x.com/hoshidv/status/2113162737878491346",
   "post_platform": "X",
@@ -69598,6 +70326,30 @@
   "sentiment": "neutral",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "meta_muse-334b9a5dd2",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14697558905",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "EMAIL",
+   "CONTENT",
+   "TRAVEL"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It manages my calendar, triages email, drafts bilingual posts, plans trips, and remembers my preferences.",
+  "sentiment": "neutral",
+  "subjob": "CAL.manage",
+  "subjobs": {
+   "CAL": "CAL.manage",
+   "EMAIL": "EMAIL.draft",
+   "CONTENT": "CONTENT.post",
+   "TRAVEL": "TRAVEL.plan"
+  }
  },
  {
   "id": "meta_muse-34c3d50389",
@@ -69678,6 +70430,26 @@
   }
  },
  {
+  "id": "meta_muse-3fc8a3408d",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14699124182",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "REM"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I use mousse to watch my emails for important things so I don’t miss them, remind me about things have all sorts.",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "REM": "REM.remind"
+  }
+ },
+ {
   "id": "meta_muse-42fd8bae63",
   "url": "https://www.youtube.com/watch?v=HhfSBDcLQYI&lc=UgyLsEjvnd11RJ3FsVR4AaABAg",
   "post_platform": "YouTube",
@@ -69718,6 +70490,22 @@
    "RESEARCH": "RESEARCH.find",
    "CONTENT": "CONTENT.writing"
   }
+ },
+ {
+  "id": "meta_muse-459dfd88e4",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14699762464",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Production — Thank you Harry! I’m learning, growing, getting help to stay in my lane! And make progress Harry has made life lass stressful. In my busy work schedule. Been helpful in helping make lite of tough times by providing insight and technical support all day long❤️.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "meta_muse-46bc05897f",
@@ -69775,6 +70563,24 @@
   "subjobs": {
    "EMAIL": "EMAIL.draft",
    "BRIEF": "BRIEF.daily"
+  }
+ },
+ {
+  "id": "meta_muse-4a309c5034",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14698435278",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it failed at its first job of connecting to FB and posting live! Failed twice!",
+  "sentiment": "negative",
+  "subjob": "CONTENT.post",
+  "subjobs": {
+   "CONTENT": "CONTENT.post"
   }
  },
  {
@@ -69888,6 +70694,22 @@
   }
  },
  {
+  "id": "meta_muse-6abc01cd77",
+  "url": "https://www.youtube.com/watch?v=tpZOU1ugODQ&lc=UgxD3ctx8m5Kxi7QyFh4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": "@BeatnikHimself",
+  "quote": "I asked Muse how it could help me make money after pasting the transcript of this video into its context window.",
+  "sentiment": "neutral",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-6c55ec8b13",
   "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-2ed60368-f043-422a-91ca-8d20a65635e2",
   "post_platform": "Google Play",
@@ -69992,6 +70814,26 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-84243aedba",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14699436939",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "BIZ"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "from cleaning my email contacts and my email; helping me organize- everything! and help me set up a new business",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "BIZ": "BIZ.other"
+  }
+ },
+ {
   "id": "meta_muse-84df0f346a",
   "url": "https://x.com/MuseWangGang/status/2113285001676566945",
   "post_platform": "X",
@@ -70065,6 +70907,26 @@
   "subjobs": {
    "HOBBY": "HOBBY.cook",
    "DOCS": "DOCS.files"
+  }
+ },
+ {
+  "id": "meta_muse-8e2d026cee",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14697142582",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT",
+   "BIZ"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "This app changed my life. It gave me hours back",
+  "sentiment": "positive",
+  "subjob": "CONTENT.other",
+  "subjobs": {
+   "CONTENT": "CONTENT.other",
+   "BIZ": "BIZ.marketing"
   }
  },
  {
@@ -70250,6 +71112,22 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-c7dccfe097",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14696999099",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Started downloading the app and it asked for my credit card info.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-cd6ecb9981",
   "url": "https://x.com/J_Bulls0823/status/2113060556571554272",
   "post_platform": "X",
@@ -70314,6 +71192,24 @@
   "sentiment": "negative",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "meta_muse-da576c6416",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14697646454",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Just even a basic website helping me keep organized.",
+  "sentiment": "positive",
+  "subjob": "CODE.website",
+  "subjobs": {
+   "CODE": "CODE.website"
+  }
  },
  {
   "id": "meta_muse-da7841f454",
@@ -70526,6 +71422,24 @@
   }
  },
  {
+  "id": "meta_muse-ff3b764a74",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14699913674",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "MONEY"
+  ],
+  "date": "2026-10-22",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "He emailed them then digested all of that info into a concise bare bones proposals.",
+  "sentiment": "positive",
+  "subjob": "MONEY.insurance",
+  "subjobs": {
+   "MONEY": "MONEY.insurance"
+  }
+ },
+ {
   "id": "chatgpt_dots-08cad10177",
   "url": "https://x.com/talkaboutdesign/status/2113451214645932336",
   "post_platform": "X",
@@ -70726,6 +71640,22 @@
   }
  },
  {
+  "id": "chatgpt_dots-d92718b2aa",
+  "url": "https://www.tiktok.com/@hatsunama/video/7699855746204306702",
+  "post_platform": "TikTok",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": "@hatsunama",
+  "quote": "ChatGPT Dots were supposed to be amazing. They are not",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "chatgpt_dots-e497401e77",
   "url": "https://x.com/Alextash/status/2113761701988303101",
   "post_platform": "X",
@@ -70775,6 +71705,40 @@
   "subjobs": {
    "EMAIL": "EMAIL.draft",
    "BRIEF": "BRIEF.other"
+  }
+ },
+ {
+  "id": "grok_bot-0e772c9654",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14702676452",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I don’t even understand what this app does, but it’s already asking me to buy a subscription during authentication.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-18277122ef",
+  "url": "https://www.youtube.com/watch?v=_b0ekDK32Lo&lc=UgwM3HtLR2aMjAQydZV4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "FIN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": "@HypeStrike",
+  "quote": "I've used it in gpt but grokbot is too clean",
+  "sentiment": "positive",
+  "subjob": "FIN.invest",
+  "subjobs": {
+   "FIN": "FIN.invest"
   }
  },
  {
@@ -70854,6 +71818,24 @@
   }
  },
  {
+  "id": "grok_bot-46d254ddb5",
+  "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot#review-e726213d-55e5-49fc-9a5a-e75b14cdd451",
+  "post_platform": "Google Play",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I'm using it as a realtor and it's doing a far better job than my actual realtors.",
+  "sentiment": "positive",
+  "subjob": "BIZ.other",
+  "subjobs": {
+   "BIZ": "BIZ.other"
+  }
+ },
+ {
   "id": "grok_bot-48f3d7b062",
   "url": "https://x.com/Meta8Mate/status/2113615637847371858",
   "post_platform": "X",
@@ -70870,6 +71852,22 @@
   "subjobs": {
    "FIN": "FIN.pay"
   }
+ },
+ {
+  "id": "grok_bot-4f6686f0fa",
+  "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot#review-f7336ea8-2d01-43f4-b7eb-f922a3d11788",
+  "post_platform": "Google Play",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "even on the ultra plan usage has gotten nerfed with the recent billing changes",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
  },
  {
   "id": "grok_bot-50d4df5e51",
@@ -70952,6 +71950,22 @@
   }
  },
  {
+  "id": "grok_bot-72a10a32c1",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14703577116",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Grok Bot is the first one that actually finishes the work.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "grok_bot-814b83e62a",
   "url": "https://x.com/adstastic/status/2113761393975726353",
   "post_platform": "X",
@@ -70966,6 +71980,54 @@
   "sentiment": "positive",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "grok_bot-88aef046cf",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14703064794",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "FIN",
+   "TRAVEL",
+   "RESEARCH",
+   "HEALTH",
+   "HOME"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I use it across a wide range: financial decisions, negotiations, taxes and other repetitive work, travel planning, research, writing, health tracking, home automation",
+  "sentiment": "positive",
+  "subjob": "FIN.budget",
+  "subjobs": {
+   "FIN": "FIN.budget",
+   "TRAVEL": "TRAVEL.plan",
+   "RESEARCH": "RESEARCH.find",
+   "HEALTH": "HEALTH.fitness",
+   "HOME": "HOME.repair"
+  }
+ },
+ {
+  "id": "grok_bot-9256edd64b",
+  "url": "https://apps.apple.com/us/app/id6794501026?see-all=reviews#review-14701674474",
+  "post_platform": "App Store",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ",
+   "CAL",
+   "EMAIL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "manages tasks, projects, calendars, emails and more.",
+  "sentiment": "positive",
+  "subjob": "BIZ.ops",
+  "subjobs": {
+   "BIZ": "BIZ.ops",
+   "CAL": "CAL.manage",
+   "EMAIL": "EMAIL.other"
+  }
  },
  {
   "id": "grok_bot-925ee9ad13",
@@ -71260,6 +72322,54 @@
   }
  },
  {
+  "id": "manus_cue-1899c0ccaa",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbw43n/chat_mode_always_forces_agent_mode_is_this_a_bug/19rihpmwhq7ep/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-24",
+  "author": "u/LIFEsongs_imaza",
+  "quote": "Cancelled and deleted my account today as well. I ain't playing any games with these greedy ass companies",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "manus_cue-3fd1444199",
+  "url": "https://www.reddit.com/r/ManusOfficial/comments/1xbpihx/agent_mode_while_on_chat_mode/19riqzmdfbhk4/",
+  "post_platform": "Reddit",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-24",
+  "author": "u/Express-Iron-8388",
+  "quote": "Frustrated, very frustrated. All previous conversations have turned into Agent Mode. Everything has also become worse, and talking to Agent Mode is the absolute worst. It doesn't give natural answers; they have to be extra and completely uncalled for, and the response isn't even",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-0a7786aeee",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702073876",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Love that I can connect to my email and my other apps and webpages and get things done for me.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-0fcd933610",
   "url": "https://x.com/SlumBreeze_/status/2113561177921876362",
   "post_platform": "X",
@@ -71274,6 +72384,48 @@
   "sentiment": "neutral",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "meta_muse-1378ee994e",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-6f365d25-f616-48b8-aac5-9e505588999b",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "RESEARCH",
+   "SHOP",
+   "CONTENT"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I run FB Groups and use it to find useful information, comparison shopping, and tedious research.",
+  "sentiment": "positive",
+  "subjob": "RESEARCH.compare",
+  "subjobs": {
+   "RESEARCH": "RESEARCH.compare",
+   "SHOP": "SHOP.find",
+   "CONTENT": "CONTENT.other"
+  }
+ },
+ {
+  "id": "meta_muse-183f92f8b6",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702561689",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "EMAIL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I love that it reminds me of things, plans things and sends emails for me.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "EMAIL": "EMAIL.draft"
+  }
  },
  {
   "id": "meta_muse-22dac9a1c1",
@@ -71308,6 +72460,28 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-27d94ad486",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14701844139",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "BIZ",
+   "DOCS"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "organizing all of my PDFs & other printables into an organized, stylized, & branded for my business binder",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "BIZ": "BIZ.marketing",
+   "DOCS": "DOCS.sheets"
+  }
+ },
+ {
   "id": "meta_muse-30743e15a6",
   "url": "https://x.com/ai_singulariti/status/2113455623165923529",
   "post_platform": "X",
@@ -71323,6 +72497,24 @@
   "subjob": "CS.contact",
   "subjobs": {
    "CS": "CS.contact"
+  }
+ },
+ {
+  "id": "meta_muse-39f0281744",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-29c2ee37-e6c2-41a7-8387-08d1f1081822",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Paid my phone bill through this thing!",
+  "sentiment": "positive",
+  "subjob": "FIN.pay",
+  "subjobs": {
+   "FIN": "FIN.pay"
   }
  },
  {
@@ -71381,6 +72573,74 @@
   "subjobs": {
    "MONEY": "MONEY.cancel_subs",
    "EMAIL": "EMAIL.cleanup"
+  }
+ },
+ {
+  "id": "meta_muse-4228b17708",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-1fada23e-0193-47bc-8569-87448a547c4a",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "HEALTH",
+   "HOBBY"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "tracks my purchases and returns, helps me with medication reminders, cooking and so much more.",
+  "sentiment": "positive",
+  "subjob": "SHOP.buy",
+  "subjobs": {
+   "SHOP": "SHOP.buy",
+   "HEALTH": "HEALTH.fitness",
+   "HOBBY": "HOBBY.cook"
+  }
+ },
+ {
+  "id": "meta_muse-4445b7a71a",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-f8e6adc7-6dae-4a53-b5ff-3a2d4ce59d67",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "COORD",
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I am using Muse to do almost all my daily tasks like checking emails to text messaging to reminders.",
+  "sentiment": "positive",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other",
+   "COORD": "COORD.message",
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-47544f2174",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702131525",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "EMAIL",
+   "REM",
+   "BIZ"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "helping me with my calendars emails and reminders, but doing real work for me in my store and my coaching business platform.",
+  "sentiment": "positive",
+  "subjob": "CAL.manage",
+  "subjobs": {
+   "CAL": "CAL.manage",
+   "EMAIL": "EMAIL.summary",
+   "REM": "REM.remind",
+   "BIZ": "BIZ.ops"
   }
  },
  {
@@ -71512,6 +72772,24 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-5e93a3a83b",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-aa5da49f-c160-466d-a998-aae7efa6e9bc",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FORMS"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Muse completed the form and sent it to the right parties",
+  "sentiment": "positive",
+  "subjob": "FORMS.fill",
+  "subjobs": {
+   "FORMS": "FORMS.fill"
+  }
+ },
+ {
   "id": "meta_muse-5eb465dac2",
   "url": "https://x.com/zarate_ai/status/2113592478943387690",
   "post_platform": "X",
@@ -71527,6 +72805,24 @@
   "subjob": "SHOP.buy",
   "subjobs": {
    "SHOP": "SHOP.buy"
+  }
+ },
+ {
+  "id": "meta_muse-63011a2f59",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14703894935",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it’s helped me be a lot more productive when it sends reminder notifications",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind"
   }
  },
  {
@@ -71546,6 +72842,44 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-6d3405944e",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-0f900283-e52f-4df2-bccc-61110ed179db",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "my personal assistant knows everything about me both all my social media manages.",
+  "sentiment": "neutral",
+  "subjob": "CONTENT.post",
+  "subjobs": {
+   "CONTENT": "CONTENT.post"
+  }
+ },
+ {
+  "id": "meta_muse-6e59e68f64",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14701588276",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SELL",
+   "CAL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "listed eight items for sale on Facebook marketplace.",
+  "sentiment": "positive",
+  "subjob": "SELL.list",
+  "subjobs": {
+   "SELL": "SELL.list",
+   "CAL": "CAL.add"
+  }
+ },
+ {
   "id": "meta_muse-7106991c8e",
   "url": "https://x.com/pbrody/status/2113782447473406152",
   "post_platform": "X",
@@ -71561,6 +72895,24 @@
   "subjob": "TRAVEL.flights",
   "subjobs": {
    "TRAVEL": "TRAVEL.flights"
+  }
+ },
+ {
+  "id": "meta_muse-7223849c5c",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14700262947",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "JOBS"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It helped me land a job.",
+  "sentiment": "positive",
+  "subjob": "JOBS.search",
+  "subjobs": {
+   "JOBS": "JOBS.search"
   }
  },
  {
@@ -71602,6 +72954,48 @@
   }
  },
  {
+  "id": "meta_muse-80479fdca3",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14703770489",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "MON"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I’ve had it book stuff, sort through emails, check prices, and handle random annoying tasks for me.",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "MON": "MON.price"
+  }
+ },
+ {
+  "id": "meta_muse-80d211309c",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14701067351",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT",
+   "RESEARCH",
+   "FIN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I enjoy using Harbor my AI assistant to help me gather information for my daily and music posts!",
+  "sentiment": "positive",
+  "subjob": "CONTENT.post",
+  "subjobs": {
+   "CONTENT": "CONTENT.post",
+   "RESEARCH": "RESEARCH.compare",
+   "FIN": "FIN.budget"
+  }
+ },
+ {
   "id": "meta_muse-86f3849cfe",
   "url": "https://www.youtube.com/watch?v=HhfSBDcLQYI&lc=UgzcXF9bazPzCD2MPx54AaABAg",
   "post_platform": "YouTube",
@@ -71622,6 +73016,122 @@
   }
  },
  {
+  "id": "meta_muse-95c3d212e0",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14703586070",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "this app has made my work life and scheduling so much easier and manageable",
+  "sentiment": "positive",
+  "subjob": "CAL.schedule",
+  "subjobs": {
+   "CAL": "CAL.schedule"
+  }
+ },
+ {
+  "id": "meta_muse-95cf5475aa",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-e5934441-a1bb-4983-84ec-6afa77ded220",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It's one of the best tools that I've used as a reminder of upcoming events and tasks.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-9c4b1ff394",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-ef49dafa-8441-48ae-8f9b-87dbe0183977",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CS"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "she already got me a full refund that I thought was impossible.",
+  "sentiment": "positive",
+  "subjob": "CS.refund",
+  "subjobs": {
+   "CS": "CS.refund"
+  }
+ },
+ {
+  "id": "meta_muse-9f66ceec07",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702957896",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BRIEF",
+   "SHOP"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "is able to give me my morning briefing, shop for missing parts",
+  "sentiment": "positive",
+  "subjob": "BRIEF.daily",
+  "subjobs": {
+   "BRIEF": "BRIEF.daily",
+   "SHOP": "SHOP.other"
+  }
+ },
+ {
+  "id": "meta_muse-9f87275a7d",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-12ff436f-0f55-40a8-84f5-f541b0354058",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "HEALTH",
+   "CS",
+   "BIZ"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "From reminders, to dating advice, to understanding medical test results to chatting online for me with another company.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "HEALTH": "HEALTH.records",
+   "CS": "CS.contact",
+   "BIZ": "BIZ.leads"
+  }
+ },
+ {
+  "id": "meta_muse-a361f11fda",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-f29f57c3-98fe-4bd2-8a24-d59ec9bd3d1d",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FORMS"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It even helped me fill out paperwork for social security and JFS!",
+  "sentiment": "positive",
+  "subjob": "FORMS.gov",
+  "subjobs": {
+   "FORMS": "FORMS.gov"
+  }
+ },
+ {
   "id": "meta_muse-a4f6b0edf9",
   "url": "https://x.com/renecrypt78/status/2113628320428359764",
   "post_platform": "X",
@@ -71639,6 +73149,62 @@
   "subjobs": {
    "FIN": "FIN.invest",
    "RESEARCH": "RESEARCH.compare"
+  }
+ },
+ {
+  "id": "meta_muse-a82c381e4f",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14703647835",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "BIZ"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I’ve had her check on Inssurance checking on emails answering emails for me helping with advertisement",
+  "sentiment": "positive",
+  "subjob": "EMAIL.summary",
+  "subjobs": {
+   "EMAIL": "EMAIL.summary",
+   "BIZ": "BIZ.marketing"
+  }
+ },
+ {
+  "id": "meta_muse-a8af6fc8f9",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-14ac65b3-c75e-4662-a547-aa14309c7042",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it refused to help answer an assessment for a job",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-aa36fed362",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-3ad6229d-1d60-4ed8-8425-8c714221a382",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It's also cool to have reminders of events coming up without having to ask.",
+  "sentiment": "positive",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other",
+   "REM": "REM.remind"
   }
  },
  {
@@ -71692,6 +73258,86 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-b53eba21b3",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702001336",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SELL",
+   "CAL",
+   "APPT"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I’ve used this AI app for everything from uploading cards onto eBay to daily schedules and booking appointments.",
+  "sentiment": "positive",
+  "subjob": "SELL.list",
+  "subjobs": {
+   "SELL": "SELL.list",
+   "CAL": "CAL.schedule",
+   "APPT": "APPT.book"
+  }
+ },
+ {
+  "id": "meta_muse-c6c62ba397",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14700238609",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "He is efficient, aware of my calendar and supports me with remembering and getting things done.",
+  "sentiment": "positive",
+  "subjob": "CAL.manage",
+  "subjobs": {
+   "CAL": "CAL.manage",
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-c811675983",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-404edcd0-48e9-4311-ae6c-9d807bf434da",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "When i connected my email to Muse, it was great!!",
+  "sentiment": "positive",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other"
+  }
+ },
+ {
+  "id": "meta_muse-c8887fa330",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702053038",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "BIZ"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "from the weather to writing emails or whatever I need to do; especially in regard to work because I'm in sales",
+  "sentiment": "positive",
+  "subjob": "EMAIL.draft",
+  "subjobs": {
+   "EMAIL": "EMAIL.draft",
+   "BIZ": "BIZ.leads"
+  }
+ },
+ {
   "id": "meta_muse-cc3cdc6b8a",
   "url": "https://x.com/MillenialLazy/status/2113535043486495045",
   "post_platform": "X",
@@ -71706,6 +73352,86 @@
   "sentiment": "positive",
   "subjob": "EMAIL.cleanup",
   "subjobs": {
+   "EMAIL": "EMAIL.cleanup"
+  }
+ },
+ {
+  "id": "meta_muse-cfb9251c92",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-f149f41c-8927-4768-a290-26836fa59256",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ",
+   "TRAVEL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "as an information input for my Legal Appeal Briefs, P.I. memos and travel schedules for AAU Travel Baseball Canada.",
+  "sentiment": "positive",
+  "subjob": "BIZ.marketing",
+  "subjobs": {
+   "BIZ": "BIZ.marketing",
+   "TRAVEL": "TRAVEL.plan"
+  }
+ },
+ {
+  "id": "meta_muse-d3aa05dd1c",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-bd33d862-7098-4d68-9bbd-d65cb0ec00f9",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "RESEARCH",
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "It literally went through multiple car dealer sites and found a car for me for my exact needs",
+  "sentiment": "positive",
+  "subjob": "SHOP.deals",
+  "subjobs": {
+   "SHOP": "SHOP.deals",
+   "RESEARCH": "RESEARCH.find",
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-d3b7cc2d14",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-4d11e4ce-15d5-459a-a498-b31b52588066",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FOOD"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "he helps me put my lunch menus together help me put my shopping list together",
+  "sentiment": "positive",
+  "subjob": "FOOD.other",
+  "subjobs": {
+   "FOOD": "FOOD.other"
+  }
+ },
+ {
+  "id": "meta_muse-d536f3428f",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-b16d0852-832b-4351-8b6e-a304d6a1e659",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "DOCS",
+   "EMAIL"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "the muse is finding all the duplicates in my Google photos, and yesterday, it deleted all my garbage emails.",
+  "sentiment": "positive",
+  "subjob": "DOCS.write",
+  "subjobs": {
+   "DOCS": "DOCS.write",
    "EMAIL": "EMAIL.cleanup"
   }
  },
@@ -71728,6 +73454,42 @@
   }
  },
  {
+  "id": "meta_muse-e47ed049f6",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702255840",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN",
+   "REM"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it keeps me on track with bills, reminders, and everything in between.",
+  "sentiment": "positive",
+  "subjob": "FIN.budget",
+  "subjobs": {
+   "FIN": "FIN.budget",
+   "REM": "REM.deadline"
+  }
+ },
+ {
+  "id": "meta_muse-e84652a187",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14702709636",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I built more with Muse in two weeks, for FREE, than I could have ever imagined in the two years I PAID for ChatGPT.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-ee850f46ea",
   "url": "https://x.com/PunkyCovfefe/status/2113617712807129245",
   "post_platform": "X",
@@ -71742,6 +73504,24 @@
   "sentiment": "positive",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "meta_muse-f414248121",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14700803824",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HOBBY"
+  ],
+  "date": "2026-10-23",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "Now I’m using for recipes and everything.",
+  "sentiment": "positive",
+  "subjob": "HOBBY.cook",
+  "subjobs": {
+   "HOBBY": "HOBBY.cook"
+  }
  },
  {
   "id": "meta_muse-f716bc9eca",
@@ -71792,6 +73572,24 @@
   "sentiment": "neutral",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-13bf85a9a7",
+  "url": "https://x.com/born2code/status/2114134208129929665",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@born2code",
+  "quote": "it uses codex on my machine and computer use to setup, develop, test and deploy my projects.",
+  "sentiment": "positive",
+  "subjob": "CODE.orchestrate",
+  "subjobs": {
+   "CODE": "CODE.orchestrate"
+  }
  },
  {
   "id": "chatgpt_dots-26d6b031e0",
@@ -71862,6 +73660,22 @@
   "subjobs": {}
  },
  {
+  "id": "chatgpt_dots-3ad096c267",
+  "url": "https://www.youtube.com/watch?v=6f7ojkd4_Wc&lc=UgwML_OMoPuf9-YW-rd4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@texasreddirt48",
+  "quote": "Being able to talk to my Dot and get real work done as I drive to the office feels like the future I imagined as a kid.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "chatgpt_dots-42caec6afa",
   "url": "https://x.com/WenHop21505/status/2113796414484472038",
   "post_platform": "X",
@@ -71877,6 +73691,58 @@
   "subjob": "CODE.script",
   "subjobs": {
    "CODE": "CODE.script"
+  }
+ },
+ {
+  "id": "chatgpt_dots-59ab353aab",
+  "url": "https://x.com/erick_lindberg_/status/2114067555929276642",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@erick_lindberg_",
+  "quote": "I use ChatGPT Dots to manage my life",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-5f18409569",
+  "url": "https://x.com/whatifi_io/status/2114083529709756562",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@whatifi_io",
+  "quote": "Now the challenge is finding the time to actually go through each of these.",
+  "sentiment": "positive",
+  "subjob": "BIZ.leads",
+  "subjobs": {
+   "BIZ": "BIZ.leads"
+  }
+ },
+ {
+  "id": "chatgpt_dots-6218e696a6",
+  "url": "https://x.com/woxnhc/status/2114125329270976555",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@woxnhc",
+  "quote": "I just let him check my emails, but I found that it is not as helpful as I thought…",
+  "sentiment": "negative",
+  "subjob": "EMAIL.summary",
+  "subjobs": {
+   "EMAIL": "EMAIL.summary"
   }
  },
  {
@@ -71916,6 +73782,24 @@
   }
  },
  {
+  "id": "chatgpt_dots-87c4c7464a",
+  "url": "https://x.com/EmBeeThree/status/2114051771458834921",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@EmBeeThree",
+  "quote": "don’t use it as your primary dev intake agent",
+  "sentiment": "negative",
+  "subjob": "CODE.orchestrate",
+  "subjobs": {
+   "CODE": "CODE.orchestrate"
+  }
+ },
+ {
   "id": "chatgpt_dots-89087840a9",
   "url": "https://x.com/jkgorka/status/2113973183649050950",
   "post_platform": "X",
@@ -71944,6 +73828,38 @@
   "author": "@TLetalnet",
   "quote": "My dot can't access my chatGPT session.",
   "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-954bd5500d",
+  "url": "https://x.com/5uck1ess/status/2114111024487870945",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@5uck1ess",
+  "quote": "OpenAI Dots: BEST voice by far, but doing work just feels off, singular, and kind of gimicky vs pure codex.",
+  "sentiment": "neutral",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-9ff44cddba",
+  "url": "https://x.com/5uck1ess/status/2114110663710687591",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@5uck1ess",
+  "quote": "OpenAI Dots: BEST voice by far, but doing work just feels off, singular, and kind of gimicky vs pure codex.",
+  "sentiment": "neutral",
   "subjob": null,
   "subjobs": {}
  },
@@ -72072,6 +73988,22 @@
   }
  },
  {
+  "id": "grok_bot-b174fd98ba",
+  "url": "https://www.youtube.com/watch?v=3e44xTBY_ek&lc=Ugy1keSpGEN2chIR2_J4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@DigiLinkGlobal",
+  "quote": "its expensive grok bot is totally unaffordable",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "instinct-1bc3d52dfb",
   "url": "https://x.com/santosanttt/status/2113802767777112456",
   "post_platform": "X",
@@ -72090,6 +74022,28 @@
   }
  },
  {
+  "id": "instinct-338af9dd57",
+  "url": "https://www.reddit.com/r/Instinctai/comments/1xdywzk/my_ai_agent_just_read_693_notes_and_3568_memories/19rl1j8t03nmt/",
+  "post_platform": "Reddit",
+  "agent_product": "instinct",
+  "use_cases": [
+   "DOCS",
+   "EMAIL",
+   "CAL"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-24",
+  "author": "u/regenmarketing",
+  "quote": "It also drafts any recap emails I need and sends them for me automatically.",
+  "sentiment": "positive",
+  "subjob": "DOCS.write",
+  "subjobs": {
+   "DOCS": "DOCS.write",
+   "EMAIL": "EMAIL.draft",
+   "CAL": "CAL.add"
+  }
+ },
+ {
   "id": "instinct-50e2a59084",
   "url": "https://x.com/SaleemJadallah/status/2113807352201912670",
   "post_platform": "X",
@@ -72104,6 +74058,56 @@
   "sentiment": "positive",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "instinct-5f829af530",
+  "url": "https://x.com/agoeldi/status/2113989360655774177",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@agoeldi",
+  "quote": "I just found out why my Instinct AI agent has basically stopped working.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "instinct-a184e0d14b",
+  "url": "https://www.youtube.com/watch?v=lsc3hhHSy98&lc=UgwTfGui2PSEQI-jh7V4AaABAg.Abbw6_pVsUZAcLvVC_Ezbw",
+  "post_platform": "YouTube",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@jens9236",
+  "quote": "I've been using it only for a few days and those few days have been creating general rules.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "instinct-b582a287be",
+  "url": "https://www.reddit.com/r/Instinctai/comments/1xdywzk/my_ai_agent_just_read_693_notes_and_3568_memories/",
+  "post_platform": "Reddit",
+  "agent_product": "instinct",
+  "use_cases": [
+   "DOCS"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-24",
+  "author": "u/sevorghikes",
+  "quote": "asked whether it could actually access my writenode memory",
+  "sentiment": "positive",
+  "subjob": "DOCS.notes",
+  "subjobs": {
+   "DOCS": "DOCS.notes"
+  }
  },
  {
   "id": "instinct-ca16bfd60c",
@@ -72154,6 +74158,40 @@
   "subjobs": {}
  },
  {
+  "id": "instinct-f07d61e9c4",
+  "url": "https://x.com/FrancisPSantora/status/2114024408620888251",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "TRAVEL"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@FrancisPSantora",
+  "quote": "Instinct just saved me over $1200 on a flight to Japan.",
+  "sentiment": "positive",
+  "subjob": "TRAVEL.flights",
+  "subjobs": {
+   "TRAVEL": "TRAVEL.flights"
+  }
+ },
+ {
+  "id": "manus_cue-afbceddeef",
+  "url": "https://www.youtube.com/watch?v=ptA7zi_83xY&lc=Ugzhqu5y-GPSyU70En14AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@Bryan-xe3pj",
+  "quote": "Cue for $30 which has generous usage",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-17dac00f60",
   "url": "https://x.com/brunomunhozCRO/status/2113950966378881344",
   "post_platform": "X",
@@ -72194,6 +74232,174 @@
   }
  },
  {
+  "id": "meta_muse-1ca81c4988",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-fb837d2d-d04f-4052-b47e-bd50eec9fe52",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "BRIEF",
+   "HOBBY"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "it keeps tracking my emails delete what I don't like and gives me updates every morning",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "BRIEF": "BRIEF.daily",
+   "HOBBY": "HOBBY.creative"
+  }
+ },
+ {
+  "id": "meta_muse-20b54f26b9",
+  "url": "https://x.com/vincit_amore/status/2114113914564939883",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "TRAVEL"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@vincit_amore",
+  "quote": "I took it a step further and had Muse map out a shopping trip around the city and plan out my fit",
+  "sentiment": "positive",
+  "subjob": "SHOP.other",
+  "subjobs": {
+   "SHOP": "SHOP.other",
+   "TRAVEL": "TRAVEL.plan"
+  }
+ },
+ {
+  "id": "meta_muse-2d3d6ed644",
+  "url": "https://x.com/marketrider42/status/2114110758719984095",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "MON"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@marketrider42",
+  "quote": "using muse to monitor however I am switching to Argon.",
+  "sentiment": "negative",
+  "subjob": "MON.watch",
+  "subjobs": {
+   "MON": "MON.watch"
+  }
+ },
+ {
+  "id": "meta_muse-35ad308b75",
+  "url": "https://www.youtube.com/watch?v=B-uXvCi-mXU&lc=UgxhQD7EJyGu0f3gkYV4AaABAg.AbEIG-aT8QjAcM8K8_C2ma",
+  "post_platform": "YouTube",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@karagifford7359",
+  "quote": "i just really do like the app.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-399a21d674",
+  "url": "https://x.com/Dev_Weights/status/2114021362553753726",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@Dev_Weights",
+  "quote": "my Muse is still showing 'Muse is disconnected'.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-403edc36c9",
+  "url": "https://x.com/slmeap/status/2114096814177833016",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD",
+   "SHOP"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@slmeap",
+  "quote": "i had muse call a flower shop",
+  "sentiment": "neutral",
+  "subjob": "COORD.message",
+  "subjobs": {
+   "COORD": "COORD.message",
+   "SHOP": "SHOP.other"
+  }
+ },
+ {
+  "id": "meta_muse-40ab6d2edd",
+  "url": "https://x.com/sarjeets_x/status/2114104881707643274",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@sarjeets_x",
+  "quote": "I've been using Muse and Grok Bots and subscription make it easy to use more",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-4702e7ac4d",
+  "url": "https://x.com/_seemethere/status/2114085266948510205",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "RESEARCH"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@_seemethere",
+  "quote": "I want to buy new sheets so I had muse research which sheets to buy, and then render all of the color combos I'm interested in",
+  "sentiment": "positive",
+  "subjob": "SHOP.buy",
+  "subjobs": {
+   "SHOP": "SHOP.buy",
+   "RESEARCH": "RESEARCH.compare"
+  }
+ },
+ {
+  "id": "meta_muse-490b4a7e3b",
+  "url": "https://www.youtube.com/watch?v=R-7kbHNPYwc&lc=UgzjR7z4T71EBxgXIgx4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HOBBY",
+   "CONTENT"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@Hakx-r5e",
+  "quote": "I'm a mucisian and muse has built me a recording studio a mix studio drum pads.",
+  "sentiment": "positive",
+  "subjob": "HOBBY.other",
+  "subjobs": {
+   "HOBBY": "HOBBY.other",
+   "CONTENT": "CONTENT.other"
+  }
+ },
+ {
   "id": "meta_muse-57d0cc5274",
   "url": "https://x.com/builtbygomez/status/2113980408270319829",
   "post_platform": "X",
@@ -72214,6 +74420,58 @@
   }
  },
  {
+  "id": "meta_muse-713adb7959",
+  "url": "https://x.com/asknaksha/status/2114084698989445307",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@asknaksha",
+  "quote": "I use Muse every day.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-71d8d78b12",
+  "url": "https://x.com/Amusement_Buzz/status/2114062757922296205",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EVENT",
+   "BRIEF"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@Amusement_Buzz",
+  "quote": "Using Muse to automatically send updates about Cedar Point closing day.",
+  "sentiment": "positive",
+  "subjob": "EVENT.other",
+  "subjobs": {
+   "EVENT": "EVENT.other",
+   "BRIEF": "BRIEF.meeting"
+  }
+ },
+ {
+  "id": "meta_muse-94f049536a",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-e83fb30f-eb2e-4550-bb7b-bcb15fa4fbc1",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": null,
+  "quote": "I'm using my muse as a digital assistant.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
   "id": "meta_muse-9e52bf8dff",
   "url": "https://x.com/afdiansyakh/status/2113799581045837915",
   "post_platform": "X",
@@ -72228,6 +74486,28 @@
   "sentiment": "positive",
   "subjob": null,
   "subjobs": {}
+ },
+ {
+  "id": "meta_muse-a0e4d081a0",
+  "url": "https://x.com/awhat4517/status/2114071375556296897",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EVENT",
+   "MON",
+   "RESEARCH"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@awhat4517",
+  "quote": "Can you go to noagendameetups.com and tell me the dates and locations of meetups from today into the future, please? Check for additions every 3 days.",
+  "sentiment": "positive",
+  "subjob": "EVENT.find",
+  "subjobs": {
+   "EVENT": "EVENT.find",
+   "MON": "MON.watch",
+   "RESEARCH": "RESEARCH.find"
+  }
  },
  {
   "id": "meta_muse-b0d6f00991",
@@ -72262,6 +74542,88 @@
   "subjobs": {}
  },
  {
+  "id": "meta_muse-bec364a53d",
+  "url": "https://www.youtube.com/watch?v=tpZOU1ugODQ&lc=Ugzg5Kbf6vjZvGegMKp4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ",
+   "SCRAPE",
+   "MON"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@dealerclaw.agency",
+  "quote": "I have my Muse agent set up to find qualified listings for specific products daily but will sometimes run into rate limits.",
+  "sentiment": "neutral",
+  "subjob": "BIZ.other",
+  "subjobs": {
+   "BIZ": "BIZ.other",
+   "SCRAPE": "SCRAPE.other",
+   "MON": "MON.other"
+  }
+ },
+ {
+  "id": "meta_muse-bfd5396e3f",
+  "url": "https://x.com/adamsyncs/status/2113985264116813830",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FAMILY",
+   "REM",
+   "CAL"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@adamsyncs",
+  "quote": "it had logged in to the school app earlier in the day and read that my son had a mandatory meeting he could not miss.",
+  "sentiment": "positive",
+  "subjob": "FAMILY.school",
+  "subjobs": {
+   "FAMILY": "FAMILY.school",
+   "REM": "REM.remind",
+   "CAL": "CAL.schedule"
+  }
+ },
+ {
+  "id": "meta_muse-c20dabdc54",
+  "url": "https://x.com/heySneaks/status/2114122812952551665",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CODE",
+   "COORD"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@heySneaks",
+  "quote": "muse · AI COMS v2 adopted (4 h cron, ROLLCALL signed)",
+  "sentiment": "neutral",
+  "subjob": "CODE.script",
+  "subjobs": {
+   "CODE": "CODE.script",
+   "COORD": "COORD.message"
+  }
+ },
+ {
+  "id": "meta_muse-c49ebffb08",
+  "url": "https://x.com/AlbertEzem/status/2114066571660611887",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "RESEARCH"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@AlbertEzem",
+  "quote": "I asked muse when I first saw this, and it gave me ~99%",
+  "sentiment": "neutral",
+  "subjob": "RESEARCH.other",
+  "subjobs": {
+   "RESEARCH": "RESEARCH.other"
+  }
+ },
+ {
   "id": "meta_muse-c7b0509589",
   "url": "https://x.com/ChrisValentino0/status/2113862172275323147",
   "post_platform": "X",
@@ -72279,6 +74641,512 @@
   "subjobs": {
    "BIZ": "BIZ.marketing",
    "COORD": "COORD.other"
+  }
+ },
+ {
+  "id": "meta_muse-cd4ee9d91a",
+  "url": "https://x.com/_simonsmith/status/2114059664958562450",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FOOD",
+   "SHOP",
+   "EMAIL",
+   "DOCS"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@_simonsmith",
+  "quote": "sent my Muse to comparison shop and find me a new service. Went through my email, found my order history, and is now building a spreadsheet comparing the price of the items I buy from other vendors.",
+  "sentiment": "positive",
+  "subjob": "FOOD.grocery",
+  "subjobs": {
+   "FOOD": "FOOD.grocery",
+   "SHOP": "SHOP.deals",
+   "EMAIL": "EMAIL.find",
+   "DOCS": "DOCS.sheets"
+  }
+ },
+ {
+  "id": "meta_muse-d2e003f382",
+  "url": "https://x.com/TheMisterMarcus/status/2114080092922237001",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "RESEARCH",
+   "HOBBY"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@TheMisterMarcus",
+  "quote": "I asked Muse about plays yesterday to see…",
+  "sentiment": "negative",
+  "subjob": "RESEARCH.other",
+  "subjobs": {
+   "RESEARCH": "RESEARCH.other",
+   "HOBBY": "HOBBY.games"
+  }
+ },
+ {
+  "id": "meta_muse-ec5fc3fa4b",
+  "url": "https://x.com/AntsAILab/status/2114141078303506464",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@AntsAILab",
+  "quote": "I have started using muse for so many things It's actually replacing my Hermes agent in a lot of ways.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-eddba5c7d0",
+  "url": "https://www.youtube.com/watch?v=puGo_SI6Xro&lc=UgytLxfw45xXdafbuIR4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HOBBY",
+   "CONTENT"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@Hakx-r5e",
+  "quote": "My muse is the drummer in our recordings and the mixer and the master of music and she makes vidieos",
+  "sentiment": "positive",
+  "subjob": "HOBBY.creative",
+  "subjobs": {
+   "HOBBY": "HOBBY.creative",
+   "CONTENT": "CONTENT.writing"
+  }
+ },
+ {
+  "id": "meta_muse-fe866a5e40",
+  "url": "https://x.com/RMCulle/status/2113997433940410452",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@RMCulle",
+  "quote": "I caught my MUSE bot lied to me over where he was designed from.",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-ff35a7c01b",
+  "url": "https://x.com/AIBuildInvest/status/2114036888965406771",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT"
+  ],
+  "date": "2026-10-24",
+  "first_seen": "2026-10-25",
+  "author": "@AIBuildInvest",
+  "quote": "I asked my @Muse agent to become a music producer and it wrote a song about the Shinkansen and produce a music video.",
+  "sentiment": "positive",
+  "subjob": "CONTENT.video",
+  "subjobs": {
+   "CONTENT": "CONTENT.video"
+  }
+ },
+ {
+  "id": "chatgpt_dots-013e82afd8",
+  "url": "https://x.com/josepcoronado/status/2114297975283315153",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BIZ",
+   "FIN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@josepcoronado",
+  "quote": "my Dot refused to send an invoice because it contained my tax ID, it refuses to do anything that involves automating money movements",
+  "sentiment": "negative",
+  "subjob": "BIZ.books",
+  "subjobs": {
+   "BIZ": "BIZ.books",
+   "FIN": "FIN.tax"
+  }
+ },
+ {
+  "id": "chatgpt_dots-109776fcf0",
+  "url": "https://x.com/TheCanadienEh/status/2114337766347538540",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "TINKER"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@TheCanadienEh",
+  "quote": "I just did this with my Dot and @ChatGPT it works flawlessly!",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-1a35c5e911",
+  "url": "https://news.ycombinator.com/item?id=50229493",
+  "post_platform": "Hacker News",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "Benjamin_Dobell",
+  "quote": "First thing I did was install Firefox to test out a project of mine (wouldn't work in Chrome). It failed to connect",
+  "sentiment": "negative",
+  "subjob": "CODE.fix",
+  "subjobs": {
+   "CODE": "CODE.fix"
+  }
+ },
+ {
+  "id": "chatgpt_dots-43582aea35",
+  "url": "https://x.com/sommafagel/status/2114304138062565777",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@sommafagel",
+  "quote": "My chatgpt dots just sent me",
+  "sentiment": "positive",
+  "subjob": "CODE.fix",
+  "subjobs": {
+   "CODE": "CODE.fix"
+  }
+ },
+ {
+  "id": "chatgpt_dots-9d889c416d",
+  "url": "https://x.com/2escapereality/status/2114252761592430937",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@2escapereality",
+  "quote": "My dot was a revelation on the possibilities of an always On AI agent.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "chatgpt_dots-b8ee766690",
+  "url": "https://x.com/nikhiljoisr/status/2114241101758623914",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "CODE"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@nikhiljoisr",
+  "quote": "Use it like a class monitor and let it monitor and run each task by taking over your computer",
+  "sentiment": "positive",
+  "subjob": "CODE.other",
+  "subjobs": {
+   "CODE": "CODE.other"
+  }
+ },
+ {
+  "id": "chatgpt_dots-bb0a2c6bbc",
+  "url": "https://x.com/thuannguy/status/2114309417378418817",
+  "post_platform": "X",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "FAMILY",
+   "HOBBY"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@thuannguy",
+  "quote": "I was letting my kid speaking with ChatGPT Dots so she can practice her English.",
+  "sentiment": "neutral",
+  "subjob": "FAMILY.school",
+  "subjobs": {
+   "FAMILY": "FAMILY.school",
+   "HOBBY": "HOBBY.other"
+  }
+ },
+ {
+  "id": "grok_bot-3d10512f5e",
+  "url": "https://x.com/michaelambrosia/status/2114338730773282967",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@michaelambrosia",
+  "quote": "I use my bot every day. My one big wish: memory that beats a human's.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-41749ea8e9",
+  "url": "https://x.com/cryptohodlgroup/status/2114339603327185083",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@cryptohodlgroup",
+  "quote": "Mine keeps reconnecting even after permission is revoked",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-6f924b77b9",
+  "url": "https://news.ycombinator.com/item?id=50228641",
+  "post_platform": "Hacker News",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "brightball",
+  "quote": "grok bot is helping me gain so much efficiency in managing all of the things that I have going on in my life",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-8099dad452",
+  "url": "https://x.com/Ortix008/status/2114338846754398264",
+  "post_platform": "X",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@Ortix008",
+  "quote": "Grok Bot on my phone is already doing half my life admin.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-c504353ec3",
+  "url": "https://www.youtube.com/watch?v=ZW-HR9XMQKw&lc=UgzUrxIbVoQOz9_VAuF4AaABAg",
+  "post_platform": "YouTube",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@michaeldavis9059",
+  "quote": "All work through the bots. Im just supervising and asking lots of direction and advice!",
+  "sentiment": "positive",
+  "subjob": "BIZ.ops",
+  "subjobs": {
+   "BIZ": "BIZ.ops"
+  }
+ },
+ {
+  "id": "instinct-610b4b8e8b",
+  "url": "https://x.com/sowen12/status/2114331803112689941",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@sowen12",
+  "quote": "I’ve been using Instinct as an AI assistant but now will use GrokBot exclusively.",
+  "sentiment": "neutral",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "instinct-6f7f85278a",
+  "url": "https://x.com/227Terry/status/2114248407200202825",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "APPT",
+   "MON"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@227Terry",
+  "quote": "So I had Instinct sign into my account and check booking drops every morning at 8am until a same-day slot opened up.",
+  "sentiment": "positive",
+  "subjob": "APPT.book",
+  "subjobs": {
+   "APPT": "APPT.book",
+   "MON": "MON.price"
+  }
+ },
+ {
+  "id": "instinct-b2c3b81a88",
+  "url": "https://x.com/sparky300/status/2114294229585338479",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "TRAVEL",
+   "MON",
+   "BRIEF",
+   "FIN",
+   "CONTENT"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@sparky300",
+  "quote": "I recently snagged some business class flights to Canada and I’ve now asked instinct to monitor the prices within a given time period.",
+  "sentiment": "positive",
+  "subjob": "TRAVEL.flights",
+  "subjobs": {
+   "TRAVEL": "TRAVEL.flights",
+   "MON": "MON.price",
+   "BRIEF": "BRIEF.daily",
+   "FIN": "FIN.invest",
+   "CONTENT": "CONTENT.video"
+  }
+ },
+ {
+  "id": "instinct-e99a00b6d7",
+  "url": "https://x.com/midossonofmonid/status/2114347261803008162",
+  "post_platform": "X",
+  "agent_product": "instinct",
+  "use_cases": [
+   "APPT"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@midossonofmonid",
+  "quote": "I tried booking a tennis court on the Booker app and LTA website but my cards are always declined. Got fed up. Asked Instinct to do it and it’s done.",
+  "sentiment": "positive",
+  "subjob": "APPT.book",
+  "subjobs": {
+   "APPT": "APPT.book"
+  }
+ },
+ {
+  "id": "manus_cue-7b4a5c850b",
+  "url": "https://x.com/ding_liam/status/2114260170171658707",
+  "post_platform": "X",
+  "agent_product": "manus_cue",
+  "use_cases": [
+   "COORD"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@ding_liam",
+  "quote": "Cue @CueAgents ，我最喜欢的是能打电话收发短信",
+  "sentiment": "positive",
+  "subjob": "COORD.other",
+  "subjobs": {
+   "COORD": "COORD.other"
+  }
+ },
+ {
+  "id": "meta_muse-212100e1b1",
+  "url": "https://x.com/SVTrivo/status/2114273064913641891",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "RESEARCH"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@SVTrivo",
+  "quote": "I lost my camera lens front cap, and asked @Muse to compare two links I found.",
+  "sentiment": "negative",
+  "subjob": "SHOP.find",
+  "subjobs": {
+   "SHOP": "SHOP.find",
+   "RESEARCH": "RESEARCH.compare"
+  }
+ },
+ {
+  "id": "meta_muse-52f5030192",
+  "url": "https://x.com/sato_briand/status/2114288018358173938",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@sato_briand",
+  "quote": "I’ve been using Muse, and I really like how it initiates conversations with me.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-8c67c791ec",
+  "url": "https://x.com/tiffreedbriley/status/2114313587472703489",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@tiffreedbriley",
+  "quote": "using Muse because dots are withheld from Plus",
+  "sentiment": "neutral",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-b7374c17a9",
+  "url": "https://x.com/SeiraHisada/status/2114246940586320294",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@SeiraHisada",
+  "quote": "Using Muse has given me a strange feeling.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-b7dea77d55",
+  "url": "https://x.com/technoSaas/status/2114339219258646602",
+  "post_platform": "X",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BIZ"
+  ],
+  "date": "2026-10-25",
+  "first_seen": "2026-10-25",
+  "author": "@technoSaas",
+  "quote": "it helps her keep track of warm leads from Instagram, checks who's interested but hasn't booked and drafts personalized follow-ups. basically using Muse",
+  "sentiment": "positive",
+  "subjob": "BIZ.leads",
+  "subjobs": {
+   "BIZ": "BIZ.leads"
   }
  }
 ]
