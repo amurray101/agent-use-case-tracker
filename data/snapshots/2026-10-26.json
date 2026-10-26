@@ -1,0 +1,573 @@
+{
+ "date": "2026-10-26",
+ "cumulative": true,
+ "basis": "collected",
+ "totals": {
+  "all": {
+   "posts": 4218,
+   "use_case_posts": 2728
+  },
+  "instinct": {
+   "posts": 654,
+   "use_case_posts": 440
+  },
+  "meta_muse": {
+   "posts": 2316,
+   "use_case_posts": 1673
+  },
+  "grok_bot": {
+   "posts": 669,
+   "use_case_posts": 346
+  },
+  "manus_cue": {
+   "posts": 66,
+   "use_case_posts": 22
+  },
+  "chatgpt_dots": {
+   "posts": 513,
+   "use_case_posts": 247
+  }
+ },
+ "top15": {
+  "instinct": [
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 89,
+    "share": 0.2023
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 79,
+    "share": 0.1795
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 53,
+    "share": 0.1205
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 48,
+    "share": 0.1091
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 41,
+    "share": 0.0932
+   },
+   {
+    "code": "COORD",
+    "label": "Coordinating with people",
+    "count": 39,
+    "share": 0.0886
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 38,
+    "share": 0.0864
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 34,
+    "share": 0.0773
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 34,
+    "share": 0.0773
+   },
+   {
+    "code": "EVENT",
+    "label": "Events & tickets",
+    "count": 32,
+    "share": 0.0727
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 31,
+    "share": 0.0705
+   },
+   {
+    "code": "FAMILY",
+    "label": "Family & kids",
+    "count": 25,
+    "share": 0.0568
+   },
+   {
+    "code": "REST",
+    "label": "Restaurant reservations",
+    "count": 25,
+    "share": 0.0568
+   },
+   {
+    "code": "MON",
+    "label": "Price & availability alerts",
+    "count": 24,
+    "share": 0.0545
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 24,
+    "share": 0.0545
+   }
+  ],
+  "meta_muse": [
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 380,
+    "share": 0.2271
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 206,
+    "share": 0.1231
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 183,
+    "share": 0.1094
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 178,
+    "share": 0.1064
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 170,
+    "share": 0.1016
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 168,
+    "share": 0.1004
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 164,
+    "share": 0.098
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 162,
+    "share": 0.0968
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 160,
+    "share": 0.0956
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 157,
+    "share": 0.0938
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 141,
+    "share": 0.0843
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 121,
+    "share": 0.0723
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 100,
+    "share": 0.0598
+   },
+   {
+    "code": "FAMILY",
+    "label": "Family & kids",
+    "count": 94,
+    "share": 0.0562
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 83,
+    "share": 0.0496
+   }
+  ],
+  "grok_bot": [
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 91,
+    "share": 0.263
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 91,
+    "share": 0.263
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 76,
+    "share": 0.2197
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 53,
+    "share": 0.1532
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 50,
+    "share": 0.1445
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 41,
+    "share": 0.1185
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 26,
+    "share": 0.0751
+   },
+   {
+    "code": "BRIEF",
+    "label": "Briefings & meeting prep",
+    "count": 24,
+    "share": 0.0694
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 24,
+    "share": 0.0694
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 23,
+    "share": 0.0665
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 18,
+    "share": 0.052
+   },
+   {
+    "code": "HOME",
+    "label": "Home & utilities",
+    "count": 17,
+    "share": 0.0491
+   },
+   {
+    "code": "COORD",
+    "label": "Coordinating with people",
+    "count": 12,
+    "share": 0.0347
+   },
+   {
+    "code": "FAMILY",
+    "label": "Family & kids",
+    "count": 9,
+    "share": 0.026
+   },
+   {
+    "code": "FORMS",
+    "label": "Forms & paperwork",
+    "count": 9,
+    "share": 0.026
+   }
+  ],
+  "manus_cue": [
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 8,
+    "share": 0.3636
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 5,
+    "share": 0.2273
+   },
+   {
+    "code": "COORD",
+    "label": "Coordinating with people",
+    "count": 4,
+    "share": 0.1818
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 4,
+    "share": 0.1818
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 2,
+    "share": 0.0909
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 2,
+    "share": 0.0909
+   },
+   {
+    "code": "APPT",
+    "label": "Appointments & local services",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "BRIEF",
+    "label": "Briefings & meeting prep",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "HEALTH",
+    "label": "Health admin",
+    "count": 1,
+    "share": 0.0455
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 1,
+    "share": 0.0455
+   }
+  ],
+  "chatgpt_dots": [
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 104,
+    "share": 0.4211
+   },
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 47,
+    "share": 0.1903
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 46,
+    "share": 0.1862
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 27,
+    "share": 0.1093
+   },
+   {
+    "code": "COORD",
+    "label": "Coordinating with people",
+    "count": 23,
+    "share": 0.0931
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 19,
+    "share": 0.0769
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 14,
+    "share": 0.0567
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 14,
+    "share": 0.0567
+   },
+   {
+    "code": "BRIEF",
+    "label": "Briefings & meeting prep",
+    "count": 11,
+    "share": 0.0445
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 11,
+    "share": 0.0445
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 9,
+    "share": 0.0364
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 8,
+    "share": 0.0324
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 6,
+    "share": 0.0243
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 5,
+    "share": 0.0202
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 5,
+    "share": 0.0202
+   }
+  ],
+  "all": [
+   {
+    "code": "EMAIL",
+    "label": "Email & inbox",
+    "count": 584,
+    "share": 0.2141
+   },
+   {
+    "code": "CODE",
+    "label": "Building apps & code",
+    "count": 372,
+    "share": 0.1364
+   },
+   {
+    "code": "BIZ",
+    "label": "Work & business tasks",
+    "count": 344,
+    "share": 0.1261
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 290,
+    "share": 0.1063
+   },
+   {
+    "code": "RESEARCH",
+    "label": "Research & recommendations",
+    "count": 290,
+    "share": 0.1063
+   },
+   {
+    "code": "REM",
+    "label": "Reminders & follow-ups",
+    "count": 245,
+    "share": 0.0898
+   },
+   {
+    "code": "TRAVEL",
+    "label": "Travel",
+    "count": 245,
+    "share": 0.0898
+   },
+   {
+    "code": "CAL",
+    "label": "Calendar & scheduling",
+    "count": 243,
+    "share": 0.0891
+   },
+   {
+    "code": "FIN",
+    "label": "Personal finance & payments",
+    "count": 230,
+    "share": 0.0843
+   },
+   {
+    "code": "SHOP",
+    "label": "Shopping",
+    "count": 230,
+    "share": 0.0843
+   },
+   {
+    "code": "MONEY",
+    "label": "Saving money on bills & subscriptions",
+    "count": 229,
+    "share": 0.0839
+   },
+   {
+    "code": "DOCS",
+    "label": "Documents & notes",
+    "count": 182,
+    "share": 0.0667
+   },
+   {
+    "code": "HOBBY",
+    "label": "Hobbies & entertainment",
+    "count": 173,
+    "share": 0.0634
+   },
+   {
+    "code": "COORD",
+    "label": "Coordinating with people",
+    "count": 146,
+    "share": 0.0535
+   },
+   {
+    "code": "CS",
+    "label": "Customer service & refunds",
+    "count": 134,
+    "share": 0.0491
+   }
+  ]
+ }
+}
