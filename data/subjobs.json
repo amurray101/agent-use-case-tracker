@@ -37,10 +37,10 @@
    "id": "EMAIL.cleanup",
    "name": "Clean up and unsubscribe",
    "definition": "Bulk-deletes, archives, sorts into folders or unsubscribes to shrink the inbox.",
-   "count": 185,
+   "count": 186,
    "counts": {
     "instinct": 7,
-    "meta_muse": 151,
+    "meta_muse": 152,
     "grok_bot": 18,
     "manus_cue": 1,
     "chatgpt_dots": 8
@@ -66,11 +66,11 @@
    "id": "EMAIL.draft",
    "name": "Draft or send replies",
    "definition": "Writes, drafts, proofreads or sends emails and replies for the user.",
-   "count": 140,
+   "count": 144,
    "counts": {
     "instinct": 21,
-    "meta_muse": 69,
-    "grok_bot": 29,
+    "meta_muse": 71,
+    "grok_bot": 31,
     "manus_cue": 1,
     "chatgpt_dots": 20
    },
@@ -124,10 +124,10 @@
    "id": "EMAIL.summary",
    "name": "Summarize and surface what matters",
    "definition": "Reads the inbox or long threads and reports what is important or needs a reply.",
-   "count": 121,
+   "count": 125,
    "counts": {
     "instinct": 14,
-    "meta_muse": 75,
+    "meta_muse": 79,
     "grok_bot": 16,
     "manus_cue": 0,
     "chatgpt_dots": 16
@@ -182,10 +182,10 @@
    "id": "EMAIL.other",
    "name": "Other / unspecified email & inbox",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 194,
+   "count": 197,
    "counts": {
     "instinct": 33,
-    "meta_muse": 125,
+    "meta_muse": 128,
     "grok_bot": 20,
     "manus_cue": 0,
     "chatgpt_dots": 16
@@ -211,10 +211,10 @@
    "id": "MONEY.cancel_subs",
    "name": "Find and cancel subscriptions",
    "definition": "Audits recurring charges and cancels unwanted subscriptions.",
-   "count": 95,
+   "count": 96,
    "counts": {
     "instinct": 15,
-    "meta_muse": 74,
+    "meta_muse": 75,
     "grok_bot": 5,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -240,9 +240,9 @@
    "id": "MONEY.insurance",
    "name": "Shop for insurance",
    "definition": "Gets quotes and switches car, home or health insurance.",
-   "count": 36,
+   "count": 37,
    "counts": {
-    "instinct": 5,
+    "instinct": 6,
     "meta_muse": 30,
     "grok_bot": 1,
     "manus_cue": 0,
@@ -443,11 +443,11 @@
    "id": "TRAVEL.plan",
    "name": "Plan a trip itinerary",
    "definition": "Plans trips, itineraries, road trips or vacations.",
-   "count": 67,
+   "count": 68,
    "counts": {
     "instinct": 15,
     "meta_muse": 46,
-    "grok_bot": 4,
+    "grok_bot": 5,
     "manus_cue": 0,
     "chatgpt_dots": 2
    },
@@ -501,10 +501,10 @@
    "id": "SHOP.deals",
    "name": "Find deals and promo codes",
    "definition": "Finds the cheapest price, deals or promo codes.",
-   "count": 61,
+   "count": 63,
    "counts": {
     "instinct": 3,
-    "meta_muse": 49,
+    "meta_muse": 51,
     "grok_bot": 5,
     "manus_cue": 0,
     "chatgpt_dots": 4
@@ -530,10 +530,10 @@
    "id": "SHOP.buy",
    "name": "Buy something end to end",
    "definition": "Completes a purchase and checkout on the user's behalf.",
-   "count": 98,
+   "count": 99,
    "counts": {
     "instinct": 28,
-    "meta_muse": 63,
+    "meta_muse": 64,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 5
@@ -733,11 +733,11 @@
    "id": "RESEARCH.compare",
    "name": "Compare options and recommend",
    "definition": "Compares products, services or plans and recommends one.",
-   "count": 66,
+   "count": 68,
    "counts": {
     "instinct": 8,
-    "meta_muse": 47,
-    "grok_bot": 6,
+    "meta_muse": 48,
+    "grok_bot": 7,
     "manus_cue": 1,
     "chatgpt_dots": 4
    },
@@ -791,11 +791,11 @@
    "id": "RESEARCH.find",
    "name": "Find a specific thing or answer",
    "definition": "Looks up specific facts, places, people, prices or answers to questions.",
-   "count": 161,
+   "count": 162,
    "counts": {
     "instinct": 15,
     "meta_muse": 101,
-    "grok_bot": 34,
+    "grok_bot": 35,
     "manus_cue": 2,
     "chatgpt_dots": 9
    },
@@ -820,10 +820,10 @@
    "id": "RESEARCH.other",
    "name": "Other / unspecified research & recommendations",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 66,
+   "count": 67,
    "counts": {
     "instinct": 19,
-    "meta_muse": 38,
+    "meta_muse": 39,
     "grok_bot": 9,
     "manus_cue": 0,
     "chatgpt_dots": 0
@@ -849,11 +849,11 @@
    "id": "BIZ.leads",
    "name": "Find leads and do sales outreach",
    "definition": "Finds prospects, builds lead lists, sends outreach or follows up with leads.",
-   "count": 84,
+   "count": 85,
    "counts": {
     "instinct": 8,
     "meta_muse": 31,
-    "grok_bot": 29,
+    "grok_bot": 30,
     "manus_cue": 1,
     "chatgpt_dots": 15
    },
@@ -878,10 +878,10 @@
    "id": "BIZ.marketing",
    "name": "Run marketing",
    "definition": "Plans or executes marketing, campaigns, newsletters or brand work for a business.",
-   "count": 95,
+   "count": 96,
    "counts": {
     "instinct": 4,
-    "meta_muse": 55,
+    "meta_muse": 56,
     "grok_bot": 22,
     "manus_cue": 2,
     "chatgpt_dots": 12
@@ -936,13 +936,13 @@
    "id": "BIZ.team",
    "name": "Run a team of agents as staff",
    "definition": "Sets up agents as a chief of staff or virtual team that runs parts of the business.",
-   "count": 46,
+   "count": 47,
    "counts": {
     "instinct": 2,
     "meta_muse": 21,
     "grok_bot": 16,
     "manus_cue": 0,
-    "chatgpt_dots": 7
+    "chatgpt_dots": 8
    },
    "examples": [
     {
@@ -965,10 +965,10 @@
    "id": "BIZ.ops",
    "name": "Day-to-day business operations",
    "definition": "Other operational tasks: work tasks, projects, vendors, recruiting, customer support for a business.",
-   "count": 68,
+   "count": 69,
    "counts": {
     "instinct": 9,
-    "meta_muse": 24,
+    "meta_muse": 25,
     "grok_bot": 20,
     "manus_cue": 1,
     "chatgpt_dots": 14
@@ -1023,11 +1023,11 @@
    "id": "FIN.budget",
    "name": "Track spending and budget",
    "definition": "Categorizes transactions, tracks spending, builds budgets.",
-   "count": 89,
+   "count": 91,
    "counts": {
     "instinct": 7,
-    "meta_muse": 62,
-    "grok_bot": 19,
+    "meta_muse": 63,
+    "grok_bot": 20,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
@@ -1052,10 +1052,10 @@
    "id": "FIN.pay",
    "name": "Pay bills and send payments",
    "definition": "Pays bills or makes payments and transfers.",
-   "count": 56,
+   "count": 57,
    "counts": {
     "instinct": 9,
-    "meta_muse": 41,
+    "meta_muse": 42,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -1081,10 +1081,10 @@
    "id": "FIN.invest",
    "name": "Investing and trading",
    "definition": "Researches stocks, crypto or manages investments and trades.",
-   "count": 36,
+   "count": 37,
    "counts": {
     "instinct": 3,
-    "meta_muse": 21,
+    "meta_muse": 22,
     "grok_bot": 11,
     "manus_cue": 1,
     "chatgpt_dots": 0
@@ -1110,10 +1110,10 @@
    "id": "FIN.tax",
    "name": "Taxes and financial documents",
    "definition": "Prepares taxes or financial paperwork, statements or credit disputes.",
-   "count": 25,
+   "count": 26,
    "counts": {
     "instinct": 1,
-    "meta_muse": 13,
+    "meta_muse": 14,
     "grok_bot": 9,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -1168,10 +1168,10 @@
    "id": "CAL.schedule",
    "name": "Schedule meetings with others",
    "definition": "Finds times and books or reschedules meetings with other people.",
-   "count": 103,
+   "count": 105,
    "counts": {
     "instinct": 14,
-    "meta_muse": 72,
+    "meta_muse": 74,
     "grok_bot": 6,
     "manus_cue": 0,
     "chatgpt_dots": 11
@@ -1197,10 +1197,10 @@
    "id": "CAL.add",
    "name": "Add events to the calendar",
    "definition": "Puts events from email, texts, schools or sports schedules onto the calendar.",
-   "count": 53,
+   "count": 54,
    "counts": {
     "instinct": 7,
-    "meta_muse": 34,
+    "meta_muse": 35,
     "grok_bot": 7,
     "manus_cue": 0,
     "chatgpt_dots": 5
@@ -1226,11 +1226,11 @@
    "id": "CAL.manage",
    "name": "Manage and organize the calendar",
    "definition": "Keeps the calendar organized, plans the day or week, time-blocks.",
-   "count": 93,
+   "count": 98,
    "counts": {
     "instinct": 5,
-    "meta_muse": 66,
-    "grok_bot": 17,
+    "meta_muse": 69,
+    "grok_bot": 19,
     "manus_cue": 0,
     "chatgpt_dots": 5
    },
@@ -1284,11 +1284,11 @@
    "id": "CONTENT.video",
    "name": "Make or edit video",
    "definition": "Creates or edits videos, clips, reels or overlays.",
-   "count": 96,
+   "count": 97,
    "counts": {
     "instinct": 7,
     "meta_muse": 66,
-    "grok_bot": 19,
+    "grok_bot": 20,
     "manus_cue": 0,
     "chatgpt_dots": 4
    },
@@ -1342,10 +1342,10 @@
    "id": "CONTENT.post",
    "name": "Write and publish social posts",
    "definition": "Writes, schedules or posts content on X, Instagram, LinkedIn, Facebook etc.",
-   "count": 76,
+   "count": 78,
    "counts": {
     "instinct": 6,
-    "meta_muse": 60,
+    "meta_muse": 62,
     "grok_bot": 7,
     "manus_cue": 1,
     "chatgpt_dots": 2
@@ -1487,11 +1487,11 @@
    "id": "FAMILY.household",
    "name": "Household logistics with spouse",
    "definition": "Shared household plans, meals and logistics with a partner or spouse.",
-   "count": 47,
+   "count": 49,
    "counts": {
     "instinct": 8,
-    "meta_muse": 34,
-    "grok_bot": 3,
+    "meta_muse": 35,
+    "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 2
    },
@@ -1632,11 +1632,11 @@
    "id": "CODE.fix",
    "name": "Fix, review or test existing code",
    "definition": "Debugs, reviews, tests, refactors or deploys code in an existing project.",
-   "count": 71,
+   "count": 72,
    "counts": {
     "instinct": 2,
     "meta_muse": 30,
-    "grok_bot": 18,
+    "grok_bot": 19,
     "manus_cue": 1,
     "chatgpt_dots": 20
    },
@@ -1893,10 +1893,10 @@
    "id": "HOBBY.creative",
    "name": "Creative projects",
    "definition": "Music, art, writing, crafts and other creative projects.",
-   "count": 48,
+   "count": 49,
    "counts": {
     "instinct": 2,
-    "meta_muse": 28,
+    "meta_muse": 29,
     "grok_bot": 5,
     "manus_cue": 12,
     "chatgpt_dots": 1
@@ -1951,11 +1951,11 @@
    "id": "HOBBY.other",
    "name": "Other / unspecified hobbies & entertainment",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 68,
+   "count": 71,
    "counts": {
     "instinct": 9,
-    "meta_muse": 45,
-    "grok_bot": 9,
+    "meta_muse": 47,
+    "grok_bot": 10,
     "manus_cue": 3,
     "chatgpt_dots": 2
    },
@@ -2096,13 +2096,13 @@
    "id": "REM.followup",
    "name": "Follow up with people",
    "definition": "Tracks who owes a reply and nudges or follows up.",
-   "count": 22,
+   "count": 23,
    "counts": {
     "instinct": 4,
     "meta_muse": 9,
     "grok_bot": 5,
     "manus_cue": 0,
-    "chatgpt_dots": 4
+    "chatgpt_dots": 5
    },
    "examples": [
     {
@@ -2125,10 +2125,10 @@
    "id": "REM.deadline",
    "name": "Track deadlines and bills due",
    "definition": "Watches due dates, deadlines, renewals and expiring items.",
-   "count": 56,
+   "count": 58,
    "counts": {
     "instinct": 3,
-    "meta_muse": 48,
+    "meta_muse": 50,
     "grok_bot": 3,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -2154,10 +2154,10 @@
    "id": "REM.remind",
    "name": "Set reminders and to-dos",
    "definition": "Sets reminders and keeps the to-do list.",
-   "count": 193,
+   "count": 197,
    "counts": {
     "instinct": 7,
-    "meta_muse": 156,
+    "meta_muse": 160,
     "grok_bot": 16,
     "manus_cue": 0,
     "chatgpt_dots": 14
@@ -2212,13 +2212,13 @@
    "id": "BRIEF.daily",
    "name": "Morning or daily briefing",
    "definition": "A daily or morning summary of calendar, mail, tasks and news.",
-   "count": 90,
+   "count": 95,
    "counts": {
     "instinct": 9,
-    "meta_muse": 57,
-    "grok_bot": 18,
+    "meta_muse": 60,
+    "grok_bot": 19,
     "manus_cue": 1,
-    "chatgpt_dots": 5
+    "chatgpt_dots": 6
    },
    "examples": [
     {
@@ -2270,10 +2270,10 @@
    "id": "BRIEF.meeting",
    "name": "Meeting prep",
    "definition": "Prepares notes or research before meetings or calls.",
-   "count": 16,
+   "count": 17,
    "counts": {
     "instinct": 3,
-    "meta_muse": 6,
+    "meta_muse": 7,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 5
@@ -2299,10 +2299,10 @@
    "id": "BRIEF.other",
    "name": "Other / unspecified briefings & meeting prep",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 23,
+   "count": 24,
    "counts": {
     "instinct": 6,
-    "meta_muse": 14,
+    "meta_muse": 15,
     "grok_bot": 0,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -2560,10 +2560,10 @@
    "id": "HEALTH.fitness",
    "name": "Fitness, diet and health tracking",
    "definition": "Workouts, diet plans, weight and health tracking.",
-   "count": 44,
+   "count": 45,
    "counts": {
     "instinct": 5,
-    "meta_muse": 32,
+    "meta_muse": 33,
     "grok_bot": 6,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -2589,10 +2589,10 @@
    "id": "HEALTH.records",
    "name": "Medical records and insurance",
    "definition": "Medical records, bills, insurance claims and prescriptions.",
-   "count": 26,
+   "count": 28,
    "counts": {
     "instinct": 0,
-    "meta_muse": 24,
+    "meta_muse": 26,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 0
@@ -2734,11 +2734,11 @@
    "id": "FORMS.other",
    "name": "Other / unspecified forms & paperwork",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 40,
+   "count": 41,
    "counts": {
     "instinct": 12,
     "meta_muse": 27,
-    "grok_bot": 1,
+    "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 0
    },
@@ -2763,10 +2763,10 @@
    "id": "JOBS.apply",
    "name": "Apply to jobs",
    "definition": "Fills and submits job applications.",
-   "count": 39,
+   "count": 40,
    "counts": {
     "instinct": 4,
-    "meta_muse": 30,
+    "meta_muse": 31,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -2792,10 +2792,10 @@
    "id": "JOBS.search",
    "name": "Find job openings",
    "definition": "Searches for relevant job postings.",
-   "count": 33,
+   "count": 34,
    "counts": {
     "instinct": 2,
-    "meta_muse": 29,
+    "meta_muse": 30,
     "grok_bot": 1,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -2850,11 +2850,11 @@
    "id": "DOCS.sheets",
    "name": "Build spreadsheets",
    "definition": "Creates or fills spreadsheets and tables.",
-   "count": 44,
+   "count": 46,
    "counts": {
     "instinct": 4,
-    "meta_muse": 29,
-    "grok_bot": 5,
+    "meta_muse": 30,
+    "grok_bot": 6,
     "manus_cue": 1,
     "chatgpt_dots": 5
    },
@@ -2937,10 +2937,10 @@
    "id": "DOCS.write",
    "name": "Write documents",
    "definition": "Writes or edits documents, resumes, slides, letters or reports.",
-   "count": 26,
+   "count": 28,
    "counts": {
     "instinct": 3,
-    "meta_muse": 13,
+    "meta_muse": 15,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 8
@@ -3082,9 +3082,9 @@
    "id": "COORD.message",
    "name": "Message people for me",
    "definition": "Texts, emails, calls or DMs other people on the user's behalf.",
-   "count": 74,
+   "count": 75,
    "counts": {
-    "instinct": 12,
+    "instinct": 13,
     "meta_muse": 45,
     "grok_bot": 3,
     "manus_cue": 1,
@@ -3111,10 +3111,10 @@
    "id": "COORD.group",
    "name": "Coordinate group plans",
    "definition": "Organizes group plans, events or logistics across several people.",
-   "count": 16,
+   "count": 17,
    "counts": {
     "instinct": 6,
-    "meta_muse": 4,
+    "meta_muse": 5,
     "grok_bot": 4,
     "manus_cue": 1,
     "chatgpt_dots": 1
@@ -3227,10 +3227,10 @@
    "id": "HOME.utilities",
    "name": "Utilities and bills",
    "definition": "Electricity, water, internet and other utility accounts.",
-   "count": 6,
+   "count": 7,
    "counts": {
     "instinct": 3,
-    "meta_muse": 0,
+    "meta_muse": 1,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -3256,10 +3256,10 @@
    "id": "HOME.moving",
    "name": "Moving and housing search",
    "definition": "Finding a home or apartment, moving and landlord issues.",
-   "count": 15,
+   "count": 16,
    "counts": {
     "instinct": 2,
-    "meta_muse": 8,
+    "meta_muse": 9,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -3285,11 +3285,11 @@
    "id": "HOME.repair",
    "name": "Home maintenance and smart home",
    "definition": "Repairs, maintenance and smart-home devices.",
-   "count": 16,
+   "count": 17,
    "counts": {
     "instinct": 1,
     "meta_muse": 6,
-    "grok_bot": 8,
+    "grok_bot": 9,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
