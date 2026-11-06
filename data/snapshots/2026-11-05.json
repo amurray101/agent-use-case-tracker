@@ -4,28 +4,28 @@
  "basis": "collected",
  "totals": {
   "all": {
-   "posts": 5026,
-   "use_case_posts": 3272
+   "posts": 5045,
+   "use_case_posts": 3287
   },
   "instinct": {
    "posts": 710,
    "use_case_posts": 472
   },
   "meta_muse": {
-   "posts": 2756,
-   "use_case_posts": 2034
+   "posts": 2758,
+   "use_case_posts": 2036
   },
   "grok_bot": {
-   "posts": 823,
-   "use_case_posts": 428
+   "posts": 828,
+   "use_case_posts": 431
   },
   "manus_cue": {
-   "posts": 112,
-   "use_case_posts": 36
+   "posts": 117,
+   "use_case_posts": 40
   },
   "chatgpt_dots": {
-   "posts": 625,
-   "use_case_posts": 302
+   "posts": 632,
+   "use_case_posts": 308
   }
  },
  "top15": {
@@ -126,67 +126,67 @@
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 509,
-    "share": 0.2502
+    "share": 0.25
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
     "count": 269,
-    "share": 0.1323
+    "share": 0.1321
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
     "count": 235,
-    "share": 0.1155
+    "share": 0.1154
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
-    "count": 231,
-    "share": 0.1136
+    "count": 232,
+    "share": 0.1139
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
     "count": 217,
-    "share": 0.1067
+    "share": 0.1066
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
-    "count": 209,
-    "share": 0.1028
+    "count": 210,
+    "share": 0.1031
    },
    {
     "code": "SHOP",
     "label": "Shopping",
-    "count": 206,
-    "share": 0.1013
+    "count": 207,
+    "share": 0.1017
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 199,
-    "share": 0.0978
+    "share": 0.0977
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 193,
-    "share": 0.0949
+    "share": 0.0948
    },
    {
     "code": "TRAVEL",
     "label": "Travel",
     "count": 169,
-    "share": 0.0831
+    "share": 0.083
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
     "count": 168,
-    "share": 0.0826
+    "share": 0.0825
    },
    {
     "code": "HOBBY",
@@ -198,7 +198,7 @@
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 135,
-    "share": 0.0664
+    "share": 0.0663
    },
    {
     "code": "FAMILY",
@@ -217,356 +217,356 @@
    {
     "code": "CODE",
     "label": "Building apps & code",
-    "count": 116,
-    "share": 0.271
+    "count": 117,
+    "share": 0.2715
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
     "count": 110,
-    "share": 0.257
+    "share": 0.2552
    },
    {
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 94,
-    "share": 0.2196
+    "share": 0.2181
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
-    "count": 66,
-    "share": 0.1542
+    "count": 68,
+    "share": 0.1578
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 62,
-    "share": 0.1449
+    "share": 0.1439
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 51,
-    "share": 0.1192
+    "share": 0.1183
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
     "count": 37,
-    "share": 0.0864
+    "share": 0.0858
    },
    {
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 32,
-    "share": 0.0748
+    "share": 0.0742
    },
    {
     "code": "BRIEF",
     "label": "Briefings & meeting prep",
     "count": 29,
-    "share": 0.0678
+    "share": 0.0673
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
     "count": 28,
-    "share": 0.0654
+    "share": 0.065
    },
    {
     "code": "HOBBY",
     "label": "Hobbies & entertainment",
-    "count": 21,
-    "share": 0.0491
+    "count": 22,
+    "share": 0.051
    },
    {
     "code": "HOME",
     "label": "Home & utilities",
     "count": 20,
-    "share": 0.0467
+    "share": 0.0464
    },
    {
     "code": "FAMILY",
     "label": "Family & kids",
     "count": 14,
-    "share": 0.0327
+    "share": 0.0325
    },
    {
     "code": "COORD",
     "label": "Coordinating with people",
     "count": 13,
-    "share": 0.0304
+    "share": 0.0302
    },
    {
     "code": "MON",
     "label": "Price & availability alerts",
     "count": 11,
-    "share": 0.0257
+    "share": 0.0255
    }
   ],
   "manus_cue": [
    {
     "code": "HOBBY",
     "label": "Hobbies & entertainment",
-    "count": 18,
-    "share": 0.5
+    "count": 19,
+    "share": 0.475
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 6,
-    "share": 0.1667
+    "share": 0.15
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
     "count": 5,
-    "share": 0.1389
+    "share": 0.125
+   },
+   {
+    "code": "CONTENT",
+    "label": "Content & social media",
+    "count": 5,
+    "share": 0.125
    },
    {
     "code": "COORD",
     "label": "Coordinating with people",
     "count": 4,
-    "share": 0.1111
+    "share": 0.1
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
     "count": 3,
-    "share": 0.0833
+    "share": 0.075
    },
    {
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 2,
-    "share": 0.0556
+    "share": 0.05
    },
    {
     "code": "EMAIL",
     "label": "Email & inbox",
     "count": 2,
-    "share": 0.0556
+    "share": 0.05
    },
    {
     "code": "APPT",
     "label": "Appointments & local services",
     "count": 1,
-    "share": 0.0278
+    "share": 0.025
    },
    {
     "code": "BRIEF",
     "label": "Briefings & meeting prep",
     "count": 1,
-    "share": 0.0278
-   },
-   {
-    "code": "CONTENT",
-    "label": "Content & social media",
-    "count": 1,
-    "share": 0.0278
+    "share": 0.025
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 1,
-    "share": 0.0278
+    "share": 0.025
    },
    {
     "code": "HEALTH",
     "label": "Health admin",
     "count": 1,
-    "share": 0.0278
+    "share": 0.025
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 1,
-    "share": 0.0278
+    "share": 0.025
    }
   ],
   "chatgpt_dots": [
    {
     "code": "CODE",
     "label": "Building apps & code",
-    "count": 115,
-    "share": 0.3808
+    "count": 116,
+    "share": 0.3766
    },
    {
     "code": "EMAIL",
     "label": "Email & inbox",
-    "count": 67,
-    "share": 0.2219
+    "count": 68,
+    "share": 0.2208
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
     "count": 58,
-    "share": 0.1921
+    "share": 0.1883
    },
    {
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 35,
-    "share": 0.1159
+    "share": 0.1136
    },
    {
     "code": "COORD",
     "label": "Coordinating with people",
-    "count": 26,
-    "share": 0.0861
+    "count": 27,
+    "share": 0.0877
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
-    "count": 26,
-    "share": 0.0861
+    "count": 27,
+    "share": 0.0877
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
-    "count": 22,
-    "share": 0.0728
+    "count": 23,
+    "share": 0.0747
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
     "count": 19,
-    "share": 0.0629
+    "share": 0.0617
    },
    {
     "code": "BRIEF",
     "label": "Briefings & meeting prep",
     "count": 15,
-    "share": 0.0497
+    "share": 0.0487
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
-    "count": 13,
-    "share": 0.043
+    "count": 15,
+    "share": 0.0487
    },
    {
     "code": "TRAVEL",
     "label": "Travel",
-    "count": 11,
-    "share": 0.0364
+    "count": 12,
+    "share": 0.039
    },
    {
     "code": "SHOP",
     "label": "Shopping",
     "count": 9,
-    "share": 0.0298
+    "share": 0.0292
    },
    {
     "code": "CS",
     "label": "Customer service & refunds",
     "count": 6,
-    "share": 0.0199
+    "share": 0.0195
    },
    {
     "code": "FAMILY",
     "label": "Family & kids",
     "count": 6,
-    "share": 0.0199
+    "share": 0.0195
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 6,
-    "share": 0.0199
+    "share": 0.0195
    }
   ],
   "all": [
    {
     "code": "EMAIL",
     "label": "Email & inbox",
-    "count": 756,
-    "share": 0.2311
+    "count": 757,
+    "share": 0.2303
    },
    {
     "code": "CODE",
     "label": "Building apps & code",
-    "count": 420,
+    "count": 422,
     "share": 0.1284
    },
    {
     "code": "BIZ",
     "label": "Work & business tasks",
-    "count": 419,
-    "share": 0.1281
+    "count": 420,
+    "share": 0.1278
    },
    {
     "code": "RESEARCH",
     "label": "Research & recommendations",
-    "count": 362,
-    "share": 0.1106
+    "count": 363,
+    "share": 0.1104
    },
    {
     "code": "REM",
     "label": "Reminders & follow-ups",
-    "count": 349,
-    "share": 0.1067
+    "count": 350,
+    "share": 0.1065
    },
    {
     "code": "CONTENT",
     "label": "Content & social media",
-    "count": 337,
-    "share": 0.103
+    "count": 345,
+    "share": 0.105
    },
    {
     "code": "CAL",
     "label": "Calendar & scheduling",
-    "count": 310,
-    "share": 0.0947
+    "count": 311,
+    "share": 0.0946
    },
    {
     "code": "TRAVEL",
     "label": "Travel",
-    "count": 284,
-    "share": 0.0868
+    "count": 285,
+    "share": 0.0867
    },
    {
     "code": "FIN",
     "label": "Personal finance & payments",
     "count": 282,
-    "share": 0.0862
+    "share": 0.0858
    },
    {
     "code": "SHOP",
     "label": "Shopping",
-    "count": 277,
-    "share": 0.0847
+    "count": 278,
+    "share": 0.0846
    },
    {
     "code": "MONEY",
     "label": "Saving money on bills & subscriptions",
     "count": 260,
-    "share": 0.0795
+    "share": 0.0791
    },
    {
     "code": "DOCS",
     "label": "Documents & notes",
     "count": 235,
-    "share": 0.0718
+    "share": 0.0715
    },
    {
     "code": "HOBBY",
     "label": "Hobbies & entertainment",
-    "count": 206,
-    "share": 0.063
+    "count": 208,
+    "share": 0.0633
    },
    {
     "code": "BRIEF",
     "label": "Briefings & meeting prep",
     "count": 164,
-    "share": 0.0501
+    "share": 0.0499
    },
    {
     "code": "COORD",
     "label": "Coordinating with people",
-    "count": 163,
-    "share": 0.0498
+    "count": 164,
+    "share": 0.0499
    }
   ]
  }
