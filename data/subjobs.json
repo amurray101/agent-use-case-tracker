@@ -8,10 +8,10 @@
    "id": "EMAIL.security",
    "name": "Screen email for scams and phishing",
    "definition": "Checks incoming mail for phishing, scams or spoofed senders.",
-   "count": 16,
+   "count": 18,
    "counts": {
-    "instinct": 1,
-    "meta_muse": 14,
+    "instinct": 2,
+    "meta_muse": 15,
     "grok_bot": 0,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -37,11 +37,11 @@
    "id": "EMAIL.cleanup",
    "name": "Clean up and unsubscribe",
    "definition": "Bulk-deletes, archives, sorts into folders or unsubscribes to shrink the inbox.",
-   "count": 227,
+   "count": 232,
    "counts": {
     "instinct": 7,
-    "meta_muse": 188,
-    "grok_bot": 21,
+    "meta_muse": 192,
+    "grok_bot": 22,
     "manus_cue": 1,
     "chatgpt_dots": 10
    },
@@ -66,13 +66,13 @@
    "id": "EMAIL.draft",
    "name": "Draft or send replies",
    "definition": "Writes, drafts, proofreads or sends emails and replies for the user.",
-   "count": 158,
+   "count": 163,
    "counts": {
     "instinct": 24,
-    "meta_muse": 77,
+    "meta_muse": 81,
     "grok_bot": 35,
     "manus_cue": 1,
-    "chatgpt_dots": 21
+    "chatgpt_dots": 22
    },
    "examples": [
     {
@@ -95,9 +95,9 @@
    "id": "EMAIL.find",
    "name": "Find an old email or attachment",
    "definition": "Searches the mailbox for a specific message, file, receipt or attachment.",
-   "count": 22,
+   "count": 23,
    "counts": {
-    "instinct": 3,
+    "instinct": 4,
     "meta_muse": 14,
     "grok_bot": 3,
     "manus_cue": 0,
@@ -111,10 +111,10 @@
      "quote": "Dots searched my inbox, cross-referenced the ID"
     },
     {
-     "id": "meta_muse-582763b759",
-     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-779ec24f-fab5-4465-9219-b6592f07899d",
-     "agent_product": "meta_muse",
-     "quote": "You can find packages go through emails. set up timelines."
+     "id": "instinct-0565d67c73",
+     "url": "https://x.com/realmikeredler/status/2119315143909609954",
+     "agent_product": "instinct",
+     "quote": "I had Instinct going through 120,000 old emails"
     }
    ]
   },
@@ -124,10 +124,10 @@
    "id": "EMAIL.summary",
    "name": "Summarize and surface what matters",
    "definition": "Reads the inbox or long threads and reports what is important or needs a reply.",
-   "count": 149,
+   "count": 150,
    "counts": {
     "instinct": 14,
-    "meta_muse": 99,
+    "meta_muse": 100,
     "grok_bot": 18,
     "manus_cue": 0,
     "chatgpt_dots": 18
@@ -182,10 +182,10 @@
    "id": "EMAIL.other",
    "name": "Other / unspecified email & inbox",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 218,
+   "count": 225,
    "counts": {
-    "instinct": 33,
-    "meta_muse": 144,
+    "instinct": 34,
+    "meta_muse": 150,
     "grok_bot": 23,
     "manus_cue": 0,
     "chatgpt_dots": 18
@@ -198,10 +198,10 @@
      "quote": "2,247 old social emails gone."
     },
     {
-     "id": "instinct-8d1a925f07",
-     "url": "https://x.com/danywander/status/2101602928129609773",
-     "agent_product": "instinct",
-     "quote": "i had to accept a ticket transfer"
+     "id": "meta_muse-58db3f4c59",
+     "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14758873844",
+     "agent_product": "meta_muse",
+     "quote": "I let Muse dive into my emails"
     }
    ]
   },
@@ -211,26 +211,26 @@
    "id": "MONEY.cancel_subs",
    "name": "Find and cancel subscriptions",
    "definition": "Audits recurring charges and cancels unwanted subscriptions.",
-   "count": 115,
+   "count": 118,
    "counts": {
-    "instinct": 15,
-    "meta_muse": 93,
+    "instinct": 16,
+    "meta_muse": 95,
     "grok_bot": 6,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
    "examples": [
     {
+     "id": "meta_muse-3b6c4c77bb",
+     "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14756619340",
+     "agent_product": "meta_muse",
+     "quote": "Research, cancelations , everything."
+    },
+    {
      "id": "meta_muse-0c6bb613b5",
      "url": "https://x.com/Wealthonomic/status/2103891483858440425",
      "agent_product": "meta_muse",
      "quote": "- Find subscriptions wasting my money"
-    },
-    {
-     "id": "instinct-33b1f11b54",
-     "url": "https://x.com/jayrungta/status/2094121847482900609",
-     "agent_product": "instinct",
-     "quote": "help me cancel my MasterClass subscription"
     }
    ]
   },
@@ -269,10 +269,10 @@
    "id": "MONEY.negotiate",
    "name": "Negotiate bills",
    "definition": "Negotiates lower rates on phone, internet, utility or other bills.",
-   "count": 56,
+   "count": 60,
    "counts": {
-    "instinct": 15,
-    "meta_muse": 37,
+    "instinct": 16,
+    "meta_muse": 40,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -298,9 +298,9 @@
    "id": "MONEY.credits",
    "name": "Find credits, rewards and refunds owed",
    "definition": "Finds unclaimed credits, rewards, rebates, settlements or cheaper alternatives.",
-   "count": 34,
+   "count": 35,
    "counts": {
-    "instinct": 7,
+    "instinct": 8,
     "meta_muse": 25,
     "grok_bot": 1,
     "manus_cue": 0,
@@ -356,10 +356,10 @@
    "id": "TRAVEL.flights",
    "name": "Book or find flights",
    "definition": "Searches for or books flights.",
-   "count": 123,
+   "count": 124,
    "counts": {
     "instinct": 44,
-    "meta_muse": 72,
+    "meta_muse": 73,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -385,26 +385,26 @@
    "id": "TRAVEL.hotel",
    "name": "Book hotels or stays",
    "definition": "Finds or books hotels, Airbnbs or other lodging.",
-   "count": 20,
+   "count": 23,
    "counts": {
-    "instinct": 4,
-    "meta_muse": 14,
-    "grok_bot": 1,
+    "instinct": 5,
+    "meta_muse": 15,
+    "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
    "examples": [
     {
+     "id": "instinct-85f0005a73",
+     "url": "https://x.com/drauflux/status/2118902522114953431",
+     "agent_product": "instinct",
+     "quote": "I booked my last to airbnb with @instinct"
+    },
+    {
      "id": "meta_muse-8ce29b1589",
      "url": "https://x.com/michaelworley/status/2104611050674876632",
      "agent_product": "meta_muse",
      "quote": "I ended up getting the entire hotel stay refunded."
-    },
-    {
-     "id": "meta_muse-57b731f053",
-     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-2ed393d6-a852-4c43-81a1-13e6ecfbcec2",
-     "agent_product": "meta_muse",
-     "quote": "scheduled blocks on my Google calendar and booked a hotel room for me!"
     }
    ]
   },
@@ -414,9 +414,9 @@
    "id": "TRAVEL.checkin",
    "name": "Check in, rebook or fix trips",
    "definition": "Handles check-in, cancellations, delays and rebooking of existing travel.",
-   "count": 26,
+   "count": 27,
    "counts": {
-    "instinct": 9,
+    "instinct": 10,
     "meta_muse": 11,
     "grok_bot": 1,
     "manus_cue": 0,
@@ -424,16 +424,16 @@
    },
    "examples": [
     {
+     "id": "instinct-74f5e5b360",
+     "url": "https://x.com/joseisasa/status/2119254166082146370",
+     "agent_product": "instinct",
+     "quote": "I asked my @instinct to change the seat."
+    },
+    {
      "id": "instinct-ccf2437907",
      "url": "https://x.com/NateVanschaik/status/2098440675964682671",
      "agent_product": "instinct",
      "quote": "cancelled $400/month of subscriptions I wasn’t using"
-    },
-    {
-     "id": "instinct-eff3d2e0db",
-     "url": "https://x.com/reva_jariwala/status/2099188550717903021",
-     "agent_product": "instinct",
-     "quote": "it rebooked me on a nonstop & even got the change fee waived"
     }
    ]
   },
@@ -443,13 +443,13 @@
    "id": "TRAVEL.plan",
    "name": "Plan a trip itinerary",
    "definition": "Plans trips, itineraries, road trips or vacations.",
-   "count": 80,
+   "count": 82,
    "counts": {
     "instinct": 15,
     "meta_muse": 55,
-    "grok_bot": 6,
+    "grok_bot": 7,
     "manus_cue": 0,
-    "chatgpt_dots": 4
+    "chatgpt_dots": 5
    },
    "examples": [
     {
@@ -472,9 +472,9 @@
    "id": "TRAVEL.other",
    "name": "Other / unspecified travel",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 42,
+   "count": 43,
    "counts": {
-    "instinct": 21,
+    "instinct": 22,
     "meta_muse": 21,
     "grok_bot": 0,
     "manus_cue": 0,
@@ -501,9 +501,9 @@
    "id": "SHOP.deals",
    "name": "Find deals and promo codes",
    "definition": "Finds the cheapest price, deals or promo codes.",
-   "count": 69,
+   "count": 70,
    "counts": {
-    "instinct": 3,
+    "instinct": 4,
     "meta_muse": 55,
     "grok_bot": 7,
     "manus_cue": 0,
@@ -530,10 +530,10 @@
    "id": "SHOP.buy",
    "name": "Buy something end to end",
    "definition": "Completes a purchase and checkout on the user's behalf.",
-   "count": 107,
+   "count": 111,
    "counts": {
-    "instinct": 28,
-    "meta_muse": 71,
+    "instinct": 29,
+    "meta_muse": 74,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 6
@@ -588,9 +588,9 @@
    "id": "SHOP.other",
    "name": "Other / unspecified shopping",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 57,
+   "count": 58,
    "counts": {
-    "instinct": 14,
+    "instinct": 15,
     "meta_muse": 43,
     "grok_bot": 0,
     "manus_cue": 0,
@@ -617,11 +617,11 @@
    "id": "CS.refund",
    "name": "Get refunds and returns",
    "definition": "Requests refunds, returns or chargebacks from companies.",
-   "count": 47,
+   "count": 49,
    "counts": {
-    "instinct": 14,
+    "instinct": 15,
     "meta_muse": 28,
-    "grok_bot": 4,
+    "grok_bot": 5,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
@@ -646,10 +646,10 @@
    "id": "CS.claim",
    "name": "File claims and disputes",
    "definition": "Files claims, complaints or disputes and pushes for compensation.",
-   "count": 30,
+   "count": 31,
    "counts": {
     "instinct": 6,
-    "meta_muse": 21,
+    "meta_muse": 22,
     "grok_bot": 1,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -675,10 +675,10 @@
    "id": "CS.contact",
    "name": "Contact support for me",
    "definition": "Calls, chats or emails a company's support on the user's behalf, including waiting on hold.",
-   "count": 39,
+   "count": 40,
    "counts": {
     "instinct": 8,
-    "meta_muse": 27,
+    "meta_muse": 28,
     "grok_bot": 1,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -762,10 +762,10 @@
    "id": "RESEARCH.deep",
    "name": "Deep research reports",
    "definition": "Researches a topic in depth and produces a report or analysis.",
-   "count": 42,
+   "count": 44,
    "counts": {
     "instinct": 2,
-    "meta_muse": 24,
+    "meta_muse": 26,
     "grok_bot": 9,
     "manus_cue": 2,
     "chatgpt_dots": 5
@@ -778,10 +778,10 @@
      "quote": "Rio even does market analysis."
     },
     {
-     "id": "meta_muse-45e3559e3e",
-     "url": "https://www.youtube.com/watch?v=XNOuhxUsQDI&lc=UgyXFWPsCYC_bfbV2E94AaABAg",
+     "id": "meta_muse-d082abb742",
+     "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14758493433",
      "agent_product": "meta_muse",
-     "quote": "I had it do some market research for me on an idea."
+     "quote": "rewrite and update my resume, study guides"
     }
    ]
   },
@@ -791,10 +791,10 @@
    "id": "RESEARCH.find",
    "name": "Find a specific thing or answer",
    "definition": "Looks up specific facts, places, people, prices or answers to questions.",
-   "count": 184,
+   "count": 190,
    "counts": {
     "instinct": 15,
-    "meta_muse": 120,
+    "meta_muse": 126,
     "grok_bot": 37,
     "manus_cue": 2,
     "chatgpt_dots": 10
@@ -849,10 +849,10 @@
    "id": "BIZ.leads",
    "name": "Find leads and do sales outreach",
    "definition": "Finds prospects, builds lead lists, sends outreach or follows up with leads.",
-   "count": 97,
+   "count": 98,
    "counts": {
     "instinct": 8,
-    "meta_muse": 37,
+    "meta_muse": 38,
     "grok_bot": 34,
     "manus_cue": 1,
     "chatgpt_dots": 17
@@ -907,26 +907,26 @@
    "id": "BIZ.books",
    "name": "Bookkeeping, invoices and reports",
    "definition": "Handles invoices, P&L, bookkeeping, analytics or business reports.",
-   "count": 29,
+   "count": 30,
    "counts": {
     "instinct": 1,
-    "meta_muse": 16,
+    "meta_muse": 17,
     "grok_bot": 7,
     "manus_cue": 1,
     "chatgpt_dots": 4
    },
    "examples": [
     {
+     "id": "meta_muse-7d0ea9d441",
+     "url": "https://x.com/AmandaSabreah/status/2118517804282302748",
+     "agent_product": "meta_muse",
+     "quote": "invoices, payroll docs, inbox cleanup and meeting prep"
+    },
+    {
      "id": "meta_muse-136eaa3caf",
      "url": "https://www.youtube.com/watch?v=HhfSBDcLQYI&lc=UgzsSch5XdC_ndcUwS54AaABAg.AcEOEuOURkuAcgsqYCgFro",
      "agent_product": "meta_muse",
      "quote": "Muse has cross correlated every expense, invoice and payment."
-    },
-    {
-     "id": "instinct-7a3fd89736",
-     "url": "https://news.ycombinator.com/item?id=49617903",
-     "agent_product": "instinct",
-     "quote": "preparing my contracting invoices & drafting outgoing emails for me"
     }
    ]
   },
@@ -936,11 +936,11 @@
    "id": "BIZ.team",
    "name": "Run a team of agents as staff",
    "definition": "Sets up agents as a chief of staff or virtual team that runs parts of the business.",
-   "count": 50,
+   "count": 54,
    "counts": {
     "instinct": 2,
-    "meta_muse": 22,
-    "grok_bot": 17,
+    "meta_muse": 25,
+    "grok_bot": 18,
     "manus_cue": 0,
     "chatgpt_dots": 9
    },
@@ -965,10 +965,10 @@
    "id": "BIZ.ops",
    "name": "Day-to-day business operations",
    "definition": "Other operational tasks: work tasks, projects, vendors, recruiting, customer support for a business.",
-   "count": 79,
+   "count": 82,
    "counts": {
-    "instinct": 10,
-    "meta_muse": 30,
+    "instinct": 11,
+    "meta_muse": 32,
     "grok_bot": 23,
     "manus_cue": 1,
     "chatgpt_dots": 15
@@ -981,10 +981,10 @@
      "quote": "for work, i basically only use dot"
     },
     {
-     "id": "meta_muse-6a4d393706",
-     "url": "https://x.com/KryptonCEO/status/2102911626949337173",
-     "agent_product": "meta_muse",
-     "quote": "is embedded in @KryptonResearch workflows already"
+     "id": "instinct-6659908cdb",
+     "url": "https://x.com/JIROMAN_1985/status/2118979391933808745",
+     "agent_product": "instinct",
+     "quote": "I manage my life, my company with two projects"
     }
    ]
   },
@@ -994,10 +994,10 @@
    "id": "BIZ.other",
    "name": "Other / unspecified work & business tasks",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 82,
+   "count": 84,
    "counts": {
     "instinct": 12,
-    "meta_muse": 53,
+    "meta_muse": 55,
     "grok_bot": 14,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -1052,10 +1052,10 @@
    "id": "FIN.pay",
    "name": "Pay bills and send payments",
    "definition": "Pays bills or makes payments and transfers.",
-   "count": 65,
+   "count": 66,
    "counts": {
     "instinct": 9,
-    "meta_muse": 50,
+    "meta_muse": 51,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -1168,26 +1168,26 @@
    "id": "CAL.schedule",
    "name": "Schedule meetings with others",
    "definition": "Finds times and books or reschedules meetings with other people.",
-   "count": 125,
+   "count": 127,
    "counts": {
     "instinct": 14,
-    "meta_muse": 89,
+    "meta_muse": 91,
     "grok_bot": 10,
     "manus_cue": 0,
     "chatgpt_dots": 12
    },
    "examples": [
     {
+     "id": "meta_muse-f7303087d2",
+     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a5402403-e861-44c0-98ed-5156e1e20dd2",
+     "agent_product": "meta_muse",
+     "quote": "generating schedules for me"
+    },
+    {
      "id": "instinct-5f8495eca6",
      "url": "https://x.com/aishashok14/status/2100190273418776827",
      "agent_product": "instinct",
      "quote": "I had it print out my day’s schedule"
-    },
-    {
-     "id": "meta_muse-c7707bcc7c",
-     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-5babb3fb-ddbe-43a4-bb69-33609c9798aa",
-     "agent_product": "meta_muse",
-     "quote": "Pippin keeps track of my inbox and schedule."
     }
    ]
   },
@@ -1197,9 +1197,9 @@
    "id": "CAL.add",
    "name": "Add events to the calendar",
    "definition": "Puts events from email, texts, schools or sports schedules onto the calendar.",
-   "count": 62,
+   "count": 63,
    "counts": {
-    "instinct": 7,
+    "instinct": 8,
     "meta_muse": 42,
     "grok_bot": 7,
     "manus_cue": 0,
@@ -1226,26 +1226,26 @@
    "id": "CAL.manage",
    "name": "Manage and organize the calendar",
    "definition": "Keeps the calendar organized, plans the day or week, time-blocks.",
-   "count": 109,
+   "count": 113,
    "counts": {
     "instinct": 5,
-    "meta_muse": 77,
+    "meta_muse": 81,
     "grok_bot": 21,
     "manus_cue": 0,
     "chatgpt_dots": 6
    },
    "examples": [
     {
+     "id": "meta_muse-72a420f098",
+     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-c5594d64-6347-410f-b4a3-4d2f459c9719",
+     "agent_product": "meta_muse",
+     "quote": "it organizes my day."
+    },
+    {
      "id": "meta_muse-652f31b399",
      "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-eb349fdf-de7c-4a56-a6c5-ba8de5f5417c",
      "agent_product": "meta_muse",
      "quote": "He does my email and my calendar."
-    },
-    {
-     "id": "meta_muse-fbde0b4212",
-     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-56b464d8-6781-4a6a-bde0-8bddea61b8a9",
-     "agent_product": "meta_muse",
-     "quote": "keeping calendars and stuff organized."
     }
    ]
   },
@@ -1284,11 +1284,11 @@
    "id": "CONTENT.video",
    "name": "Make or edit video",
    "definition": "Creates or edits videos, clips, reels or overlays.",
-   "count": 108,
+   "count": 111,
    "counts": {
     "instinct": 7,
-    "meta_muse": 67,
-    "grok_bot": 29,
+    "meta_muse": 69,
+    "grok_bot": 30,
     "manus_cue": 0,
     "chatgpt_dots": 5
    },
@@ -1313,11 +1313,11 @@
    "id": "CONTENT.image",
    "name": "Make images and graphics",
    "definition": "Generates or edits images, logos, flyers, thumbnails or photos.",
-   "count": 66,
+   "count": 69,
    "counts": {
     "instinct": 2,
-    "meta_muse": 47,
-    "grok_bot": 16,
+    "meta_muse": 49,
+    "grok_bot": 17,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
@@ -1371,10 +1371,10 @@
    "id": "CONTENT.writing",
    "name": "Write long-form content",
    "definition": "Writes articles, blogs, books, scripts or copy.",
-   "count": 33,
+   "count": 34,
    "counts": {
     "instinct": 0,
-    "meta_muse": 24,
+    "meta_muse": 25,
     "grok_bot": 6,
     "manus_cue": 2,
     "chatgpt_dots": 1
@@ -1429,10 +1429,10 @@
    "id": "FAMILY.school",
    "name": "Kids' school and activities",
    "definition": "School emails, grades, homework, sports and activity schedules for kids.",
-   "count": 46,
+   "count": 48,
    "counts": {
-    "instinct": 7,
-    "meta_muse": 33,
+    "instinct": 8,
+    "meta_muse": 34,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -1445,10 +1445,10 @@
      "quote": "Toddler class research not so much"
     },
     {
-     "id": "meta_muse-6e1aa34b32",
-     "url": "https://x.com/hamids/status/2101028803611181265",
+     "id": "meta_muse-d14d2f835f",
+     "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-983e8710-e7c2-440b-b30b-da30d127216c",
      "agent_product": "meta_muse",
-     "quote": "find my daughter's soccer games and put them on my calendar"
+     "quote": "to search for daycare availability for my son"
     }
    ]
   },
@@ -1487,10 +1487,10 @@
    "id": "FAMILY.household",
    "name": "Household logistics with spouse",
    "definition": "Shared household plans, meals and logistics with a partner or spouse.",
-   "count": 52,
+   "count": 54,
    "counts": {
     "instinct": 8,
-    "meta_muse": 38,
+    "meta_muse": 40,
     "grok_bot": 4,
     "manus_cue": 0,
     "chatgpt_dots": 2
@@ -1574,11 +1574,11 @@
    "id": "CODE.website",
    "name": "Build a website or landing page",
    "definition": "Builds or redesigns a website, landing page or online store front.",
-   "count": 83,
+   "count": 85,
    "counts": {
     "instinct": 4,
-    "meta_muse": 47,
-    "grok_bot": 22,
+    "meta_muse": 48,
+    "grok_bot": 23,
     "manus_cue": 2,
     "chatgpt_dots": 8
    },
@@ -1603,13 +1603,13 @@
    "id": "CODE.orchestrate",
    "name": "Run coding agents",
    "definition": "Directs or coordinates other coding agents (Codex, Claude Code, Cursor) on the user's behalf.",
-   "count": 109,
+   "count": 112,
    "counts": {
     "instinct": 2,
     "meta_muse": 10,
-    "grok_bot": 43,
+    "grok_bot": 44,
     "manus_cue": 0,
-    "chatgpt_dots": 54
+    "chatgpt_dots": 56
    },
    "examples": [
     {
@@ -1632,10 +1632,10 @@
    "id": "CODE.fix",
    "name": "Fix, review or test existing code",
    "definition": "Debugs, reviews, tests, refactors or deploys code in an existing project.",
-   "count": 77,
+   "count": 79,
    "counts": {
     "instinct": 2,
-    "meta_muse": 32,
+    "meta_muse": 34,
     "grok_bot": 21,
     "manus_cue": 1,
     "chatgpt_dots": 21
@@ -1690,13 +1690,13 @@
    "id": "CODE.app",
    "name": "Build an app or game",
    "definition": "Builds a working app, dashboard, game or tool end to end.",
-   "count": 64,
+   "count": 65,
    "counts": {
     "instinct": 3,
     "meta_muse": 40,
     "grok_bot": 15,
     "manus_cue": 0,
-    "chatgpt_dots": 6
+    "chatgpt_dots": 7
    },
    "examples": [
     {
@@ -1719,13 +1719,13 @@
    "id": "CODE.other",
    "name": "Other / unspecified building apps & code",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 78,
+   "count": 80,
    "counts": {
     "instinct": 6,
     "meta_muse": 33,
-    "grok_bot": 17,
+    "grok_bot": 18,
     "manus_cue": 0,
-    "chatgpt_dots": 22
+    "chatgpt_dots": 23
    },
    "examples": [
     {
@@ -1777,10 +1777,10 @@
    "id": "EVENT.find",
    "name": "Find and register for events",
    "definition": "Finds events or registers the user for them.",
-   "count": 32,
+   "count": 33,
    "counts": {
     "instinct": 10,
-    "meta_muse": 20,
+    "meta_muse": 21,
     "grok_bot": 1,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -1793,10 +1793,10 @@
      "quote": "registered me for 11 founder events"
     },
     {
-     "id": "instinct-b89b775b5b",
-     "url": "https://x.com/vipulawl/status/2105255228740174201",
-     "agent_product": "instinct",
-     "quote": "Using Instinct to find events in my city for my kid"
+     "id": "meta_muse-0939638561",
+     "url": "https://x.com/genzboss/status/2119184207863832785",
+     "agent_product": "meta_muse",
+     "quote": "Muse checks events and signs me up for what"
     }
    ]
   },
@@ -1864,11 +1864,11 @@
    "id": "HOBBY.games",
    "name": "Games and play",
    "definition": "Playing or building games, fantasy sports, puzzles.",
-   "count": 45,
+   "count": 46,
    "counts": {
     "instinct": 9,
     "meta_muse": 25,
-    "grok_bot": 5,
+    "grok_bot": 6,
     "manus_cue": 3,
     "chatgpt_dots": 3
    },
@@ -1893,10 +1893,10 @@
    "id": "HOBBY.creative",
    "name": "Creative projects",
    "definition": "Music, art, writing, crafts and other creative projects.",
-   "count": 53,
+   "count": 55,
    "counts": {
     "instinct": 2,
-    "meta_muse": 31,
+    "meta_muse": 33,
     "grok_bot": 6,
     "manus_cue": 13,
     "chatgpt_dots": 1
@@ -1980,11 +1980,11 @@
    "id": "MON.price",
    "name": "Watch prices",
    "definition": "Tracks a price and alerts or buys when it drops.",
-   "count": 42,
+   "count": 44,
    "counts": {
-    "instinct": 13,
+    "instinct": 14,
     "meta_muse": 27,
-    "grok_bot": 1,
+    "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
@@ -2009,13 +2009,13 @@
    "id": "MON.stock",
    "name": "Watch availability and stock",
    "definition": "Watches for restocks, open reservations, appointments or tickets.",
-   "count": 14,
+   "count": 16,
    "counts": {
     "instinct": 4,
-    "meta_muse": 8,
+    "meta_muse": 9,
     "grok_bot": 1,
     "manus_cue": 0,
-    "chatgpt_dots": 1
+    "chatgpt_dots": 2
    },
    "examples": [
     {
@@ -2125,10 +2125,10 @@
    "id": "REM.deadline",
    "name": "Track deadlines and bills due",
    "definition": "Watches due dates, deadlines, renewals and expiring items.",
-   "count": 75,
+   "count": 77,
    "counts": {
     "instinct": 3,
-    "meta_muse": 66,
+    "meta_muse": 68,
     "grok_bot": 3,
     "manus_cue": 0,
     "chatgpt_dots": 3
@@ -2154,11 +2154,11 @@
    "id": "REM.remind",
    "name": "Set reminders and to-dos",
    "definition": "Sets reminders and keeps the to-do list.",
-   "count": 239,
+   "count": 244,
    "counts": {
     "instinct": 7,
-    "meta_muse": 197,
-    "grok_bot": 19,
+    "meta_muse": 201,
+    "grok_bot": 20,
     "manus_cue": 0,
     "chatgpt_dots": 16
    },
@@ -2183,13 +2183,13 @@
    "id": "REM.other",
    "name": "Other / unspecified reminders & follow-ups",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 31,
+   "count": 33,
    "counts": {
     "instinct": 12,
-    "meta_muse": 13,
+    "meta_muse": 14,
     "grok_bot": 3,
     "manus_cue": 0,
-    "chatgpt_dots": 3
+    "chatgpt_dots": 4
    },
    "examples": [
     {
@@ -2270,10 +2270,10 @@
    "id": "BRIEF.meeting",
    "name": "Meeting prep",
    "definition": "Prepares notes or research before meetings or calls.",
-   "count": 19,
+   "count": 20,
    "counts": {
     "instinct": 3,
-    "meta_muse": 9,
+    "meta_muse": 10,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 5
@@ -2286,10 +2286,10 @@
      "quote": "create a map of my meeting schedule and locations"
     },
     {
-     "id": "grok_bot-ba68a18b29",
-     "url": "https://x.com/kevinasrx/status/2108663669978771871",
-     "agent_product": "grok_bot",
-     "quote": "Before I even had coffee, it prepped me for my 10 AM call."
+     "id": "meta_muse-7d0ea9d441",
+     "url": "https://x.com/AmandaSabreah/status/2118517804282302748",
+     "agent_product": "meta_muse",
+     "quote": "invoices, payroll docs, inbox cleanup and meeting prep"
     }
    ]
   },
@@ -2328,9 +2328,9 @@
    "id": "REST.book",
    "name": "Book a restaurant table",
    "definition": "Books or changes restaurant reservations.",
-   "count": 38,
+   "count": 39,
    "counts": {
-    "instinct": 21,
+    "instinct": 22,
     "meta_muse": 17,
     "grok_bot": 0,
     "manus_cue": 0,
@@ -2386,10 +2386,10 @@
    "id": "FOOD.grocery",
    "name": "Order groceries",
    "definition": "Orders groceries from Instacart, Walmart, Costco and similar.",
-   "count": 38,
+   "count": 39,
    "counts": {
     "instinct": 1,
-    "meta_muse": 33,
+    "meta_muse": 34,
     "grok_bot": 0,
     "manus_cue": 0,
     "chatgpt_dots": 4
@@ -2444,10 +2444,10 @@
    "id": "FOOD.other",
    "name": "Other / unspecified groceries & food ordering",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 35,
+   "count": 36,
    "counts": {
     "instinct": 10,
-    "meta_muse": 23,
+    "meta_muse": 24,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 0
@@ -2502,10 +2502,10 @@
    "id": "APPT.book",
    "name": "Book appointments",
    "definition": "Books appointments such as salons, doctors, classes or car service.",
-   "count": 101,
+   "count": 103,
    "counts": {
     "instinct": 15,
-    "meta_muse": 75,
+    "meta_muse": 77,
     "grok_bot": 5,
     "manus_cue": 1,
     "chatgpt_dots": 5
@@ -2531,10 +2531,10 @@
    "id": "APPT.other",
    "name": "Other / unspecified appointments & local services",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 15,
+   "count": 16,
    "counts": {
     "instinct": 4,
-    "meta_muse": 11,
+    "meta_muse": 12,
     "grok_bot": 0,
     "manus_cue": 0,
     "chatgpt_dots": 0
@@ -2560,10 +2560,10 @@
    "id": "HEALTH.fitness",
    "name": "Fitness, diet and health tracking",
    "definition": "Workouts, diet plans, weight and health tracking.",
-   "count": 55,
+   "count": 56,
    "counts": {
     "instinct": 5,
-    "meta_muse": 42,
+    "meta_muse": 43,
     "grok_bot": 7,
     "manus_cue": 0,
     "chatgpt_dots": 1
@@ -2647,10 +2647,10 @@
    "id": "HEALTH.other",
    "name": "Other / unspecified health admin",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 28,
+   "count": 29,
    "counts": {
     "instinct": 3,
-    "meta_muse": 24,
+    "meta_muse": 25,
     "grok_bot": 1,
     "manus_cue": 0,
     "chatgpt_dots": 0
@@ -2792,13 +2792,13 @@
    "id": "JOBS.search",
    "name": "Find job openings",
    "definition": "Searches for relevant job postings.",
-   "count": 39,
+   "count": 40,
    "counts": {
     "instinct": 2,
     "meta_muse": 35,
     "grok_bot": 1,
     "manus_cue": 0,
-    "chatgpt_dots": 1
+    "chatgpt_dots": 2
    },
    "examples": [
     {
@@ -2879,11 +2879,11 @@
    "id": "DOCS.notes",
    "name": "Notes and knowledge base",
    "definition": "Keeps notes, memory, Notion, Obsidian or a personal knowledge base.",
-   "count": 34,
+   "count": 35,
    "counts": {
     "instinct": 7,
     "meta_muse": 12,
-    "grok_bot": 9,
+    "grok_bot": 10,
     "manus_cue": 0,
     "chatgpt_dots": 6
    },
@@ -2937,26 +2937,26 @@
    "id": "DOCS.write",
    "name": "Write documents",
    "definition": "Writes or edits documents, resumes, slides, letters or reports.",
-   "count": 33,
+   "count": 35,
    "counts": {
     "instinct": 3,
-    "meta_muse": 20,
+    "meta_muse": 21,
     "grok_bot": 2,
     "manus_cue": 0,
-    "chatgpt_dots": 8
+    "chatgpt_dots": 9
    },
    "examples": [
+    {
+     "id": "meta_muse-d082abb742",
+     "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14758493433",
+     "agent_product": "meta_muse",
+     "quote": "rewrite and update my resume, study guides"
+    },
     {
      "id": "meta_muse-cd4fb41c4c",
      "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14677841546",
      "agent_product": "meta_muse",
      "quote": "I got sites made, docs made, emails sent like omg"
-    },
-    {
-     "id": "instinct-cdce05fa2c",
-     "url": "https://x.com/GuruDetective/status/2105714381812322461",
-     "agent_product": "instinct",
-     "quote": "I had it create a 1-pager that I could hand to my doctor"
     }
    ]
   },
@@ -2966,10 +2966,10 @@
    "id": "DOCS.other",
    "name": "Other / unspecified documents & notes",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 43,
+   "count": 44,
    "counts": {
     "instinct": 11,
-    "meta_muse": 24,
+    "meta_muse": 25,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 6
@@ -2995,26 +2995,26 @@
    "id": "SELL.list",
    "name": "List items for sale",
    "definition": "Writes and posts marketplace or eBay listings.",
-   "count": 37,
+   "count": 39,
    "counts": {
     "instinct": 4,
-    "meta_muse": 27,
+    "meta_muse": 29,
     "grok_bot": 5,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
    "examples": [
     {
+     "id": "meta_muse-dc16fbdf47",
+     "url": "https://x.com/gambrill/status/2119399075283886213",
+     "agent_product": "meta_muse",
+     "quote": "to list and sell stuff on Facebook Marketplace"
+    },
+    {
      "id": "meta_muse-dc8fc32ab3",
      "url": "https://www.youtube.com/watch?v=tpZOU1ugODQ&lc=UgxSoEpkQGQKq21XTFZ4AaABAg",
      "agent_product": "meta_muse",
      "quote": "Muse is helping me with my art listings on eBay"
-    },
-    {
-     "id": "meta_muse-6e59e68f64",
-     "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14701588276",
-     "agent_product": "meta_muse",
-     "quote": "listed eight items for sale on Facebook marketplace."
     }
    ]
   },
@@ -3111,9 +3111,9 @@
    "id": "COORD.group",
    "name": "Coordinate group plans",
    "definition": "Organizes group plans, events or logistics across several people.",
-   "count": 17,
+   "count": 18,
    "counts": {
-    "instinct": 6,
+    "instinct": 7,
     "meta_muse": 5,
     "grok_bot": 4,
     "manus_cue": 1,
@@ -3198,9 +3198,9 @@
    "id": "TRANS.other",
    "name": "Other / unspecified rides & transport",
    "definition": "Post names this use case but no specific sub-job, or a sub-job seen in fewer than 3 posts.",
-   "count": 15,
+   "count": 16,
    "counts": {
-    "instinct": 3,
+    "instinct": 4,
     "meta_muse": 12,
     "grok_bot": 0,
     "manus_cue": 0,
@@ -3227,26 +3227,26 @@
    "id": "HOME.utilities",
    "name": "Utilities and bills",
    "definition": "Electricity, water, internet and other utility accounts.",
-   "count": 8,
+   "count": 9,
    "counts": {
     "instinct": 3,
-    "meta_muse": 2,
+    "meta_muse": 3,
     "grok_bot": 2,
     "manus_cue": 0,
     "chatgpt_dots": 1
    },
    "examples": [
     {
+     "id": "meta_muse-3708dcc2b6",
+     "url": "https://x.com/phillyhawk/status/2119020419550187572",
+     "agent_product": "meta_muse",
+     "quote": "Saved me 1k per year on my energy bill."
+    },
+    {
      "id": "instinct-ac4ce1e105",
      "url": "https://www.reddit.com/r/InstinctHQ/comments/1wf06zj/another_instinct_discovery/",
      "agent_product": "instinct",
      "quote": "Instinct alerted me to the fact that this electrician's license had been suspended"
-    },
-    {
-     "id": "instinct-a40513235b",
-     "url": "https://x.com/brs_sandeep/status/2098425010582884715",
-     "agent_product": "instinct",
-     "quote": "Instinct filled out the PDF itself and emailed my city to request a waiver for the excess water bill"
     }
    ]
   },
