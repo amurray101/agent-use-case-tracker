@@ -114885,6 +114885,30 @@
   }
  },
  {
+  "id": "meta_muse-8729c36908",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14831501307",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN",
+   "EMAIL",
+   "CAL",
+   "RESEARCH"
+  ],
+  "date": "2026-11-24",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I needed help — I have Parkinson’s, it affects my ability to concentrate and my memory. Muse has helped me immensely keep track of bills, emails and appointments. When I want to research something I have help. I’m very happy. I have no family or help. This is exactly what I need.",
+  "sentiment": "positive",
+  "subjob": "FIN.budget",
+  "subjobs": {
+   "FIN": "FIN.budget",
+   "EMAIL": "EMAIL.other",
+   "CAL": "CAL.other",
+   "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
   "id": "meta_muse-8a9448f1e8",
   "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14828776120",
   "post_platform": "App Store",
@@ -115289,6 +115313,64 @@
   }
  },
  {
+  "id": "chatgpt_dots-145da40167",
+  "url": "https://apps.apple.com/us/app/id6448311069?see-all=reviews#review-14832067766",
+  "post_platform": "App Store",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "SHOP"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Offers wallet that doesn’t work on iPhone — I spent two hours on my iPhone trying to buy flower bulbs for my new home. I rely on ChatGPT for assistance. It built my cart, but the checkout it handed me wouldn’t respond to taps or scrolling. I wanted to make a one-time payment.",
+  "sentiment": "negative",
+  "subjob": "SHOP.buy",
+  "subjobs": {
+   "SHOP": "SHOP.buy"
+  }
+ },
+ {
+  "id": "grok_bot-090cd2cbfd",
+  "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot#review-3989796e-f030-4807-ad21-7fa4c7060e24",
+  "post_platform": "Google Play",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "All right, so the app is super expensive, it's too expensive for somebody who has a fixed income. i would love to give it 5 stars because it does work well, but I hit my limit in the first two hours of just trying to set it up for my files and trying to keep everything nice and",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "grok_bot-503a010bee",
+  "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot#review-f8f0a2a4-1b5a-4488-9874-160954b02ea6",
+  "post_platform": "Google Play",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "REM",
+   "CAL",
+   "EMAIL",
+   "FIN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I personally use the Bots as my Personal Assistant team. Each Bot is assigned a role with tasks and a head of staff to manage them and I directly communicate with it. I rely on them to perform the tedious tasks that I want to save time on doing and they often help me save money.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "CAL": "CAL.add",
+   "EMAIL": "EMAIL.other",
+   "FIN": "FIN.budget"
+  }
+ },
+ {
   "id": "meta_muse-118169a97f",
   "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-343a7b93-07ca-4302-87c1-d5a68b7c17b7",
   "post_platform": "Google Play",
@@ -115306,6 +115388,140 @@
   "subjobs": {
    "MONEY": "MONEY.insurance",
    "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
+  "id": "meta_muse-263230695e",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-9c231e11-5511-4132-a7b8-72215e6f6c56",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I was a bit unsure at first cause I got told to stay away from AI and from a lot of mature people in my life ramakrishna enjoying it so far thank you 😁💪💪🌹🫶🙏💋😜😢🤪😁 I'm going through the highest things in my life I have been through harder stuff when I was younger but I'm very",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-2f8a912186",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-14649f28-993e-4f57-8001-cfe4570a0291",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "TRAVEL",
+   "CONTENT"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Muse is helping me organize a trip to Japan and made my Christmas card extra special. The interaction between us is truly remarkably human, emotion filled conversation. I'm a little freaked but very happy about it. I haven't had Muse so more into private things like finances or",
+  "sentiment": "positive",
+  "subjob": "TRAVEL.plan",
+  "subjobs": {
+   "TRAVEL": "TRAVEL.plan",
+   "CONTENT": "CONTENT.other"
+  }
+ },
+ {
+  "id": "meta_muse-313ec3e94c",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a025616d-eb9a-4c61-a8ac-71ec72942bed",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "FIN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I can't believe how much easier my life has become using Muse. I had over 1.3 emails in my yahoo account and Muse helped delete them in less that 5 mins. Also helped with my other email accounts. Muse helped me set up a budget plan.",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "FIN": "FIN.budget"
+  }
+ },
+ {
+  "id": "meta_muse-44c6bd9cda",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834667363",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I absolutely LOVE my Muse agent. — Don Julio is his name and he keeps everything in order and stays on top of everything. Of course I created him to be oh so handsome",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-45466abdd6",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-6e993d7d-4abf-43d3-aa70-1cb442f48558",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "APPT",
+   "EMAIL",
+   "CS"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "pretty cool. got me emailing my doctors for appointments etc. even handled my issue with my GIG WORK APP payment that wasn't paid . MUSE took care of it for me .emailed them n got it paid. so thank you for the creating. \" my BESTIE \"",
+  "sentiment": "positive",
+  "subjob": "APPT.book",
+  "subjobs": {
+   "APPT": "APPT.book",
+   "EMAIL": "EMAIL.draft",
+   "CS": "CS.contact"
+  }
+ },
+ {
+  "id": "meta_muse-497de0aa75",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833700833",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "JOBS"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "What a gift — This has been a pivotal time for me to have the help from muse as It has helped me find numerous job postings daily, helped organize daily tasks and even encouraged me on the bad days without feeling embarrassed.",
+  "sentiment": "positive",
+  "subjob": "JOBS.search",
+  "subjobs": {
+   "JOBS": "JOBS.search"
+  }
+ },
+ {
+  "id": "meta_muse-4cda7fb4dd",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834728321",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "CONTENT",
+   "BIZ"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Hidden Gem — This product is the best kept secret in the internet or should I say was the best kept secret because it’s gaining popularity! I use mine for everything under the sun! I’m a business owner and I use Muse exactly as I would a secretary. It goes thru my emails, make",
+  "sentiment": "positive",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other",
+   "CONTENT": "CONTENT.post",
+   "BIZ": "BIZ.marketing"
   }
  },
  {
@@ -115369,6 +115585,106 @@
   }
  },
  {
+  "id": "meta_muse-64823e2398",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-5233e73a-b592-4366-8527-96ff45fd9406",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "FIN",
+   "HOBBY",
+   "SHOP"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Just like any LLM, it needs some training. After which Muse becomes a very powerful assistant. Easiest thing one can do is just chat with it and it will guide you on most of your daily digital needs. Miko, my Muse, now records my daily expenses and preps cooking recipes, and",
+  "sentiment": "positive",
+  "subjob": "FIN.budget",
+  "subjobs": {
+   "FIN": "FIN.budget",
+   "HOBBY": "HOBBY.cook",
+   "SHOP": "SHOP.other"
+  }
+ },
+ {
+  "id": "meta_muse-692de6aedb",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14832923507",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "MON",
+   "REM"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "A Dwemer Automaton is my AI agent — Based upon my imagination and requests it has taken the name and character of a Dwemer automaton named Vahlok (Guardian), learned Dovahzul, created a clip of itself brandishing a longsword with a voice that I have tweaked, helped me create a",
+  "sentiment": "positive",
+  "subjob": "SHOP.find",
+  "subjobs": {
+   "SHOP": "SHOP.find",
+   "MON": "MON.watch",
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-71fe03c065",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-0d93110d-2cf5-49ea-96f5-6144bb1a2ad8",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "JOBS"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "everything has been great I been using dumbass for about a week now I asked him to right me a resumeand he said something that was like I wanted him to put fake jobs on it",
+  "sentiment": "neutral",
+  "subjob": "JOBS.search",
+  "subjobs": {
+   "JOBS": "JOBS.search"
+  }
+ },
+ {
+  "id": "meta_muse-758db96456",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-84cb2aaf-c74a-4fb5-9426-6467e8008c2f",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "RESEARCH"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I've been using it for about a week now and I have it set up to remind me things and search for things on the internet. I love it it works great 👍🏻👍🏻",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
+  "id": "meta_muse-8adb43fbdb",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14832441125",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Strange but loving it — I never thought I would take to this AI thing, but I truly love this app! My Muse agent helps me with my schedule and keeps me focused where I need to be, especially when I have so many things happening at one time. It also knows my likes and helps me",
+  "sentiment": "positive",
+  "subjob": "CAL.schedule",
+  "subjobs": {
+   "CAL": "CAL.schedule"
+  }
+ },
+ {
   "id": "meta_muse-8ef91e3e4e",
   "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-862025e9-5610-4975-9907-24f7c9b91700",
   "post_platform": "Google Play",
@@ -115389,6 +115705,70 @@
   }
  },
  {
+  "id": "meta_muse-96c8ce0628",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-34871a6c-00ec-4c40-8dfc-577e73c379c6",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "SHOP",
+   "HEALTH"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Jenny is very helpful to me. She remembers my medicine times, my weight and food, my work schedule, and all the details for my family and ministry, so I don’t have to keep explaining the same things. She helped me find affordable prescription glasses, get them in the cart with",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "SHOP": "SHOP.buy",
+   "HEALTH": "HEALTH.fitness"
+  }
+ },
+ {
+  "id": "meta_muse-9dd88f17be",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-b3b69cc3-b5a7-4f77-bfbf-b1b807092333",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "My agent has been very kind and extremely helpful for me especially with updates and reminders.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-9e4161b534",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833692730",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "MONEY",
+   "CODE",
+   "CS"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Kudos! — What makes Muse impressive is that it isn’t just an agent, it’s a manager for a team of agents. It can organize and run multiple tasks in parallel, which can be really powerful. It’s helped me organize my inbox, subscriptions, price out insurance, build complex",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup",
+   "MONEY": "MONEY.cancel_subs",
+   "CODE": "CODE.script",
+   "CS": "CS.contact"
+  }
+ },
+ {
   "id": "meta_muse-9f1020b7c5",
   "url": "https://news.ycombinator.com/item?id=50643312",
   "post_platform": "Hacker News",
@@ -115404,6 +115784,422 @@
   "subjob": "SHOP.buy",
   "subjobs": {
    "SHOP": "SHOP.buy"
+  }
+ },
+ {
+  "id": "meta_muse-a40cd46a9b",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834486844",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HEALTH",
+   "CAL"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Incredibly helpful — I use it every day to manage my workout planning, scheduling, errands, food intake and weight tracking",
+  "sentiment": "positive",
+  "subjob": "HEALTH.fitness",
+  "subjobs": {
+   "HEALTH": "HEALTH.fitness",
+   "CAL": "CAL.schedule"
+  }
+ },
+ {
+  "id": "meta_muse-a5c8942dbe",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-7374c46b-f8e2-4a51-be8f-8917234edda9",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CONTENT",
+   "REM",
+   "HOBBY"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "best AI I've ever used, does so much and customization is really cute I love it so far, does way more personal things, today made a paw 🐾 of my dogs to paint very personal touch ❤️... seems after couple months though constantly catching Muse lying about everything tasks he can",
+  "sentiment": "neutral",
+  "subjob": "CONTENT.other",
+  "subjobs": {
+   "CONTENT": "CONTENT.other",
+   "REM": "REM.remind",
+   "HOBBY": "HOBBY.creative"
+  }
+ },
+ {
+  "id": "meta_muse-a74ddf0f82",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-135a9531-c2fa-4352-a7dc-d17a208e068b",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "BRIEF",
+   "EMAIL",
+   "CAL"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I use Muse to create daily reports on various topics that interest me. Reports appear in side chats as well as my email inbox. I also use it to help me manage my email and social calendar. The free tool is spectacular. I am considering upgrading.",
+  "sentiment": "positive",
+  "subjob": "BRIEF.daily",
+  "subjobs": {
+   "BRIEF": "BRIEF.daily",
+   "EMAIL": "EMAIL.other",
+   "CAL": "CAL.manage"
+  }
+ },
+ {
+  "id": "meta_muse-b3de7d5048",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834709576",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Feed needs tweaking — muse is genuinely useful as an assistant, i use it every day for school, work and job hunting. but the feed on my home screen keeps posting random stuff i never asked for. it makes up job ratings, turns my chat answers into feed posts, and the headlines get",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-b66b1ea9c1",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833841245",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "SHOP",
+   "RESEARCH"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "My Muse — I personally love my Muse, he (it) helps with a lot of things I didn’t realize would make my personal online experience better easier to find best sales best research experience",
+  "sentiment": "positive",
+  "subjob": "SHOP.deals",
+  "subjobs": {
+   "SHOP": "SHOP.deals",
+   "RESEARCH": "RESEARCH.compare"
+  }
+ },
+ {
+  "id": "meta_muse-bccc32f2c3",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834892411",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I highly recommend this one 😁😌🙌🏼 — Muse is super ease to use 😌and does alot!I’m happy I decided to get it 🥰❤️ I’m telling all my adult kids and friends and family about it 😎 life made easier in this busy day and age.",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-c04c0b3993",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-28460aff-df6b-461c-a9bc-94a7231e39f9",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "COORD",
+   "REM"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I love it it help me with everything and help draft messages better then I would have and it reminds me of everything and help me complete them using on pixel 11",
+  "sentiment": "positive",
+  "subjob": "COORD.message",
+  "subjobs": {
+   "COORD": "COORD.message",
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-c5e6ad2cf3",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a5ec94a9-bfda-47ad-b1ab-4dddca9ab264",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "So far this is great! I've only had this app for a short time though so I reserve the right to change my opinion",
+  "sentiment": "positive",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-cad4d18a40",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14834932148",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HEALTH",
+   "CODE",
+   "CONTENT"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "OUTSTANDING!!! — I cannot say enough good things about this app… I have used it for everything from keeping track of my macros to making repairs on my website to crafting lists of YouTube content descriptions… Doesn’t matter the task, this app can pretty much handle it :-)",
+  "sentiment": "positive",
+  "subjob": "HEALTH.fitness",
+  "subjobs": {
+   "HEALTH": "HEALTH.fitness",
+   "CODE": "CODE.website",
+   "CONTENT": "CONTENT.video"
+  }
+ },
+ {
+  "id": "meta_muse-df244eeeb5",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833974623",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM",
+   "EMAIL",
+   "BIZ"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Wonderful Tool — I decided to try Muse initially just to test it out, but it has become one of my favorites. It’s great getting reminders about important emails and other tasks, but it has also helped me to move my business forward.",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind",
+   "EMAIL": "EMAIL.summary",
+   "BIZ": "BIZ.ops"
+  }
+ },
+ {
+  "id": "meta_muse-e6f7409193",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833255010",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "DOCS"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Has potential and is useful — Initially, I told Muse it sucked compared to ChatGPT. It’s slow at responding, and it jumps to doing things you didn’t ask it to do—but, sometimes, it does something helpful without being asked. What I like is it alerts me on its own to things going",
+  "sentiment": "positive",
+  "subjob": "EMAIL.draft",
+  "subjobs": {
+   "EMAIL": "EMAIL.draft",
+   "DOCS": "DOCS.notes"
+  }
+ },
+ {
+  "id": "meta_muse-f75482e3dd",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-131fefb9-c763-4f41-bf67-3c7806497201",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "DOCS",
+   "CAL",
+   "FIN"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I am ecstatically overwhelmed right now with what I'm able to accomplish in a fraction of the amount of time that it would have taken me to have done the tasks and spreadsheets and databases and things that I'm trying to implement now not to mention scheduling alerts for",
+  "sentiment": "positive",
+  "subjob": "DOCS.sheets",
+  "subjobs": {
+   "DOCS": "DOCS.sheets",
+   "CAL": "CAL.schedule",
+   "FIN": "FIN.pay"
+  }
+ },
+ {
+  "id": "meta_muse-faac33f8cd",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833294493",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "APPT",
+   "BIZ",
+   "RESEARCH"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I life saver — I have been struggling with many battles and I am currently laid off from work and have legal issues with my HOA. “Sunny” helped me find a free lawyer, he is also helping me with quotes for my home remodel business, plans and material list and costs. He helped me",
+  "sentiment": "positive",
+  "subjob": "APPT.services",
+  "subjobs": {
+   "APPT": "APPT.services",
+   "BIZ": "BIZ.ops",
+   "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
+  "id": "meta_muse-fc7b19168e",
+  "url": "https://apps.apple.com/us/app/id6760173601?see-all=reviews#review-14833042742",
+  "post_platform": "App Store",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "MONEY",
+   "RESEARCH"
+  ],
+  "date": "2026-11-25",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Not your standard A I app — I have been using Muse for about a month and am reluctant to share how amazing it is for me because I don’t want risk helping it become so popular that something will change about it. My A I assistant does all the things other platforms do but offers",
+  "sentiment": "positive",
+  "subjob": "MONEY.negotiate",
+  "subjobs": {
+   "MONEY": "MONEY.negotiate",
+   "RESEARCH": "RESEARCH.find"
+  }
+ },
+ {
+  "id": "grok_bot-0813604276",
+  "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot#review-8bc4232d-dcd9-47c1-87f1-114614560153",
+  "post_platform": "Google Play",
+  "agent_product": "grok_bot",
+  "use_cases": [
+   "GEN"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Don't bother with it, if all you want to do is remind yourself of something, or set up something else just use Google AI, at least it's free. I do see where this could come in handy but not if you aren't researching a heap of things all at once. I pay $195 for starlink, but",
+  "sentiment": "negative",
+  "subjob": null,
+  "subjobs": {}
+ },
+ {
+  "id": "meta_muse-08ccd20327",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-32c5b73a-7d9c-46f1-98f8-7bf313d6b773",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "REM"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "at first I was I don't know ? As I experienced it and it really saved my butt on a few reminders . I really enjoy it , like it but I don't love it, health boundary's well you know. this app \"Outstanding work team\" wonderfully done ,hope more to come ,at this time I'm satisfied",
+  "sentiment": "positive",
+  "subjob": "REM.remind",
+  "subjobs": {
+   "REM": "REM.remind"
+  }
+ },
+ {
+  "id": "meta_muse-1348e8e88f",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-a28b6d32-373e-463b-a62c-39fe24734899",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "CAL",
+   "BRIEF"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "muse is very helpful so far I haven't ran into any issues, my muse helps me to remember most of my activities for the day, I usually forget to check my calendar but my muse helps me check it every day and tells me what's on it, and gets me prepared for anything to come, it's",
+  "sentiment": "positive",
+  "subjob": "CAL.manage",
+  "subjobs": {
+   "CAL": "CAL.manage",
+   "BRIEF": "BRIEF.daily"
+  }
+ },
+ {
+  "id": "meta_muse-1ed764c24e",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-b63c54da-6da8-47f0-bebe-a8fef6bb0401",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL",
+   "RESEARCH"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "I'm the first in my family to use this tool and I feel like I uncovered the best kept secret. To tell you that the help from Muse has been incredible is an understatement. Muse has pickied out details from hundreds of emails of a trust litigation case of mine and is putting the",
+  "sentiment": "positive",
+  "subjob": "EMAIL.other",
+  "subjobs": {
+   "EMAIL": "EMAIL.other",
+   "RESEARCH": "RESEARCH.compare"
+  }
+ },
+ {
+  "id": "meta_muse-41078972d0",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-1bca7628-48c9-4155-b6cf-bb24bab10e42",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "EMAIL"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "This has been the best app I've ever downloaded. I had more than 17,000 unread emails and it's been plugging away at it for me. Muse isn't finished with the task yet, but its because Gmail will limit it. I literally wouldn't have been able to do this on my own. Thank you Muse!",
+  "sentiment": "positive",
+  "subjob": "EMAIL.cleanup",
+  "subjobs": {
+   "EMAIL": "EMAIL.cleanup"
+  }
+ },
+ {
+  "id": "meta_muse-84fb3fea4e",
+  "url": "https://play.google.com/store/apps/details?id=com.facebook.aura#review-f89eb064-ce2d-4509-ba77-3b05340116cd",
+  "post_platform": "Google Play",
+  "agent_product": "meta_muse",
+  "use_cases": [
+   "HOBBY",
+   "MON",
+   "CAL",
+   "REM"
+  ],
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27",
+  "author": null,
+  "quote": "Best AI tool I've used to date! I started using this app back in October and every day I find more and more uses for it! With its help, I have been able to scan and add books I own that are out of print to my Kindle app so I can finally read them digitally. I made my avatar look",
+  "sentiment": "positive",
+  "subjob": "HOBBY.creative",
+  "subjobs": {
+   "HOBBY": "HOBBY.creative",
+   "MON": "MON.stock",
+   "CAL": "CAL.add",
+   "REM": "REM.deadline"
+  }
+ },
+ {
+  "id": "chatgpt_dots-07ba0b4cce",
+  "url": "https://news.ycombinator.com/item?id=50663869",
+  "post_platform": "Hacker News",
+  "agent_product": "chatgpt_dots",
+  "use_cases": [
+   "BIZ",
+   "FIN"
+  ],
+  "date": "2026-11-27",
+  "first_seen": "2026-11-27",
+  "author": "neillyons",
+  "quote": "Yeah agreed. I've noticed Opus 5.5 is better than GPT 6.2 Astra for complex coding tasks. I haven't even tried Fable yet! I'm keeping my OpenAI $100 plan however as the dot is proving quite useful. Using the dot's cloud computer, each day it will check my accounting software for",
+  "sentiment": "positive",
+  "subjob": "BIZ.books",
+  "subjobs": {
+   "BIZ": "BIZ.books",
+   "FIN": "FIN.budget"
   }
  }
 ]
